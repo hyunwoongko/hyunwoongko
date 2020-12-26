@@ -1,8 +1,8 @@
 - file: index
-
 - part: Computer Science
   chapters:
   - file: study/computer_science/algorithm
+    numbered: true
     sections:
     - file: study/computer_science/algorithm/001_a_la_russe
     - file: study/computer_science/algorithm/002_euclidean_algorithm
@@ -12,6 +12,7 @@
     - file: study/computer_science/algorithm/006_recursion_introduction
 
   - file: study/computer_science/logical_circuit
+    numbered: true
     sections:
     - file: study/computer_science/logical_circuit/001_introduction
     - file: study/computer_science/logical_circuit/002_digital_system
@@ -20,14 +21,13 @@
     - file: study/computer_science/logical_circuit/005_negative_representation
     - file: study/computer_science/logical_circuit/006_code_introduction
     - file: study/computer_science/logical_circuit/007_gray_code
-
 - part: Mathmetics
   chapters:
   - file: study/mathmetics/linear algebra
+    numbered: true
     sections:
     - file: study/mathmetics/linear_algebra/001_what_is_linear_algebra
     - file: study/mathmetics/linear_algebra/002_vector
-
 - part: Documents
   chapters:
   - file: docs/resume
