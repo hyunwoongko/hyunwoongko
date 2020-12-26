@@ -1,5 +1,4 @@
 - file: index
-  numbered: true
 
 - part: Computer Science
   chapters:
@@ -12,7 +11,6 @@
     - file: study/computer_science/algorithm/005_right_hand_on_wall
     - file: study/computer_science/algorithm/006_recursion_introduction
 
-  chapters:
   - file: study/computer_science/logical_circuit
     sections:
     - file: study/computer_science/logical_circuit/001_introduction
