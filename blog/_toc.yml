@@ -25,10 +25,10 @@
 
 - part: Mathmetics
   chapters:
-  - file: linear algebra
+  - file: study/mathmetics/linear algebra
     sections:
-    - file: study/\mathmetics/linear_algebra/001_what_is_linear_algebra
-    - file: study/\mathmetics/linear_algebra/002_vector
+    - file: study/mathmetics/linear_algebra/001_what_is_linear_algebra
+    - file: study/mathmetics/linear_algebra/002_vector
 
 - part: Documents
 - file: docs/resume
