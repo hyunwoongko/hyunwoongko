@@ -13,4 +13,5 @@
   - file: study/mathmetics/linear algebra
 
 - part: Documents
+  chapters:
   - file: docs/resume
