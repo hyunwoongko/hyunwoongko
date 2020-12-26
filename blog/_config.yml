@@ -34,5 +34,5 @@ launch_buttons:
 
 repository:
   url: https://github.com/hyunwoongko/hyunwoongko
-  branch: master
+  branch: main
   path_to_book: blog
