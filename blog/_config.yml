@@ -5,7 +5,7 @@ logo: logo.png
 only_build_toc_files: true
 
 html:
-  favicon: ""  
+  favicon: favicon.png
   use_repository_button: true
   use_issues_button: true
   use_edit_page_button: true
@@ -34,5 +34,5 @@ launch_buttons:
 
 repository:
   url: https://github.com/hyunwoongko/hyunwoongko
-  branch: master  
-
+  branch: main  
+  path_to_book: blog
