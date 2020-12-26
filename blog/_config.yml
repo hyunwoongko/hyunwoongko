@@ -1,4 +1,4 @@
-title: blog
+title: ""
 author: hyunwoongko  
 copyright: "2020"
 logo: logo.png  
@@ -36,3 +36,9 @@ repository:
   url: https://github.com/hyunwoongko/hyunwoongko
   branch: main
   path_to_book: blog
+
+
+sphinx:
+  config:
+    show_authors: false
+    html_show_copyright: false
