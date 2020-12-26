@@ -1,0 +1,38 @@
+title: blog
+author: hyunwoongko  
+copyright: "2020"
+logo: logo.png  
+only_build_toc_files: true
+
+html:
+  favicon: ""  
+  use_repository_button: true
+  use_issues_button: true
+  use_edit_page_button: true
+  extra_navbar: Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+  home_page_in_navbar: true
+  comments:
+    hypothesis: true
+    utterances:
+      repo: "hyunwoongko/hyunwoongko"
+
+execute:
+  execute_notebooks: 'off'
+
+latex:
+  latex_engine: pdflatex
+
+parse:
+  myst_extended_syntax: true
+  myst_url_schemes: [mailto, http, https]
+
+launch_buttons:
+  notebook_interface: jupyterlab
+  binderhub_url: https://mybinder.org
+  colab_url: https://colab.research.google.com
+  thebe: true
+
+repository:
+  url: https://github.com/hyunwoongko/hyunwoongko
+  branch: master  
+
