@@ -1,0 +1,854 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>우선법 알고리즘</title>
+    
+  <link rel="stylesheet" href="../../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../../../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../../../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/myfile.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../../_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/togglebutton.js"></script>
+    <script src="../../../_static/clipboard.min.js"></script>
+    <script src="../../../_static/copybutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "hyunwoongko/hyunwoongko");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
+    </script>
+    <script async="async" src="../../../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../../../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="재귀(1) - 개요" href="006_recursion_introduction.html" />
+    <link rel="prev" title="에라토스테네스의 체" href="004_sieve_of_eratosthenes.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../../../index.html">
+  
+  <img src="../../../_static/logo.png" class="logo" alt="logo">
+  
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../index.html">
+   Coding Snack
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Computer Science
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active collapsible-parent">
+  <a class="reference internal" href="../algorithm.html">
+   Algorithm
+  </a>
+  <ul class="current collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="002_euclidean_algorithm.html">
+     유클리드 호제법
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="003_prime_number.html">
+     소수 판별 알고리즘
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="004_sieve_of_eratosthenes.html">
+     에라토스테네스의 체
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     우선법 알고리즘
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="006_recursion_introduction.html">
+     재귀(1) - 개요
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../logical_circuit.html">
+   Logical Circuit
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../logical_circuit/001_introduction.html">
+     논리회로의 개요
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../logical_circuit/002_digital_system.html">
+     디지털 시스템
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../logical_circuit/003_number_system.html">
+     진법의 개념과 변환
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../logical_circuit/004_binary_operation.html">
+     이진 연산
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../logical_circuit/005_negative_representation.html">
+     음수 표현법
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../logical_circuit/006_code_introduction.html">
+     코드 개요
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../logical_circuit/007_gray_code.html">
+     그레이 코드
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Documents
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../docs/resume.html">
+   Resume
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../../_sources/study/computer_science/algorithm/005_right_hand_on_wall.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/hyunwoongko/hyunwoongko"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/hyunwoongko/hyunwoongko/issues/new?title=Issue%20on%20page%20%2Fstudy/computer_science/algorithm/005_right_hand_on_wall.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/hyunwoongko/hyunwoongko/edit/main/blog/study/computer_science/algorithm/005_right_hand_on_wall.ipynb"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/hyunwoongko/hyunwoongko/main?urlpath=lab/tree/blog/study/computer_science/algorithm/005_right_hand_on_wall.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../../../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        <a class="colab-button" href="https://colab.research.google.com/github/hyunwoongko/hyunwoongko/blob/main/blog/study/computer_science/algorithm/005_right_hand_on_wall.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+                title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
+                    src="../../../_static/images/logo_colab.png"
+                    alt="Interact on Colab">Colab</button></a>
+        
+        <button type="button" class="btn btn-secondary topbarbtn"
+            onclick="initThebeSBT()" title="Launch Thebe" data-toggle="tooltip" data-placement="left"><i
+                class="fas fa-play"></i><span style="margin-left: .4em;">Live Code</span></button>
+        
+    </div>
+</div>
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   1. 알고리즘 개요
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id3">
+   2. 수도코드 (우선법 기준)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id4">
+   3. 실제로 어떻게 움직일까?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id5">
+   4. 알고리즘 구현
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id6">
+   5. 최단경로 탐색
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id7">
+   6. 우선법의 한계
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#reference">
+   7. Reference
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="id1">
+<h1>우선법 알고리즘<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2>1. 알고리즘 개요<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>우선법(혹은 좌선법)은 미로찾기 알고리즘 중 하나이다. 어떤 미로를 빠져나갈 때 오른쪽(혹은 왼쪽)벽을 계속 따라가다보면 언젠가는 출구에 다다를 수 있다는 알고리즘이다. 이 때 오른쪽(혹은 왼쪽)은 절대적인 방향이 아니라 탐색자의 기준에서 바라본 방향을 의미한다.</p>
+</div>
+<div class="section" id="id3">
+<h2>2. 수도코드 (우선법 기준)<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="k">while</span><span class="p">(</span><span class="s">&quot;아직 미로안에 있다면&quot;</span><span class="p">){</span>
+        
+    <span class="s">&quot;오른쪽으로 한번 회전&quot;</span>
+            
+    <span class="k">while</span><span class="p">(</span><span class="s">&quot;탐색자 앞에 벽이 있다면&quot;</span><span class="p">){</span>
+            
+        <span class="s">&quot;벽이 없을때까지 왼쪽으로 회전&quot;</span>
+    <span class="p">}</span>
+        
+    <span class="s">&quot;앞으로 한칸 전진&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>3. 실제로 어떻게 움직일까?<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="https://user-images.githubusercontent.com/38183241/103154305-f511ec80-47d9-11eb-95d3-f935c3746458.png" /></p>
+</div>
+<div class="section" id="id5">
+<h2>4. 알고리즘 구현<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>수도코드와 이미지만 봐서는 잘 이해가지 않을 수 있다. 직접 소스코드를 구동시켜서 움직임을 확인해보자.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">clear_output</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">copy</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Mouse</span><span class="p">:</span>
+    
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">d</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        생쥐 클래스 (마이크로 마우스)</span>
+<span class="sd">        </span>
+<span class="sd">        :param x: 생쥐의 x좌표</span>
+<span class="sd">        :param y: 생쥐의 y좌표</span>
+<span class="sd">        :param d: 생쥐의 방향표시</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">y</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">=</span> <span class="n">d</span>
+        
+    <span class="k">def</span> <span class="nf">turn_left</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        왼쪽으로 회전</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;▲&#39;</span><span class="p">):</span> <span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">=</span> <span class="s1">&#39;◀&#39;</span>
+        <span class="k">elif</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;▼&#39;</span><span class="p">):</span> <span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">=</span> <span class="s1">&#39;▶&#39;</span>
+        <span class="k">elif</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;◀&#39;</span><span class="p">):</span> <span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">=</span> <span class="s1">&#39;▼&#39;</span>
+        <span class="k">elif</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;▶&#39;</span><span class="p">):</span> <span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">=</span> <span class="s1">&#39;▲&#39;</span>
+    
+    <span class="k">def</span> <span class="nf">turn_right</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        오른쪽으로 회전</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;▲&#39;</span><span class="p">):</span> <span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">=</span> <span class="s1">&#39;▶&#39;</span>
+        <span class="k">elif</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;▼&#39;</span><span class="p">):</span> <span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">=</span> <span class="s1">&#39;◀&#39;</span>
+        <span class="k">elif</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;◀&#39;</span><span class="p">):</span> <span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">=</span> <span class="s1">&#39;▲&#39;</span>
+        <span class="k">elif</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;▶&#39;</span><span class="p">):</span> <span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">=</span> <span class="s1">&#39;▼&#39;</span>
+    
+    <span class="k">def</span> <span class="nf">go_ahead</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        보고있는 방향에서 앞으로 한 칸 전진</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;▲&#39;</span><span class="p">):</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="k">elif</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;▼&#39;</span><span class="p">):</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;◀&#39;</span><span class="p">):</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;▶&#39;</span><span class="p">):</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">+=</span> <span class="mi">1</span>
+    
+    <span class="k">def</span> <span class="nf">see_ahead</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        생쥐의 바로 앞칸 x,y좌표를 반환</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;▲&#39;</span><span class="p">):</span> <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">-</span> <span class="mi">1</span>
+        <span class="k">elif</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;▼&#39;</span><span class="p">):</span> <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;◀&#39;</span><span class="p">):</span> <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span> 
+        <span class="k">elif</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;▶&#39;</span><span class="p">):</span> <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Maze</span><span class="p">:</span>
+    
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">speed</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        미로 클래스의 생성자. </span>
+<span class="sd">        </span>
+<span class="sd">        :param speed: 화면갱신 속도</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">speed</span> <span class="o">=</span> <span class="n">speed</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">grid</span> <span class="o">=</span> \
+         <span class="p">[[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;□&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">],</span>
+          <span class="p">[</span><span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">,</span> <span class="s1">&#39;■&#39;</span><span class="p">]];</span>
+
+
+    <span class="k">def</span> <span class="nf">print_maze</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mouse</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        grid에 생쥐의 현재 위치를 표시하고 1/스피드 초마다 화면갱신</span>
+<span class="sd">        time과 ipython.display의 clear_output함수 활용</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="n">current</span> <span class="o">=</span> <span class="n">copy</span><span class="o">.</span><span class="n">deepcopy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">grid</span><span class="p">)</span>
+        <span class="n">current</span><span class="p">[</span><span class="n">mouse</span><span class="o">.</span><span class="n">y</span><span class="p">][</span><span class="n">mouse</span><span class="o">.</span><span class="n">x</span><span class="p">]</span> <span class="o">=</span> <span class="n">mouse</span><span class="o">.</span><span class="n">d</span>
+        <span class="n">clear_output</span><span class="p">(</span><span class="n">wait</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        
+        <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">current</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">elem</span> <span class="ow">in</span> <span class="n">row</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="n">elem</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+        
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span> <span class="o">/</span> <span class="bp">self</span><span class="o">.</span><span class="n">speed</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">MazeApp</span><span class="p">:</span>
+    
+
+    
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mouse</span><span class="p">,</span> <span class="n">maze</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        우선법 알고리즘을 구현하는 클래스</span>
+<span class="sd">        </span>
+<span class="sd">        :param mouse: 위치와 방향이 초기화된 생쥐 클래스</span>
+<span class="sd">        :param maze: 속도와 그리드가 초기화된 미로클래스</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">mouse</span> <span class="o">=</span> <span class="n">mouse</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">maze</span> <span class="o">=</span> <span class="n">maze</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dest_x</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dest_y</span> <span class="o">=</span> <span class="mi">1</span>
+
+        
+    <span class="k">def</span> <span class="nf">still_in_maze</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        생쥐가 아직 미로를 빠져나가지 못했는지를 표시하는 함수</span>
+<span class="sd">        도착지점인 (dest_x, dest_y)에 도달했는지 여부를 나타냄</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="n">finish</span> <span class="o">=</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">y</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">dest_y</span> <span class="ow">and</span> \
+                  <span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">x</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">dest_x</span><span class="p">)</span>
+        
+        <span class="k">return</span> <span class="ow">not</span> <span class="n">finish</span>
+    
+    
+    <span class="k">def</span> <span class="nf">wall_ahead</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        생쥐의 시선방향에서 한칸 앞에 벽이 있는지 여부를 나타냄</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">see_ahead</span><span class="p">()</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">maze</span><span class="o">.</span><span class="n">grid</span><span class="p">[</span><span class="n">y</span><span class="p">][</span><span class="n">x</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;■&#39;</span>
+    
+    
+    <span class="k">def</span> <span class="nf">turn_left</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        생쥐를 왼쪽으로 회전시키고 화면을 갱신함</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">turn_left</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">maze</span><span class="o">.</span><span class="n">print_maze</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="p">)</span>
+    
+    
+    <span class="k">def</span> <span class="nf">turn_right</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        생쥐를 오른쪽으로 회전시키고 화면을 갱신함</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">turn_right</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">maze</span><span class="o">.</span><span class="n">print_maze</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="p">)</span>
+        
+        
+    <span class="k">def</span> <span class="nf">go_ahead</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        생쥐를 한칸 앞으로 전진시키고 화면을 갱신함</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">go_ahead</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">maze</span><span class="o">.</span><span class="n">print_maze</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="p">)</span>
+    
+    
+    <span class="k">def</span> <span class="nf">finish_animation</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        생쥐가 도착지점에 도착했을 때 애니메이션</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">maze</span><span class="o">.</span><span class="n">speed</span> <span class="o">=</span> <span class="mi">5</span>
+        <span class="n">length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">maze</span><span class="o">.</span><span class="n">grid</span><span class="p">)</span>
+        
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">length</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">length</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">maze</span><span class="o">.</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;■&#39;</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">maze</span><span class="o">.</span><span class="n">print_maze</span><span class="p">(</span><span class="n">Mouse</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="s1">&#39;■&#39;</span><span class="p">))</span> 
+        
+ 
+    <span class="k">def</span> <span class="nf">right_hand_on_wall</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">finish_animation</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        우선법 알고리즘.</span>
+<span class="sd">        수도코드와 최대한 비슷하게 구현하였음</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="k">while</span> <span class="bp">self</span><span class="o">.</span><span class="n">still_in_maze</span><span class="p">():</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">turn_right</span><span class="p">()</span>
+            
+            <span class="k">while</span> <span class="bp">self</span><span class="o">.</span><span class="n">wall_ahead</span><span class="p">():</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">turn_left</span><span class="p">()</span>
+            
+            <span class="bp">self</span><span class="o">.</span><span class="n">go_ahead</span><span class="p">()</span>
+        
+        <span class="c1"># 마지막 위치에 도착하면 애니메이션    </span>
+        <span class="k">if</span> <span class="n">finish_animation</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">finish_animation</span><span class="p">()</span>
+           
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 알고리즘 실행부</span>
+<span class="n">mouse</span> <span class="o">=</span> <span class="n">Mouse</span><span class="p">(</span><span class="mi">17</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="s1">&#39;▲&#39;</span><span class="p">)</span>
+<span class="n">maze</span> <span class="o">=</span> <span class="n">Maze</span><span class="p">(</span><span class="n">speed</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">maze_app</span> <span class="o">=</span> <span class="n">MazeApp</span><span class="p">(</span><span class="n">mouse</span><span class="p">,</span> <span class="n">maze</span><span class="p">)</span>
+<span class="n">maze_app</span><span class="o">.</span><span class="n">right_hand_on_wall</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="id6">
+<h2>5. 최단경로 탐색<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>https://youtu.be/IngelKjmecg</p>
+</div></blockquote>
+<p>이렇게 누가 미로를 더 빨리하는지 탈출하는지 경쟁하는 대회가 있다. 이런 대회 혹은 태스크를 Micromouse라고 한다. (위 영상 참고) 영상을 보면 초반에 가능한 경로들을 모두 탐색하고나서 두번째 탐색부터는 필요없는 경로는 가지않고 최단경로로 이동한다. 탐색했던 경로중 중복된 경로를 제거하여 최단경로를 만들 수 있다.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">override</span><span class="p">(</span><span class="n">super_class</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">overrider</span><span class="p">(</span><span class="n">method</span><span class="p">):</span>
+        <span class="k">assert</span><span class="p">(</span><span class="n">method</span><span class="o">.</span><span class="vm">__name__</span> <span class="ow">in</span> <span class="nb">dir</span><span class="p">(</span><span class="n">super_class</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">method</span>
+    <span class="k">return</span> <span class="n">overrider</span>
+
+
+<span class="k">class</span> <span class="nc">MicromouseApp</span><span class="p">(</span><span class="n">MazeApp</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    위에서 구현한 MazepApp을 상속해서 구현.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mouse</span><span class="p">,</span> <span class="n">maze</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        생쥐의 위치를 초기화시키기 위해</span>
+<span class="sd">        생성자에서 초기 위치값을 미리 저장해놓음</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">paths</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">init_x</span> <span class="o">=</span> <span class="n">mouse</span><span class="o">.</span><span class="n">x</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">init_y</span> <span class="o">=</span> <span class="n">mouse</span><span class="o">.</span><span class="n">y</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">MicromouseApp</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">mouse</span><span class="p">,</span> <span class="n">maze</span><span class="p">)</span>
+        
+    
+    <span class="nd">@override</span><span class="p">(</span><span class="n">MazeApp</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">go_ahead</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">store</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        MazeApp의 go_ahead()를 오버라이딩</span>
+<span class="sd">        경로 리스트에 이동경로를 추가하는 부분을 추가함</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">paths</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">y</span><span class="p">))</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">MicromouseApp</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">go_ahead</span><span class="p">()</span>
+    
+    
+    <span class="k">def</span> <span class="nf">find_duplicate_paths</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        중복경로를 찾아주는 함수</span>
+<span class="sd">        </span>
+<span class="sd">        루프에서 현재 i번째 경로라면 j = i + 1번째 부터 끝까지 싹 가봤는데 </span>
+<span class="sd">        만약 출발지인 i번째 경로로 다시 돌아온적이 있다는 것은 막다른 골목을 </span>
+<span class="sd">        만나서 빠져나온 것이라고 볼 수 있음. (그외엔 같은 곳으로 갈 이유 X)</span>
+<span class="sd">        </span>
+<span class="sd">        때문에 i에서 시작해서 다시 i로 돌아오기 까지 그 사이 경로들은</span>
+<span class="sd">        굳이 갈 필요가 없는 경로라는 것을 의미하고, 이 경로들을 전부 세서 리턴함.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="n">path_size</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">paths</span><span class="p">)</span>
+        <span class="n">dup_path_idx</span> <span class="o">=</span> <span class="p">[]</span>
+        
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">path</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">paths</span><span class="p">):</span>
+            <span class="n">j</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span>
+            <span class="k">while</span><span class="p">(</span><span class="n">j</span> <span class="o">&lt;</span> <span class="n">path_size</span><span class="p">):</span>
+                <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">paths</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="n">path</span><span class="p">:</span>
+                    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">):</span>
+                        <span class="n">dup_path_idx</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
+                <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
+            
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">dup_path_idx</span><span class="p">))</span>
+
+    
+    <span class="k">def</span> <span class="nf">make_shortest_paths</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dup_path_idx</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        찾아낸 중복경로를 기존 경로에서 제거하여</span>
+<span class="sd">        최적의 경로를 만들어줌.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="n">shortest_paths</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">path</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">paths</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">i</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">dup_path_idx</span><span class="p">:</span>
+                <span class="n">shortest_paths</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+        
+        <span class="k">return</span> <span class="n">shortest_paths</span>
+    
+    
+    <span class="nd">@override</span><span class="p">(</span><span class="n">MazeApp</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">right_hand_on_wall</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">finish_animation</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        가장 먼저 우선법 알고리즘을 사용해 미로를 파악한 뒤,</span>
+<span class="sd">        최단경로를 찾아내서 최단경로 탐색을 시도함.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="c1"># 모든 경로를 탐색하여 최단경로 생성</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">MicromouseApp</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">right_hand_on_wall</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+        <span class="n">dup_path_idx</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">find_duplicate_paths</span><span class="p">()</span>
+        <span class="n">shortest_path</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">make_shortest_paths</span><span class="p">(</span><span class="n">dup_path_idx</span><span class="p">)</span>
+        
+        <span class="c1"># 다시 처음 위치로 돌려놓음</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">init_x</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">init_y</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">d</span> <span class="o">=</span> <span class="s1">&#39;◆&#39;</span>
+        
+        <span class="c1"># 최단경로 미로탐색</span>
+        <span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">shortest_path</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">y</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">maze</span><span class="o">.</span><span class="n">print_maze</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">mouse</span><span class="p">)</span>
+        
+        <span class="c1"># 마지막 위치에 도착하면 애니메이션 </span>
+        <span class="k">if</span> <span class="n">finish_animation</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">finish_animation</span><span class="p">()</span>      
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 알고리즘 실행부</span>
+<span class="n">mouse</span> <span class="o">=</span> <span class="n">Mouse</span><span class="p">(</span><span class="mi">17</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="s1">&#39;▲&#39;</span><span class="p">)</span>
+<span class="n">maze</span> <span class="o">=</span> <span class="n">Maze</span><span class="p">(</span><span class="n">speed</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+<span class="n">micromouse_app</span> <span class="o">=</span> <span class="n">MicromouseApp</span><span class="p">(</span><span class="n">mouse</span><span class="p">,</span> <span class="n">maze</span><span class="p">)</span>
+<span class="n">micromouse_app</span><span class="o">.</span><span class="n">right_hand_on_wall</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="id7">
+<h2>6. 우선법의 한계<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="https://user-images.githubusercontent.com/38183241/103154307-f511ec80-47d9-11eb-8658-0b1671679c78.png" /></p>
+<p>우선법은 만능의 미로 탈출 알고리즘처럼 보이지만 실제로는 그렇지 않다. 만약 순환경로를 만나게 된다면 계속 한쪽 벽만 잡고 가기때문에 계속 뱅뱅 돌게 된다. 이런 문제를 해결하려면 BFS, DFS, 다익스트라, A-star등 더욱 고차원적인 경로탐색 알고리즘을 사용해야한다.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 알고리즘 실행부</span>
+<span class="n">mouse</span> <span class="o">=</span> <span class="n">Mouse</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="s1">&#39;◀&#39;</span><span class="p">)</span>
+<span class="n">maze</span> <span class="o">=</span> <span class="n">Maze</span><span class="p">(</span><span class="n">speed</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">maze_app</span> <span class="o">=</span> <span class="n">MazeApp</span><span class="p">(</span><span class="n">mouse</span><span class="p">,</span> <span class="n">maze</span><span class="p">)</span>
+<span class="n">maze_app</span><span class="o">.</span><span class="n">right_hand_on_wall</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="reference">
+<h2>7. Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>https://youtu.be/3RitBJgbqsQ</p>
+</div></blockquote>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "hyunwoongko/hyunwoongko",
+            ref: "main",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./study/computer_science/algorithm"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="004_sieve_of_eratosthenes.html" title="previous page">에라토스테네스의 체</a>
+    <a class='right-next' id="next-link" href="006_recursion_introduction.html" title="next page">재귀(1) - 개요</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By hyunwoongko<br/>
+        
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../../../_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>

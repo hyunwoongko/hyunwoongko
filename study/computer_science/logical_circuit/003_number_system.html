@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>1.3. 진법의 개념과 변환</title>
+    <title>진법의 개념과 변환</title>
     
   <link rel="stylesheet" href="../../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -93,8 +93,8 @@ commentsRunWhenDOMLoaded(addUtterances);
     <link rel="shortcut icon" href="../../../_static/favicon.png"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="1.4. 이진 연산" href="004_binary_operation.html" />
-    <link rel="prev" title="1.2. 디지털 시스템" href="002_digital_system.html" />
+    <link rel="next" title="이진 연산" href="004_binary_operation.html" />
+    <link rel="prev" title="디지털 시스템" href="002_digital_system.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -135,44 +135,78 @@ commentsRunWhenDOMLoaded(addUtterances);
  </span>
 </p>
 <ul class="current nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../algorithm.html">
+   Algorithm
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../algorithm/002_euclidean_algorithm.html">
+     유클리드 호제법
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../algorithm/003_prime_number.html">
+     소수 판별 알고리즘
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../algorithm/004_sieve_of_eratosthenes.html">
+     에라토스테네스의 체
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../algorithm/005_right_hand_on_wall.html">
+     우선법 알고리즘
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../algorithm/006_recursion_introduction.html">
+     재귀(1) - 개요
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
  <li class="toctree-l1 current active collapsible-parent">
   <a class="reference internal" href="../logical_circuit.html">
-   1. Logical Circuit
+   Logical Circuit
   </a>
   <ul class="current collapse-ul">
    <li class="toctree-l2">
     <a class="reference internal" href="001_introduction.html">
-     1.1. 논리회로의 개요
+     논리회로의 개요
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="002_digital_system.html">
-     1.2. 디지털 시스템
+     디지털 시스템
     </a>
    </li>
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
-     1.3. 진법의 개념과 변환
+     진법의 개념과 변환
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="004_binary_operation.html">
-     1.4. 이진 연산
+     이진 연산
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="005_negative_representation.html">
-     1.5. 음수 표현법
+     음수 표현법
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="006_code_introduction.html">
-     1.6. 코드 개요
+     코드 개요
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="007_gray_code.html">
-     1.7. 그레이 코드
+     그레이 코드
     </a>
    </li>
   </ul>
@@ -188,7 +222,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 <ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="../../../docs/resume.html">
-   1. Resume
+   Resume
   </a>
  </li>
 </ul>
@@ -306,100 +340,100 @@ commentsRunWhenDOMLoaded(addUtterances);
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#r">
-   1.3.1. 1. 10진법 → R진법
+   1. 10진법 → R진법
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#id2">
-     1.3.1.1. 1) 10진법인 17을 2진법으로 변환
+     1) 10진법인 17을 2진법으로 변환
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#id3">
-     1.3.1.2. 2) 10진법인 49을 16진법으로 변환
+     2) 10진법인 49을 16진법으로 변환
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id4">
-   1.3.2. 2. 10진법 → R진법 (소숫점)
+   2. 10진법 → R진법 (소숫점)
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#id5">
-     1.3.2.1. 1) 10진법인 0.625을 2진법으로 변환
+     1) 10진법인 0.625을 2진법으로 변환
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#id6">
-     1.3.2.2. 2) 10진법인 0.625을 16진법으로 변환
+     2) 10진법인 0.625을 16진법으로 변환
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#id7">
-     1.3.2.3. 3) 10진법인 0.8을 16진법으로 변환
+     3) 10진법인 0.8을 16진법으로 변환
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#r-10">
-   1.3.3. 3. R진법 → 10진법 (소수도 동일)
+   3. R진법 → 10진법 (소수도 동일)
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#id8">
-     1.3.3.1. 1) 2진법인 0100 0011을 10진법으로 변환
+     1) 2진법인 0100 0011을 10진법으로 변환
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#id9">
-     1.3.3.2. 2) 2진법인 1011.0101을 10진법으로 변환
+     2) 2진법인 1011.0101을 10진법으로 변환
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#a7-10">
-     1.3.3.3. 3) 16진법인 2A7을 10진법으로 변환
+     3) 16진법인 2A7을 10진법으로 변환
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#c7-ab-10">
-     1.3.3.4. 4) 16진법인 C7.AB를 10진법으로 변환
+     4) 16진법인 C7.AB를 10진법으로 변환
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#bit-grouping-r1-r2">
-   1.3.4. 4. Bit Grouping (R1진법 → R2진법)
+   4. Bit Grouping (R1진법 → R2진법)
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#id10">
-     1.3.4.1. 1) 2진법인 001010을 8진법으로 변환
+     1) 2진법인 001010을 8진법으로 변환
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#id11">
-     1.3.4.2. 2) 2진법인 0010 1010을 16진법으로 변환
+     2) 2진법인 0010 1010을 16진법으로 변환
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#a-2">
-     1.3.4.3. 3) 16진법인 24A을 2진법으로 변환
+     3) 16진법인 24A을 2진법으로 변환
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#a-8">
-     1.3.4.4. 4) 16진법인 24A을 8진법으로 변환
+     4) 16진법인 24A을 8진법으로 변환
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#reference">
-   1.3.5. 5. Reference
+   5. Reference
   </a>
  </li>
 </ul>
@@ -414,12 +448,12 @@ commentsRunWhenDOMLoaded(addUtterances);
               <div>
                 
   <div class="section" id="id1">
-<h1><span class="section-number">1.3. </span>진법의 개념과 변환<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<h1>진법의 개념과 변환<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="r">
-<h2><span class="section-number">1.3.1. </span>1. 10진법 → R진법<a class="headerlink" href="#r" title="Permalink to this headline">¶</a></h2>
+<h2>1. 10진법 → R진법<a class="headerlink" href="#r" title="Permalink to this headline">¶</a></h2>
 <p>변환하려는 진법으로 계속 나눈 나머지들이 R진법 수이다. 나눌 숫자가 0이 되면 계산을 끝내고 아래부터 거꾸로 읽으면 그게 2진수로 변환된 것이다.</p>
 <div class="section" id="id2">
-<h3><span class="section-number">1.3.1.1. </span>1) 10진법인 17을 2진법으로 변환<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<h3>1) 10진법인 17을 2진법으로 변환<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(17 = 2 \times 8 + 1\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(8 = 2 \times 4 + 0\)</span></p></li>
@@ -430,7 +464,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </ul>
 </div>
 <div class="section" id="id3">
-<h3><span class="section-number">1.3.1.2. </span>2) 10진법인 49을 16진법으로 변환<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<h3>2) 10진법인 49을 16진법으로 변환<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(49 = 16 \times 3 + 1\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(3 = 16 \times 0 + 3\)</span></p></li>
@@ -439,10 +473,10 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 </div>
 <div class="section" id="id4">
-<h2><span class="section-number">1.3.2. </span>2. 10진법 → R진법 (소숫점)<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<h2>2. 10진법 → R진법 (소숫점)<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
 <p>변환하려는 숫자에 계속해서 R을 곱하고 가수부를 떼어내서 기록하며, 소수부가 0이 되면 종료 떼어낸 가수부를 위에서부터 순서대로 읽으면 됨.</p>
 <div class="section" id="id5">
-<h3><span class="section-number">1.3.2.1. </span>1) 10진법인 0.625을 2진법으로 변환<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<h3>1) 10진법인 0.625을 2진법으로 변환<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(0.625 \times 2 = 1.25 = 0.25 + 1\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(0.250 \times 2 = 0.50 = 0.50 + 0\)</span></p></li>
@@ -451,14 +485,14 @@ commentsRunWhenDOMLoaded(addUtterances);
 </ul>
 </div>
 <div class="section" id="id6">
-<h3><span class="section-number">1.3.2.2. </span>2) 10진법인 0.625을 16진법으로 변환<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<h3>2) 10진법인 0.625을 16진법으로 변환<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(0.625 \times 16 = 10.0 = 10(A) + 0\)</span></p></li>
 <li><p>정답 : <span class="math notranslate nohighlight">\(0.625_{10} \to 0.A_{16}\)</span></p></li>
 </ul>
 </div>
 <div class="section" id="id7">
-<h3><span class="section-number">1.3.2.3. </span>3) 10진법인 0.8을 16진법으로 변환<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<h3>3) 10진법인 0.8을 16진법으로 변환<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\( 0.8 \times 16 = 12.8 = 12(C) + 0.8 \)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\( 0.8 \times 16 = 12.8 = 12(C) + 0.8 \)</span></p></li>
@@ -470,10 +504,10 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 </div>
 <div class="section" id="r-10">
-<h2><span class="section-number">1.3.3. </span>3. R진법 → 10진법 (소수도 동일)<a class="headerlink" href="#r-10" title="Permalink to this headline">¶</a></h2>
+<h2>3. R진법 → 10진법 (소수도 동일)<a class="headerlink" href="#r-10" title="Permalink to this headline">¶</a></h2>
 <p>자릿수마다 R의 n승을 곱해서 더해주면 된다.</p>
 <div class="section" id="id8">
-<h3><span class="section-number">1.3.3.1. </span>1) 2진법인 0100 0011을 10진법으로 변환<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<h3>1) 2진법인 0100 0011을 10진법으로 변환<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(0100 = 0\times2^7 + 1\times2^6 + 0\times 2^5 + 0\times2^4\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(0011 = 0\times2^3 + 0\times2^2 + 1\times 2^1 + 1\times2^0\)</span></p></li>
@@ -481,7 +515,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </ul>
 </div>
 <div class="section" id="id9">
-<h3><span class="section-number">1.3.3.2. </span>2) 2진법인 1011.0101을 10진법으로 변환<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<h3>2) 2진법인 1011.0101을 10진법으로 변환<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(1011 = 1\times2^3 + 0\times2^2 + 1\times 2^1 + 1\times2^0\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(0101 = 0\times2^{-1} + 1\times2^{-2} + 0\times2^{-3} + 1\times2^{-4}\)</span></p></li>
@@ -489,14 +523,14 @@ commentsRunWhenDOMLoaded(addUtterances);
 </ul>
 </div>
 <div class="section" id="a7-10">
-<h3><span class="section-number">1.3.3.3. </span>3) 16진법인 2A7을 10진법으로 변환<a class="headerlink" href="#a7-10" title="Permalink to this headline">¶</a></h3>
+<h3>3) 16진법인 2A7을 10진법으로 변환<a class="headerlink" href="#a7-10" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(2A7 = 7\times16^2 + A\times16^1 + 2\times16^0\)</span></p></li>
 <li><p>정답 = 1792 + 160 + 2 = 1954</p></li>
 </ul>
 </div>
 <div class="section" id="c7-ab-10">
-<h3><span class="section-number">1.3.3.4. </span>4) 16진법인 C7.AB를 10진법으로 변환<a class="headerlink" href="#c7-ab-10" title="Permalink to this headline">¶</a></h3>
+<h3>4) 16진법인 C7.AB를 10진법으로 변환<a class="headerlink" href="#c7-ab-10" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(C7 = C\times16^1 + 7\times16^0\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(AB = A\times16^{-1} + B\times16^{-2}\)</span></p></li>
@@ -505,10 +539,10 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 </div>
 <div class="section" id="bit-grouping-r1-r2">
-<h2><span class="section-number">1.3.4. </span>4. Bit Grouping (R1진법 → R2진법)<a class="headerlink" href="#bit-grouping-r1-r2" title="Permalink to this headline">¶</a></h2>
+<h2>4. Bit Grouping (R1진법 → R2진법)<a class="headerlink" href="#bit-grouping-r1-r2" title="Permalink to this headline">¶</a></h2>
 <p>원래는 R1진법에서 R2진법으로 넘어가려면 중간에 10진법을 거쳐야함. R1진법 → 10진법 → R2진법처럼 거쳐야하는데 이는 매우 불편한 과정임. R1과 R2가 배수관계라면 비트그룹핑, 즉 끊어읽기로 매우 편하게 전환 가능</p>
 <div class="section" id="id10">
-<h3><span class="section-number">1.3.4.1. </span>1) 2진법인 001010을 8진법으로 변환<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<h3>1) 2진법인 001010을 8진법으로 변환<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(2^3 = 8\)</span> (3자리씩 끊어서 읽기)</p></li>
 <li><p><span class="math notranslate nohighlight">\(001010 = 001 \; 010\)</span></p></li>
@@ -517,7 +551,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </ul>
 </div>
 <div class="section" id="id11">
-<h3><span class="section-number">1.3.4.2. </span>2) 2진법인 0010 1010을 16진법으로 변환<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<h3>2) 2진법인 0010 1010을 16진법으로 변환<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(2^4 = 8\)</span> (4자리씩 끊어서 읽기)</p></li>
 <li><p><span class="math notranslate nohighlight">\(0010 1010 = 0010 \; 1010\)</span></p></li>
@@ -526,7 +560,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </ul>
 </div>
 <div class="section" id="a-2">
-<h3><span class="section-number">1.3.4.3. </span>3) 16진법인 24A을 2진법으로 변환<a class="headerlink" href="#a-2" title="Permalink to this headline">¶</a></h3>
+<h3>3) 16진법인 24A을 2진법으로 변환<a class="headerlink" href="#a-2" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(2^4 = 8\)</span> (4자리씩 끊어서 만들기)</p></li>
 <li><p><span class="math notranslate nohighlight">\(24A = 0010 \; 0100 \; 1010\)</span></p></li>
@@ -534,7 +568,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </ul>
 </div>
 <div class="section" id="a-8">
-<h3><span class="section-number">1.3.4.4. </span>4) 16진법인 24A을 8진법으로 변환<a class="headerlink" href="#a-8" title="Permalink to this headline">¶</a></h3>
+<h3>4) 16진법인 24A을 8진법으로 변환<a class="headerlink" href="#a-8" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(001001001010 = 0010 \; 0100 \; 1010\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(001001001010 = 001 \; 001 \; 001 \; 010\)</span></p></li>
@@ -544,7 +578,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 </div>
 <div class="section" id="reference">
-<h2><span class="section-number">1.3.5. </span>5. Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
+<h2>5. Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><p>https://youtu.be/zUL4Np5QhXw</p>
 </div></blockquote>
@@ -579,8 +613,8 @@ commentsRunWhenDOMLoaded(addUtterances);
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="002_digital_system.html" title="previous page"><span class="section-number">1.2. </span>디지털 시스템</a>
-    <a class='right-next' id="next-link" href="004_binary_operation.html" title="next page"><span class="section-number">1.4. </span>이진 연산</a>
+    <a class='left-prev' id="prev-link" href="002_digital_system.html" title="previous page">디지털 시스템</a>
+    <a class='right-next' id="next-link" href="004_binary_operation.html" title="next page">이진 연산</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
