@@ -1,7 +1,34 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-- file: intro
-- file: content
-  sections:
-    - file: markdown
-    - file: notebooks
+- file: index
+  numbered: true
+
+- part: Computer Science
+  chapters:
+  - file: study/computer_science/algorithm
+    sections:
+    - file: study/computer_science/algorithm/001_a_la_russe
+    - file: study/computer_science/algorithm/002_euclidean_algorithm
+    - file: study/computer_science/algorithm/003_prime_number
+    - file: study/computer_science/algorithm/004_sieve_of_eratosthenes
+    - file: study/computer_science/algorithm/005_right_hand_on_wall
+    - file: study/computer_science/algorithm/006_recursion_introduction
+
+  chapters:
+  - file: study/computer_science/logical_circuit
+    sections:
+    - file: study/computer_science/logical_circuit/001_introduction
+    - file: study/computer_science/logical_circuit/002_digital_system
+    - file: study/computer_science/logical_circuit/003_number_system
+    - file: study/computer_science/logical_circuit/004_binary_operation
+    - file: study/computer_science/logical_circuit/005_negative_representation
+    - file: study/computer_science/logical_circuit/006_code_introduction
+    - file: study/computer_science/logical_circuit/007_gray_code
+
+- part: Mathmetics
+  chapters:
+  - file: linear algebra
+    sections:
+    - file: study/\mathmetics/linear_algebra/001_what_is_linear_algebra
+    - file: study/\mathmetics/linear_algebra/002_vector
+
+- part: Documents
+- file: docs/resume
