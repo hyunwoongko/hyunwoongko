@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>3. 에라토스테네스의 체</title>
+    <title>4. 에라토스테네스의 체</title>
     
   <link rel="stylesheet" href="../../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -93,8 +93,8 @@ commentsRunWhenDOMLoaded(addUtterances);
     <link rel="shortcut icon" href="../../../_static/favicon.png"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="4. 우선법 알고리즘" href="005_right_hand_on_wall.html" />
-    <link rel="prev" title="2. 소수 판별 알고리즘" href="003_prime_number.html" />
+    <link rel="next" title="5. 우선법 알고리즘" href="005_right_hand_on_wall.html" />
+    <link rel="prev" title="3. 소수 판별 알고리즘" href="003_prime_number.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -141,28 +141,33 @@ commentsRunWhenDOMLoaded(addUtterances);
   </a>
   <ul class="current collapse-ul">
    <li class="toctree-l2">
+    <a class="reference internal" href="001_a_la_russe.html">
+     1. A La Russe
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="002_euclidean_algorithm.html">
-     1. 유클리드 호제법
+     2. 유클리드 호제법
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="003_prime_number.html">
-     2. 소수 판별 알고리즘
+     3. 소수 판별 알고리즘
     </a>
    </li>
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
-     3. 에라토스테네스의 체
+     4. 에라토스테네스의 체
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="005_right_hand_on_wall.html">
-     4. 우선법 알고리즘
+     5. 우선법 알고리즘
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="006_recursion_introduction.html">
-     5. 재귀(1) - 개요
+     6. 재귀(1) - 개요
     </a>
    </li>
   </ul>
@@ -207,6 +212,32 @@ commentsRunWhenDOMLoaded(addUtterances);
    <li class="toctree-l2">
     <a class="reference internal" href="../logical_circuit/007_gray_code.html">
      7. 그레이 코드
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Mathmetics
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../../mathmetics/linear_algebra.html">
+   Linear Algebra
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../mathmetics/linear_algebra/001_what_is_linear_algebra.html">
+     1. 선형대수학이란?
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../mathmetics/linear_algebra/002_vector.html">
+     2. 벡터란?
     </a>
    </li>
   </ul>
@@ -340,32 +371,32 @@ commentsRunWhenDOMLoaded(addUtterances);
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id2">
-   3.1. 알고리즘 개요
+   4.1. 알고리즘 개요
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id3">
-   3.2. 수도 코드
+   4.2. 수도 코드
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id4">
-   3.3. 애니메이션
+   4.3. 애니메이션
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id5">
-   3.4. 알고리즘 구현
+   4.4. 알고리즘 구현
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id6">
-   3.5. 알고리즘 최적화
+   4.5. 알고리즘 최적화
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#refence">
-   3.6. Refence
+   4.6. Refence
   </a>
  </li>
 </ul>
@@ -380,13 +411,13 @@ commentsRunWhenDOMLoaded(addUtterances);
               <div>
                 
   <div class="section" id="id1">
-<h1><span class="section-number">3. </span>에라토스테네스의 체<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<h1><span class="section-number">4. </span>에라토스테네스의 체<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="id2">
-<h2><span class="section-number">3.1. </span>알고리즘 개요<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.1. </span>알고리즘 개요<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <p>에라토스테네스의 체는 정수 N까지의 모든 소수를 구하는 알고리즘이다. <code class="docutils literal notranslate"><span class="pre">continue</span></code>를 사용하면 일반적으로 소수판별 알고리즘 중에서 가장 빠르다고 알려져있다.</p>
 </div>
 <div class="section" id="id3">
-<h2><span class="section-number">3.2. </span>수도 코드<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.2. </span>수도 코드<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="s">&quot;2 ~ N까지의 배열을 만들고 0으로 초기화&quot;</span>
 
 <span class="kt">void</span> <span class="n">seive_of_eratosthenes</span><span class="p">(){</span>
@@ -397,11 +428,11 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 </div>
 <div class="section" id="id4">
-<h2><span class="section-number">3.3. </span>애니메이션<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.3. </span>애니메이션<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
 <p><img alt="img" src="https://user-images.githubusercontent.com/38183241/103154304-f3e0bf80-47d9-11eb-922b-b38169c1094b.gif" /></p>
 </div>
 <div class="section" id="id5">
-<h2><span class="section-number">3.4. </span>알고리즘 구현<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.4. </span>알고리즘 구현<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
@@ -451,7 +482,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 </div>
 <div class="section" id="id6">
-<h2><span class="section-number">3.5. </span>알고리즘 최적화<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.5. </span>알고리즘 최적화<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
 <p>에라토스테네스의 체도 마찬가지로 배수관계를 이용하여 소수를 판별하기 때문에 기존 소수판별 알고리즘처럼 <code class="docutils literal notranslate"><span class="pre">n-1까지</span> <span class="pre">다</span> <span class="pre">볼</span> <span class="pre">것</span> <span class="pre">없이,</span> <span class="pre">sqrt(n)까지만</span> <span class="pre">보면</span> <span class="pre">됨.</span></code></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -504,7 +535,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 </div>
 <div class="section" id="refence">
-<h2><span class="section-number">3.6. </span>Refence<a class="headerlink" href="#refence" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.6. </span>Refence<a class="headerlink" href="#refence" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><p>https://youtu.be/mdwiXa34FXk</p>
 </div></blockquote>
@@ -539,8 +570,8 @@ commentsRunWhenDOMLoaded(addUtterances);
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="003_prime_number.html" title="previous page"><span class="section-number">2. </span>소수 판별 알고리즘</a>
-    <a class='right-next' id="next-link" href="005_right_hand_on_wall.html" title="next page"><span class="section-number">4. </span>우선법 알고리즘</a>
+    <a class='left-prev' id="prev-link" href="003_prime_number.html" title="previous page"><span class="section-number">3. </span>소수 판별 알고리즘</a>
+    <a class='right-next' id="next-link" href="005_right_hand_on_wall.html" title="next page"><span class="section-number">5. </span>우선법 알고리즘</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

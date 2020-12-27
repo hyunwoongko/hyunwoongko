@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>벡터란?</title>
+    <title>2. 벡터란?</title>
     
   <link rel="stylesheet" href="../../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -93,6 +93,8 @@ commentsRunWhenDOMLoaded(addUtterances);
     <link rel="shortcut icon" href="../../../_static/favicon.png"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Resume" href="../../../docs/resume.html" />
+    <link rel="prev" title="1. 선형대수학이란?" href="001_what_is_linear_algebra.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -139,28 +141,33 @@ commentsRunWhenDOMLoaded(addUtterances);
   </a>
   <ul class="collapse-ul">
    <li class="toctree-l2">
+    <a class="reference internal" href="../../computer_science/algorithm/001_a_la_russe.html">
+     1. A La Russe
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="../../computer_science/algorithm/002_euclidean_algorithm.html">
-     1. 유클리드 호제법
+     2. 유클리드 호제법
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../../computer_science/algorithm/003_prime_number.html">
-     2. 소수 판별 알고리즘
+     3. 소수 판별 알고리즘
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../../computer_science/algorithm/004_sieve_of_eratosthenes.html">
-     3. 에라토스테네스의 체
+     4. 에라토스테네스의 체
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../../computer_science/algorithm/005_right_hand_on_wall.html">
-     4. 우선법 알고리즘
+     5. 우선법 알고리즘
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../../computer_science/algorithm/006_recursion_introduction.html">
-     5. 재귀(1) - 개요
+     6. 재귀(1) - 개요
     </a>
    </li>
   </ul>
@@ -205,6 +212,32 @@ commentsRunWhenDOMLoaded(addUtterances);
    <li class="toctree-l2">
     <a class="reference internal" href="../../computer_science/logical_circuit/007_gray_code.html">
      7. 그레이 코드
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Mathmetics
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active collapsible-parent">
+  <a class="reference internal" href="../linear_algebra.html">
+   Linear Algebra
+  </a>
+  <ul class="current collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="001_what_is_linear_algebra.html">
+     1. 선형대수학이란?
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     2. 벡터란?
     </a>
    </li>
   </ul>
@@ -338,34 +371,34 @@ commentsRunWhenDOMLoaded(addUtterances);
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id2">
-   벡터란 무엇일까?
+   2.1. 벡터란 무엇일까?
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id3">
-   사실 이들은 모두 같은 것이다.
+   2.2. 사실 이들은 모두 같은 것이다.
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id4">
-   벡터의 두가지 기본연산 : 벡터합과 스칼라곱
+   2.3. 벡터의 두가지 기본연산 : 벡터합과 스칼라곱
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#id5">
-     벡터 합 : 두 벡터를 이어 붙이기
+     2.3.1. 벡터 합 : 두 벡터를 이어 붙이기
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#id6">
-     스칼라 곱 : 벡터를 상수배 만큼 늘리거나 줄이기
+     2.3.2. 스칼라 곱 : 벡터를 상수배 만큼 늘리거나 줄이기
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#reference">
-   Reference
+   2.4. Reference
   </a>
  </li>
 </ul>
@@ -380,24 +413,24 @@ commentsRunWhenDOMLoaded(addUtterances);
               <div>
                 
   <div class="section" id="id1">
-<h1>벡터란?<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<h1><span class="section-number">2. </span>벡터란?<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="id2">
-<h2>벡터란 무엇일까?<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.1. </span>벡터란 무엇일까?<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <p><img alt="" src="https://user-images.githubusercontent.com/38183241/103154327-1d99e680-47da-11eb-9b12-45a134c13616.png" /></p>
 <p>선형대수의 기본 조각은 선형방정식, 바로 벡터라고 했다. 그래서 우리는 이 벡터가 무엇인지 아는 것이 굉장히 중요하다. 기본적으로 벡터를 생각하는 가장 일반적인 3가지의 관점이 존재한다. 바로 물리학, 컴퓨터과학, 수학이다.</p>
 <p>물릭학에게 벡터는 방향을 나타내는 물리량이다. 그들에게는 방향과 크기만 같으면 어디에 있던 같은 벡터이다. 컴퓨터과학에게 벡터는 순차리스트이다. 이들은 벡터를 이용하여 여러가지 데이터를 모델링한다. 수학에게는 벡터는 이들을 모두 포함하는 개념으로 <code class="docutils literal notranslate"><span class="pre">벡터</span> <span class="pre">합</span></code>과 <code class="docutils literal notranslate"><span class="pre">스칼라</span> <span class="pre">곱</span></code>이라는 개념이 성립하면 벡터이다. (추가적으로 항등원, 역원 조건 등 다양한 조건이 있지만 위의 벡터 합과 스칼라 곱이 훨씬 중요하다)</p>
 </div>
 <div class="section" id="id3">
-<h2>사실 이들은 모두 같은 것이다.<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.2. </span>사실 이들은 모두 같은 것이다.<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <p><img alt="" src="https://user-images.githubusercontent.com/38183241/103154328-1e327d00-47da-11eb-85cf-acf8efecd78a.gif" /></p>
 <p>선형대수에서 벡터를 이야기할 때 원점에 꼬리를 둔 화살표를 하나 생각하는 것이 좋다. 물리학 관점에서는 꼬리의 위치가 어디로든 움직일 수 있지만 선형대수에서는 대부분 원점에 꼬리를 둔다. 원점에 꼬리를 두고 그 화살표가 가리키는 그 지점(좌표)가 컴퓨터 사이언스 관점에서의 리스트였던 것이다. 이렇게 컴퓨터 사이언스 관점의 벡터와 물리학 관점의 벡터는 표현하는 방법만 다를뿐 사실은 동일한 것이다. 이 둘(수치적 / 기하학적)이 서로 번역될 수 있고, 이러한 과정에서 선형대수의 중요한 특징들이 드러난다. 또한 평범한 좌표인 <span class="math notranslate nohighlight">\((1, 2)\)</span>과 벡터를 구분하기 위해서 관례적으로 <span class="math notranslate nohighlight">\(\begin{bmatrix} 1 \\ 2 \end{bmatrix}\)</span>와 같은 열벡터로 표기한다.</p>
 <p><img alt="" src="https://user-images.githubusercontent.com/38183241/103154329-1e327d00-47da-11eb-8725-7811860e3604.gif" /></p>
 <p>만약 <span class="math notranslate nohighlight">\( \begin{bmatrix} 2 \\ 1 \\ 3 \end{bmatrix}\)</span> 처럼 리스트의 원소가 3개라면 항이 3개인 벡터가 되는 것이고 이는 위처럼 기하학적으로 3차원 공간으로 확장된 화살표가 된다. (4차원 이상은 시각화가 어려움)</p>
 </div>
 <div class="section" id="id4">
-<h2>벡터의 두가지 기본연산 : 벡터합과 스칼라곱<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.3. </span>벡터의 두가지 기본연산 : 벡터합과 스칼라곱<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id5">
-<h3>벡터 합 : 두 벡터를 이어 붙이기<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">2.3.1. </span>벡터 합 : 두 벡터를 이어 붙이기<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <p><img alt="" src="https://user-images.githubusercontent.com/38183241/103154330-1ecb1380-47da-11eb-81e6-7fd81de1d492.gif" /></p>
 <p>기하학적인 개념에서 본다면 <code class="docutils literal notranslate"><span class="pre">벡터</span> <span class="pre">합</span></code>은 벡터의 꼬리를 다른 벡터의 끝에 놓고 두 벡터를 잇는 새로운 벡터를 그리는 것과 동일하다. 즉, <span class="math notranslate nohighlight">\(\vec{v}\)</span>를 갔다가 <span class="math notranslate nohighlight">\(\vec{w}\)</span>를 가면 결과적으로 <span class="math notranslate nohighlight">\(\vec{v} + \vec{w}\)</span>이 간 곳과 동일한 좌표에 도달하게 된다. 컴퓨터 사이언스(수치적)관점에서는 벡터들이 지금까지 어떻게 연산되었는지에 관계 없이 <span class="math notranslate nohighlight">\(\vec{v} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}\)</span>이고, <span class="math notranslate nohighlight">\(\vec{w} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}\)</span>라면, 결과적으로  <span class="math notranslate nohighlight">\(\vec{v} = \vec{w}\)</span>이다. 따라서 두 벡터를 따라가서 도달한 끝지점을 가리키는 벡터가 있다면, 그 벡터가 두 벡터의 합이 된다.
 <br><br></p>
@@ -407,7 +440,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 <p>1차원에서 생각해보자면 이는 수직선과 굉장히 비슷한 개념이다. 우리가 <span class="math notranslate nohighlight">\(2 + 3\)</span>을 생각할 때 0에서 오른쪽으로 2칸 이동하고 다시 오른쪽으로 3칸 이동한다. <span class="math notranslate nohighlight">\(4 - 2\)</span>를 생각할 땐 0에서 오른쪽으로 4칸 이동하고 왼쪽으로 2칸 이동한다. 방향이 더 추가되었을 뿐, 정수, 유리수와 같은 수들과 본질적으로 동일하다. 이렇게 기하학적인 의미에서 이해하는 것과 수치적으로 계산을 하는것 모두 유용하다. 기하학은 그 과정을 머릿속으로 이해하게 해주며 수치는 이들을 실제로 계산할 수 있는 방법을 제공한다.</p>
 </div>
 <div class="section" id="id6">
-<h3>스칼라 곱 : 벡터를 상수배 만큼 늘리거나 줄이기<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">2.3.2. </span>스칼라 곱 : 벡터를 상수배 만큼 늘리거나 줄이기<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <p><img alt="" src="https://user-images.githubusercontent.com/38183241/103154333-1f63aa00-47da-11eb-9d6b-fc0a289dbd0e.gif" /></p>
 <p><img alt="" src="https://user-images.githubusercontent.com/38183241/103154324-1bd02300-47da-11eb-8af8-6f5c9f1f1d85.gif" /></p>
 <p><img alt="" src="https://user-images.githubusercontent.com/38183241/103154325-1d015000-47da-11eb-8916-d7dbeb915e85.gif" /></p>
@@ -422,7 +455,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 </div>
 <div class="section" id="reference">
-<h2>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.4. </span>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><p>https://youtu.be/fNk_zzaMoSs</p>
 </div></blockquote>
@@ -457,6 +490,8 @@ commentsRunWhenDOMLoaded(addUtterances);
     
     <div class='prev-next-bottom'>
         
+    <a class='left-prev' id="prev-link" href="001_what_is_linear_algebra.html" title="previous page"><span class="section-number">1. </span>선형대수학이란?</a>
+    <a class='right-next' id="next-link" href="../../../docs/resume.html" title="next page">Resume</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

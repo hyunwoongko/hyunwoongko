@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>선형대수학이란?</title>
+    <title>1. 선형대수학이란?</title>
     
   <link rel="stylesheet" href="../../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -93,6 +93,8 @@ commentsRunWhenDOMLoaded(addUtterances);
     <link rel="shortcut icon" href="../../../_static/favicon.png"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="2. 벡터란?" href="002_vector.html" />
+    <link rel="prev" title="Linear Algebra" href="../linear_algebra.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -139,28 +141,33 @@ commentsRunWhenDOMLoaded(addUtterances);
   </a>
   <ul class="collapse-ul">
    <li class="toctree-l2">
+    <a class="reference internal" href="../../computer_science/algorithm/001_a_la_russe.html">
+     1. A La Russe
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="../../computer_science/algorithm/002_euclidean_algorithm.html">
-     1. 유클리드 호제법
+     2. 유클리드 호제법
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../../computer_science/algorithm/003_prime_number.html">
-     2. 소수 판별 알고리즘
+     3. 소수 판별 알고리즘
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../../computer_science/algorithm/004_sieve_of_eratosthenes.html">
-     3. 에라토스테네스의 체
+     4. 에라토스테네스의 체
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../../computer_science/algorithm/005_right_hand_on_wall.html">
-     4. 우선법 알고리즘
+     5. 우선법 알고리즘
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../../computer_science/algorithm/006_recursion_introduction.html">
-     5. 재귀(1) - 개요
+     6. 재귀(1) - 개요
     </a>
    </li>
   </ul>
@@ -205,6 +212,32 @@ commentsRunWhenDOMLoaded(addUtterances);
    <li class="toctree-l2">
     <a class="reference internal" href="../../computer_science/logical_circuit/007_gray_code.html">
      7. 그레이 코드
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Mathmetics
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active collapsible-parent">
+  <a class="reference internal" href="../linear_algebra.html">
+   Linear Algebra
+  </a>
+  <ul class="current collapse-ul">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     1. 선형대수학이란?
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="002_vector.html">
+     2. 벡터란?
     </a>
    </li>
   </ul>
@@ -338,22 +371,22 @@ commentsRunWhenDOMLoaded(addUtterances);
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id2">
-   선형대수란 무엇인가?
+   1.1. 선형대수란 무엇인가?
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id3">
-   “선형”이란 무엇인가
+   1.2. “선형”이란 무엇인가
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id4">
-   “대수”란 무엇인가?
+   1.3. “대수”란 무엇인가?
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#reference">
-   Reference
+   1.4. Reference
   </a>
  </li>
 </ul>
@@ -368,9 +401,9 @@ commentsRunWhenDOMLoaded(addUtterances);
               <div>
                 
   <div class="section" id="id1">
-<h1>선형대수학이란?<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<h1><span class="section-number">1. </span>선형대수학이란?<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="id2">
-<h2>선형대수란 무엇인가?<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">1.1. </span>선형대수란 무엇인가?<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <p>결론부터 말하자면 선형대수는 선형방정식을 풀기위한 방법론을 배우는 학문이다. 예를 들어 <span class="math notranslate nohighlight">\(2x + 3y = 0\)</span>과 같은 방정식이 있다면 우리의 목표는 우항(<span class="math notranslate nohighlight">\(0\)</span>)과 같은 좌항들(<span class="math notranslate nohighlight">\(x, y\)</span>)를 찾아내는 것이다.</p>
 <p><span class="math notranslate nohighlight">\(3x + 1 = 7\)</span>과 같이 방정식이 하나이고, 미지수도 하나라면 우리는 이 <span class="math notranslate nohighlight">\(x\)</span>를 예측하기 매우 쉽다 (<span class="math notranslate nohighlight">\(x=2\)</span>) 그러나 만약 위의 <span class="math notranslate nohighlight">\(2x + 3y = 0\)</span>처럼 미지수가 두개라면 조건에 맞는 <span class="math notranslate nohighlight">\(x, y\)</span>를 찾는 것은 미지수가 하나 있을때 보다 훨씬 어려울 것이다. 우리의 직관등을 이용해 <span class="math notranslate nohighlight">\(x=-3, y=2\)</span>와 같은 값들의 집합을 찾을 수 있는데, 이것은 매우 비효율적이다. 그러나 만약 미지수가 2개, 방정식이 2개라면 <code class="docutils literal notranslate"><span class="pre">두</span> <span class="pre">방정식의</span> <span class="pre">관계를</span> <span class="pre">이용하여</span> <span class="pre">해를</span> <span class="pre">찾아낼</span> <span class="pre">수</span> <span class="pre">있다.</span></code> 이 것이 바로 선형대수의 최종적인 목표이다.</p>
 <blockquote>
@@ -378,20 +411,20 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div></blockquote>
 </div>
 <div class="section" id="id3">
-<h2>“선형”이란 무엇인가<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">1.2. </span>“선형”이란 무엇인가<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <p>선형(Linear) 대수(Algebra)에서 선형이 갖는 의미는 무엇일까? 선형성이라는 것은 어떤 시스템(입/출력 존재)에 <code class="docutils literal notranslate"><span class="pre">입력값에</span> <span class="pre">영향을</span> <span class="pre">준</span> <span class="pre">만큼</span> <span class="pre">결과도</span> <span class="pre">딱</span> <span class="pre">그</span> <span class="pre">만큼만</span> <span class="pre">영향을</span> <span class="pre">받는</span> <span class="pre">성질</span></code>을 의미한다. 그러니까 입력 자체는 어떠한 변형이 되지 않고, 거기에 무언가를 더하거나 곱한다면 입력에 영향을 준 만큼만 출력이 영향을 받게 되는 성질이다.</p>
 <p>예를 들어 <span class="math notranslate nohighlight">\(y = 3x\)</span>과 같은 Linear한 시스템의 경우 기존 입력<span class="math notranslate nohighlight">\(x\)</span>에 대해 3이 곱해졌으므로 무조건 3이 곱해진 만큼만 영향을 받는다. 만약 입력이 <span class="math notranslate nohighlight">\(3\)</span>이였다면 출력은 <span class="math notranslate nohighlight">\(9\)</span>가 되고, 입력이 <span class="math notranslate nohighlight">\(25\)</span>였다면 출력은 <span class="math notranslate nohighlight">\(75\)</span>가 된다. 다른 예로 만약 <span class="math notranslate nohighlight">\(y = x + 4\)</span>와 같이 만들면, 입력이 <span class="math notranslate nohighlight">\(3\)</span>이였다면 출력은 <span class="math notranslate nohighlight">\(3+4\)</span>인 <span class="math notranslate nohighlight">\(7\)</span>이 되고, 입력이 <span class="math notranslate nohighlight">\(50\)</span>이였다면 출력은 <span class="math notranslate nohighlight">\(54\)</span>가 된다. 이 것이 선형적인 경우이다.</p>
 <p><span class="math notranslate nohighlight">\(y = 2x^3\)</span>라는 Non-Linear한 시스템의 경우를 보면 그 값이 크게 변해버린다. <span class="math notranslate nohighlight">\(x = 8\)</span>라면 출력은 쌩뚱맞게 1024가 된다. (128배나 커져버린다) 선형성은 방정식들의 결과를 <code class="docutils literal notranslate"><span class="pre">예측</span> <span class="pre">가능하게</span></code>만드는데, 이 성질은 방정식들의 관계를 이용해서 해를 구할 때 매우 중요한 성질이다.</p>
 </div>
 <div class="section" id="id4">
-<h2>“대수”란 무엇인가?<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">1.3. </span>“대수”란 무엇인가?<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
 <p>대수(Algebra)는 큰 수를 의미하는게 아니라 <code class="docutils literal notranslate"><span class="pre">어떤</span> <span class="pre">다른</span> <span class="pre">것이</span> <span class="pre">수를</span> <span class="pre">대신한다는</span> <span class="pre">것</span></code>을 의미한다. 예기에서는 선형성을 가지는 방정식들이 수를 대신한다. 수의 본질은 기본적으로 연산에 있다. 우리가 흔히 “수”라고 부르는 정수, 유리수 등을 보면, 이러한 숫자들을 이용해서 연산이 가능하다. 선형대수에서는 선형방정식이 수를 대신하니, 선형 방정식들(벡터)이 기본 조각이 되고, 이 선형방정식(벡터)들을 서로 더하거나 빼는 등 연산을 한다.</p>
 <blockquote>
 <div><p>결과적으로 선형대수는 선형성을 가지는 방정식(벡터)들의 연산을 통해 방정식의 해를 구하기 위한 학문이다.</p>
 </div></blockquote>
 </div>
 <div class="section" id="reference">
-<h2>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">1.4. </span>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><p>https://twlab.tistory.com/3?category=668741</p>
 </div></blockquote>
@@ -426,6 +459,8 @@ commentsRunWhenDOMLoaded(addUtterances);
     
     <div class='prev-next-bottom'>
         
+    <a class='left-prev' id="prev-link" href="../linear_algebra.html" title="previous page">Linear Algebra</a>
+    <a class='right-next' id="next-link" href="002_vector.html" title="next page"><span class="section-number">2. </span>벡터란?</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
