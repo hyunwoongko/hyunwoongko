@@ -24,7 +24,7 @@
 
 - part: Mathmetics
   chapters:
-  - file: study/mathmetics/linear algebra
+  - file: study/mathmetics/linear_algebra
     numbered: true
     sections:
     - file: study/mathmetics/linear_algebra/001_what_is_linear_algebra
