@@ -10,7 +10,6 @@
     - file: study/computer_science/algorithm/004_sieve_of_eratosthenes
     - file: study/computer_science/algorithm/005_right_hand_on_wall
     - file: study/computer_science/algorithm/006_recursion_introduction
-
   - file: study/computer_science/logical_circuit
     numbered: true
     sections:

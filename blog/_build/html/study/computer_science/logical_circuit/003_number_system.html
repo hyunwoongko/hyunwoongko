@@ -1,0 +1,641 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3. 진법의 개념과 변환</title>
+    
+  <link rel="stylesheet" href="../../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../../../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../../../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/myfile.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../../_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/togglebutton.js"></script>
+    <script src="../../../_static/clipboard.min.js"></script>
+    <script src="../../../_static/copybutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "hyunwoongko/hyunwoongko");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
+    </script>
+    <script async="async" src="../../../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../../../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="4. 이진 연산" href="004_binary_operation.html" />
+    <link rel="prev" title="2. 디지털 시스템" href="002_digital_system.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../../../index.html">
+  
+  <img src="../../../_static/logo.png" class="logo" alt="logo">
+  
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../index.html">
+   Coding Snack
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Computer Science
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../algorithm.html">
+   Algorithm
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../algorithm/002_euclidean_algorithm.html">
+     1. 유클리드 호제법
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../algorithm/003_prime_number.html">
+     2. 소수 판별 알고리즘
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../algorithm/004_sieve_of_eratosthenes.html">
+     3. 에라토스테네스의 체
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../algorithm/005_right_hand_on_wall.html">
+     4. 우선법 알고리즘
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../algorithm/006_recursion_introduction.html">
+     5. 재귀(1) - 개요
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 current active collapsible-parent">
+  <a class="reference internal" href="../logical_circuit.html">
+   Logical Circuit
+  </a>
+  <ul class="current collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="001_introduction.html">
+     1. 논리회로의 개요
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="002_digital_system.html">
+     2. 디지털 시스템
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     3. 진법의 개념과 변환
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="004_binary_operation.html">
+     4. 이진 연산
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="005_negative_representation.html">
+     5. 음수 표현법
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="006_code_introduction.html">
+     6. 코드 개요
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="007_gray_code.html">
+     7. 그레이 코드
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Documents
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../docs/resume.html">
+   Resume
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../../_sources/study/computer_science/logical_circuit/003_number_system.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/hyunwoongko/hyunwoongko"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/hyunwoongko/hyunwoongko/issues/new?title=Issue%20on%20page%20%2Fstudy/computer_science/logical_circuit/003_number_system.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/hyunwoongko/hyunwoongko/edit/main/blog/study/computer_science/logical_circuit/003_number_system.ipynb"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/hyunwoongko/hyunwoongko/main?urlpath=lab/tree/blog/study/computer_science/logical_circuit/003_number_system.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../../../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        <a class="colab-button" href="https://colab.research.google.com/github/hyunwoongko/hyunwoongko/blob/main/blog/study/computer_science/logical_circuit/003_number_system.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+                title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
+                    src="../../../_static/images/logo_colab.png"
+                    alt="Interact on Colab">Colab</button></a>
+        
+        <button type="button" class="btn btn-secondary topbarbtn"
+            onclick="initThebeSBT()" title="Launch Thebe" data-toggle="tooltip" data-placement="left"><i
+                class="fas fa-play"></i><span style="margin-left: .4em;">Live Code</span></button>
+        
+    </div>
+</div>
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#r">
+   3.1. 10진법 → R진법
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     3.1.1. 10진법인 17을 2진법으로 변환
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     3.1.2. 10진법인 49을 16진법으로 변환
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id4">
+   3.2. 10진법 → R진법 (소숫점)
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id5">
+     3.2.1. 10진법인 0.625을 2진법으로 변환
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id6">
+     3.2.2. 10진법인 0.625을 16진법으로 변환
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id7">
+     3.2.3. 10진법인 0.8을 16진법으로 변환
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#r-10">
+   3.3. R진법 → 10진법 (소수도 동일)
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id8">
+     3.3.1. 2진법인 0100 0011을 10진법으로 변환
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id9">
+     3.3.2. 2진법인 1011.0101을 10진법으로 변환
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#a7-10">
+     3.3.3. 16진법인 2A7을 10진법으로 변환
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#c7-ab-10">
+     3.3.4. 16진법인 C7.AB를 10진법으로 변환
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#bit-grouping-r1-r2">
+   3.4. Bit Grouping (R1진법 → R2진법)
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id10">
+     3.4.1. 2진법인 001010을 8진법으로 변환
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id11">
+     3.4.2. 2진법인 0010 1010을 16진법으로 변환
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#a-2">
+     3.4.3. 16진법인 24A을 2진법으로 변환
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#a-8">
+     3.4.4. 16진법인 24A을 8진법으로 변환
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#reference">
+   3.5. Reference
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="id1">
+<h1><span class="section-number">3. </span>진법의 개념과 변환<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="r">
+<h2><span class="section-number">3.1. </span>10진법 → R진법<a class="headerlink" href="#r" title="Permalink to this headline">¶</a></h2>
+<p>변환하려는 진법으로 계속 나눈 나머지들이 R진법 수이다. 나눌 숫자가 0이 되면 계산을 끝내고 아래부터 거꾸로 읽으면 그게 2진수로 변환된 것이다.</p>
+<div class="section" id="id2">
+<h3><span class="section-number">3.1.1. </span>10진법인 17을 2진법으로 변환<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(17 = 2 \times 8 + 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(8 = 2 \times 4 + 0\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(4 = 2 \times 2 + 0\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(2 = 2 \times 1 + 0\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(1 = 2 \times 0 + 1\)</span></p></li>
+<li><p>정답 : <span class="math notranslate nohighlight">\(17_{10} \to 10001_{2}\)</span></p></li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h3><span class="section-number">3.1.2. </span>10진법인 49을 16진법으로 변환<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(49 = 16 \times 3 + 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(3 = 16 \times 0 + 3\)</span></p></li>
+<li><p>정답 : <span class="math notranslate nohighlight">\(49_{10} \to 31_{16}\)</span></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id4">
+<h2><span class="section-number">3.2. </span>10진법 → R진법 (소숫점)<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>변환하려는 숫자에 계속해서 R을 곱하고 가수부를 떼어내서 기록하며, 소수부가 0이 되면 종료 떼어낸 가수부를 위에서부터 순서대로 읽으면 됨.</p>
+<div class="section" id="id5">
+<h3><span class="section-number">3.2.1. </span>10진법인 0.625을 2진법으로 변환<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(0.625 \times 2 = 1.25 = 0.25 + 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(0.250 \times 2 = 0.50 = 0.50 + 0\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(0.500 \times 2 = 1.00 = 0.00 + 1\)</span></p></li>
+<li><p>정답 : <span class="math notranslate nohighlight">\(0.625_{10} \to 0.101_2\)</span></p></li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h3><span class="section-number">3.2.2. </span>10진법인 0.625을 16진법으로 변환<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(0.625 \times 16 = 10.0 = 10(A) + 0\)</span></p></li>
+<li><p>정답 : <span class="math notranslate nohighlight">\(0.625_{10} \to 0.A_{16}\)</span></p></li>
+</ul>
+</div>
+<div class="section" id="id7">
+<h3><span class="section-number">3.2.3. </span>10진법인 0.8을 16진법으로 변환<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\( 0.8 \times 16 = 12.8 = 12(C) + 0.8 \)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\( 0.8 \times 16 = 12.8 = 12(C) + 0.8 \)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\( 0.8 \times 16 = 12.8 = 12(C) + 0.8 \)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\( 0.8 \times 16 = 12.8 = 12(C) + 0.8 \)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\( 0.8 \times 16 = 12.8 = 12(C) + 0.8 \)</span></p></li>
+<li><p>정답 : 무한소수<span class="math notranslate nohighlight">\(0.8_{10} \to 0.CCCCCC..._{16}\)</span></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="r-10">
+<h2><span class="section-number">3.3. </span>R진법 → 10진법 (소수도 동일)<a class="headerlink" href="#r-10" title="Permalink to this headline">¶</a></h2>
+<p>자릿수마다 R의 n승을 곱해서 더해주면 된다.</p>
+<div class="section" id="id8">
+<h3><span class="section-number">3.3.1. </span>2진법인 0100 0011을 10진법으로 변환<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(0100 = 0\times2^7 + 1\times2^6 + 0\times 2^5 + 0\times2^4\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(0011 = 0\times2^3 + 0\times2^2 + 1\times 2^1 + 1\times2^0\)</span></p></li>
+<li><p>정답 = 1 + 2 + 64 = 67</p></li>
+</ul>
+</div>
+<div class="section" id="id9">
+<h3><span class="section-number">3.3.2. </span>2진법인 1011.0101을 10진법으로 변환<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(1011 = 1\times2^3 + 0\times2^2 + 1\times 2^1 + 1\times2^0\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(0101 = 0\times2^{-1} + 1\times2^{-2} + 0\times2^{-3} + 1\times2^{-4}\)</span></p></li>
+<li><p>정답 = 8 + 2 + 1 + 0.25 + 0.0625 = 11.3125</p></li>
+</ul>
+</div>
+<div class="section" id="a7-10">
+<h3><span class="section-number">3.3.3. </span>16진법인 2A7을 10진법으로 변환<a class="headerlink" href="#a7-10" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(2A7 = 7\times16^2 + A\times16^1 + 2\times16^0\)</span></p></li>
+<li><p>정답 = 1792 + 160 + 2 = 1954</p></li>
+</ul>
+</div>
+<div class="section" id="c7-ab-10">
+<h3><span class="section-number">3.3.4. </span>16진법인 C7.AB를 10진법으로 변환<a class="headerlink" href="#c7-ab-10" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(C7 = C\times16^1 + 7\times16^0\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(AB = A\times16^{-1} + B\times16^{-2}\)</span></p></li>
+<li><p>정답 = 192 + 7 + 0.625 + 0.04296875 = 199.66796875</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="bit-grouping-r1-r2">
+<h2><span class="section-number">3.4. </span>Bit Grouping (R1진법 → R2진법)<a class="headerlink" href="#bit-grouping-r1-r2" title="Permalink to this headline">¶</a></h2>
+<p>원래는 R1진법에서 R2진법으로 넘어가려면 중간에 10진법을 거쳐야함. R1진법 → 10진법 → R2진법처럼 거쳐야하는데 이는 매우 불편한 과정임. R1과 R2가 배수관계라면 비트그룹핑, 즉 끊어읽기로 매우 편하게 전환 가능</p>
+<div class="section" id="id10">
+<h3><span class="section-number">3.4.1. </span>2진법인 001010을 8진법으로 변환<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(2^3 = 8\)</span> (3자리씩 끊어서 읽기)</p></li>
+<li><p><span class="math notranslate nohighlight">\(001010 = 001 \; 010\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(001 = 1 \; / \; 010 = 2\)</span></p></li>
+<li><p>정답 : <span class="math notranslate nohighlight">\(001 \; 010_2 \to 12_8\)</span></p></li>
+</ul>
+</div>
+<div class="section" id="id11">
+<h3><span class="section-number">3.4.2. </span>2진법인 0010 1010을 16진법으로 변환<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(2^4 = 8\)</span> (4자리씩 끊어서 읽기)</p></li>
+<li><p><span class="math notranslate nohighlight">\(0010 1010 = 0010 \; 1010\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(0010 = 2 \; / \; 1010 = A\)</span></p></li>
+<li><p>정답 : <span class="math notranslate nohighlight">\(0010 \; 1010_2 = 2A_{16}\)</span></p></li>
+</ul>
+</div>
+<div class="section" id="a-2">
+<h3><span class="section-number">3.4.3. </span>16진법인 24A을 2진법으로 변환<a class="headerlink" href="#a-2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(2^4 = 8\)</span> (4자리씩 끊어서 만들기)</p></li>
+<li><p><span class="math notranslate nohighlight">\(24A = 0010 \; 0100 \; 1010\)</span></p></li>
+<li><p>정답 : <span class="math notranslate nohighlight">\(24A_{16} = 0010 \; 0100 \; 1010_2\)</span></p></li>
+</ul>
+</div>
+<div class="section" id="a-8">
+<h3><span class="section-number">3.4.4. </span>16진법인 24A을 8진법으로 변환<a class="headerlink" href="#a-8" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(001001001010 = 0010 \; 0100 \; 1010\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(001001001010 = 001 \; 001 \; 001 \; 010\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(001 \; 001 \; 001 \; 010 = 1112\)</span></p></li>
+<li><p>정답 : <span class="math notranslate nohighlight">\(24A_{16} = 1112_8\)</span></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="reference">
+<h2><span class="section-number">3.5. </span>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>https://youtu.be/zUL4Np5QhXw</p>
+</div></blockquote>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "hyunwoongko/hyunwoongko",
+            ref: "main",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./study\computer_science\logical_circuit"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="002_digital_system.html" title="previous page"><span class="section-number">2. </span>디지털 시스템</a>
+    <a class='right-next' id="next-link" href="004_binary_operation.html" title="next page"><span class="section-number">4. </span>이진 연산</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By hyunwoongko<br/>
+        
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../../../_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>
