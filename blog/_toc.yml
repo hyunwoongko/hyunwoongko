@@ -1,11 +1,5 @@
 - file: index
-- part: Mathmetics
-  chapters:
-  - file: study/mathmetics/linear algebra
-    numbered: true
-    sections:
-    - file: study/mathmetics/linear_algebra/001_what_is_linear_algebra
-    - file: study/mathmetics/linear_algebra/002_vector
+
 - part: Computer Science
   chapters:
   - file: study/computer_science/algorithm
@@ -27,6 +21,15 @@
     - file: study/computer_science/logical_circuit/005_negative_representation
     - file: study/computer_science/logical_circuit/006_code_introduction
     - file: study/computer_science/logical_circuit/007_gray_code
+
+- part: Mathmetics
+  chapters:
+  - file: study/mathmetics/linear algebra
+    numbered: true
+    sections:
+    - file: study/mathmetics/linear_algebra/001_what_is_linear_algebra
+    - file: study/mathmetics/linear_algebra/002_vector
+
 - part: Documents
   chapters:
   - file: docs/resume
