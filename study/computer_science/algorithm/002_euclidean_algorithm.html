@@ -340,32 +340,32 @@ commentsRunWhenDOMLoaded(addUtterances);
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id2">
-   1.1. 1. 알고리즘 개요
+   1.1. 알고리즘 개요
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id3">
-   1.2. 2. 최대공약수의 성질
+   1.2. 최대공약수의 성질
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id4">
-   1.3. 3. 수도 코드
+   1.3. 수도 코드
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id5">
-   1.4. 4. 알고리즘 구현
+   1.4. 알고리즘 구현
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id6">
-   1.5. 5. 알고리즘 최적화
+   1.5. 알고리즘 최적화
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#reference">
-   1.6. 6.Reference
+   1.6. Reference
   </a>
  </li>
 </ul>
@@ -382,11 +382,11 @@ commentsRunWhenDOMLoaded(addUtterances);
   <div class="section" id="id1">
 <h1><span class="section-number">1. </span>유클리드 호제법<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="id2">
-<h2><span class="section-number">1.1. </span>1. 알고리즘 개요<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">1.1. </span>알고리즘 개요<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <p>기계적으로 두 정수의 최대 공약수(Greatest Common Divisor)를 구하는 알고리즘이다. 우리는 소인수분해를 사용하는데, 이는 직관에 의존한 방법으로 컴퓨터엔 부적합하다. 참고로 소인수분해는 대표적인 NP Problem으로 다항시간 안에 풀리는 것도 보장되지 않는다.</p>
 </div>
 <div class="section" id="id3">
-<h2><span class="section-number">1.2. </span>2. 최대공약수의 성질<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">1.2. </span>최대공약수의 성질<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <p>U &gt; V인 두 수가 있을 때, 최대공약수(gcd) 연산을 ◇라고 정의한다. 이 성질에 대한 증명은 <a class="reference external" href="https://nukeguys.tistory.com/29">여기</a>를 확인하면 된다. <br><br></p>
 <ol class="simple">
 <li><p>뺄셈법칙 : U ◇ V = (U-V) ◇ V</p></li>
@@ -395,7 +395,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </ol>
 </div>
 <div class="section" id="id4">
-<h2><span class="section-number">1.3. </span>3. 수도 코드<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">1.3. </span>수도 코드<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
 <p>위와 같은 규칙을 이용해서 U와 V중 한 쪽을 먼저 0으로 만들고, 남은 한쪽의 값을 반환하게 하면 손쉽게 최대공약수를 구할 수 있을 것이다.</p>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span>
 <span class="kt">int</span> <span class="nf">gcd</span><span class="p">(</span><span class="kt">int</span> <span class="n">u</span><span class="p">,</span> <span class="kt">int</span> <span class="n">v</span><span class="p">){</span>
@@ -410,7 +410,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 </div>
 <div class="section" id="id5">
-<h2><span class="section-number">1.4. </span>4. 알고리즘 구현<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">1.4. </span>알고리즘 구현<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
@@ -463,7 +463,7 @@ u=10, v=0
 </div>
 </div>
 <div class="section" id="id6">
-<h2><span class="section-number">1.5. </span>5. 알고리즘 최적화<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">1.5. </span>알고리즘 최적화<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
 <p>실행결과를 보면 280-30, 250-30.. 최종적으로 40-30까지 빼서 v는 10이 된다. 한번에 u에서 v를 빼서 10을 만들 순 없을까? 나머지 연산을 사용하면 가능하다.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -508,7 +508,7 @@ u=10, v=0
 </div>
 </div>
 <div class="section" id="reference">
-<h2><span class="section-number">1.6. </span>6.Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">1.6. </span>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><p>https://youtu.be/OlpNg81Csn0</p>
 </div></blockquote>

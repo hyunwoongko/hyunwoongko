@@ -340,27 +340,27 @@ commentsRunWhenDOMLoaded(addUtterances);
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id2">
-   2.1. 1. 알고리즘 개요
+   2.1. 알고리즘 개요
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id3">
-   2.2. 2. 수도 코드
+   2.2. 수도 코드
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id4">
-   2.3. 3. 알고리즘 구현
+   2.3. 알고리즘 구현
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id5">
-   2.4. 4. 알고리즘 최적화
+   2.4. 알고리즘 최적화
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#reference">
-   2.5. 5. Reference
+   2.5. Reference
   </a>
  </li>
 </ul>
@@ -377,11 +377,11 @@ commentsRunWhenDOMLoaded(addUtterances);
   <div class="section" id="id1">
 <h1><span class="section-number">2. </span>소수 판별 알고리즘<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="id2">
-<h2><span class="section-number">2.1. </span>1. 알고리즘 개요<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.1. </span>알고리즘 개요<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <p>소수 판별 알고리즘은 말 그대로 정수 하나를 입력받아서 해당 정수가 소수인지 판단하는 알고리즘이다. 소수란 <code class="docutils literal notranslate"><span class="pre">1과</span> <span class="pre">자기자신을</span> <span class="pre">제외하면</span> <span class="pre">약수가</span> <span class="pre">없는</span> <span class="pre">정수</span></code>를 의미한다.</p>
 </div>
 <div class="section" id="id3">
-<h2><span class="section-number">2.2. </span>2. 수도 코드<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.2. </span>수도 코드<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span> <span class="nf">is_prime</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">){</span>
     <span class="s">&quot;2부터 n-1까지의 수로 n을 나눠본다.&quot;</span>
     
@@ -394,7 +394,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 </div>
 <div class="section" id="id4">
-<h2><span class="section-number">2.3. </span>3. 알고리즘 구현<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.3. </span>알고리즘 구현<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
@@ -434,7 +434,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 </div>
 <div class="section" id="id5">
-<h2><span class="section-number">2.4. </span>4. 알고리즘 최적화<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.4. </span>알고리즘 최적화<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
 <p>12의 경우 2x6, 3x4, 4x3, 6x2로 나눌 수 있다. 그런데 2x6과 6x2, 3x4과 4x3은 사실 동일하다. 때문에 딱 절반만 해보면 이 수가 소수인지 아닌지 알 수 있다. 만약 n을 i x j로 만든다면, <code class="docutils literal notranslate"><span class="pre">딱</span> <span class="pre">절반은</span> <span class="pre">sqrt(n)</span> <span class="pre">x</span> <span class="pre">sqrt(n)</span></code>이다.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -476,7 +476,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 </div>
 <div class="section" id="reference">
-<h2><span class="section-number">2.5. </span>5. Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.5. </span>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><p>https://youtu.be/mdwiXa34FXk</p>
 </div></blockquote>
