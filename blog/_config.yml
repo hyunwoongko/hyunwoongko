@@ -14,7 +14,7 @@ html:
   comments:
     hypothesis: true
     utterances:
-      repo: "hyunwoongko/hyunwoongko"
+      repo: "hyunwoongko/hyunwoongko.github.io"
 
 execute:
   execute_notebooks: 'off'
@@ -33,7 +33,7 @@ launch_buttons:
   thebe: true
 
 repository:
-  url: https://github.com/hyunwoongko/hyunwoongko
+  url: https://github.com/hyunwoongko/hyunwoongko.github.io
   branch: main
   path_to_book: blog
 
