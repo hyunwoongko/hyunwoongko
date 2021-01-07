@@ -25,7 +25,7 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
 <br>
 <br>
 
-#### Biography
+### Biography
 - `2014.03 ~ 2020.08` : Software Engineering Dept in Chonbuk University
   - Major GPA : 4.15 / Total GPA : 4.07 (1st)
   - [5th place in Elecsthon held by KEPCO (Korea Electric Power Corporation)](https://blog.kepco.co.kr/1310)
@@ -48,7 +48,7 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   
 <br>
 
-#### Interest Areas
+### Interest Areas
 - Natural Langauge Processing
   - Generative Modeling
     - Machine Translation
@@ -69,12 +69,12 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
 
 <br>
 
-#### Publications
+### Publications
 - [Artificial Intelligence Social Robot to Help Education and Treatment of Children with Intellectual Developmental Disabilities - Hyunwoong Go, Wonwoo Shin,HyunjuLee, Seungmin Ji, CheolJung Yoo](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE08749986)
 
 <br>
 
-#### Contacts
+### Contacts
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
 - Facebook : [https://www.facebook.com/hyunwoongko](https://www.facebook.com/hyunwoongko)
 
