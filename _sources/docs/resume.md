@@ -1,3 +1,5 @@
+<div align=center>
+
 # Résumé 
 
 AI Research Engineer ㆍ Software Developer <br> 
@@ -6,3 +8,4 @@ AI Research Engineer ㆍ Software Developer <br>
 
 " Be a creator not a programmer. "
 
+</div>
