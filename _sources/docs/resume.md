@@ -48,6 +48,26 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   
 <br>
 
+### Interest Areas
+- Natural Langauge Processing
+  - Generative Modeling
+    - Machine Translation
+    - Text Summarization
+    - Dialogue Generation
+  - Loving any other tasks 🥰
+- Machine Learning Engineering
+  - GPU Optimizations
+  - Lightweight Neural Networks
+    - Distillation
+    - Pruning
+    - Quantization
+  - Serving & DevOps
+- Data Science
+  - Classical Machine Learning
+  - Statistical Inference
+
+<br>
+
 ### Publications
 - [Artificial Intelligence Social Robot to Help Education and Treatment of Children with Intellectual Developmental Disabilities - Hyunwoong Go, Wonwoo Shin,HyunjuLee, Seungmin Ji, CheolJung Yoo](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE08749986)
 
