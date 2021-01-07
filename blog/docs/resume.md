@@ -1,7 +1,7 @@
 Resume
 =====================================
 
-<p align=center>
+<div align=center>
 
   # Résumé 
 
@@ -10,7 +10,8 @@ Resume
   
   <img width=400 src=https://avatars3.githubusercontent.com/u/38183241?s=460&u=bda10be940252ef4f36d945d5fc369f4a6b6b51f&v=4>
 
-</p>
+</div>
+
 <p align=center>
   " Be a creator not a programmer. "
 </p>
