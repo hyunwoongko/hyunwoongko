@@ -18,12 +18,12 @@ AI Research Engineer ㆍ Software Developer <br><br>
 
 <br>
 
+<div align=left>
+  
 Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in Software Engineering and am currently working as an AI Research Engineer at Kakao Brain. My dream is to be a creator who makes great software. I hope that the software I've created will give many people hope and help those in need.
 
 <br>
 <br>
-
-<div align=left>
 
 ### Biography
 - `2014.03 ~ 2020.08` : Software Engineering Dept in Chonbuk University
@@ -57,14 +57,15 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   - Loving any other tasks 🥰
 - Machine Learning Engineering
   - GPU Optimizations
-  - Lightweight Neural Networks
+  - Lightweighting
     - Distillation
     - Pruning
     - Quantization
   - Serving & DevOps
 - Data Science
-  - Classical Machine Learning
+  - Classical ML
   - Statistical Inference
+  - Optimization Theory
 
 <br>
 
@@ -74,7 +75,7 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
 <br>
 
 ### Contacts
-- Github : https://github.com/hyunwoongko
-- Facebook : https://www.facebook.com/hyunwoongko
+- Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
+- Facebook : [https://www.facebook.com/hyunwoongko](https://www.facebook.com/hyunwoongko)
 
 </div>
