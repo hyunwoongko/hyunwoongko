@@ -18,6 +18,8 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
 
 <br>
 
+<div align=left>
+
 ### Biography
 - `2014.03 ~ 2020.08` : Software Engineering Dept in Chonbuk University
   - Major GPA : 4.15 / Total GPA : 4.07 (1st)
@@ -49,3 +51,5 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
 ### Contacts
 - Github : https://github.com/hyunwoongko
 - Facebook : https://www.facebook.com/hyunwoongko
+
+</div>
