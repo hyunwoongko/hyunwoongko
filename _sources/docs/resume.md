@@ -30,13 +30,13 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   - Major GPA : 4.15 / Total GPA : 4.07 (1st)
   - [5th place in Elecsthon held by KEPCO (Korea Electric Power Corporation)](https://blog.kepco.co.kr/1310)
   - [Encouragement prize in K-Hackerthon held by Korea MSIP (Ministry of Future, Planning and Science)](https://newsis.com/view/?id=NISX20181108_0000467462&cID=10808&pID=10800)
-  - [Siver prize in Undergraduated student paper contest held by Korea Information Technology Society](http://www.todayan.com/news/articleView.html?idxno=230207)
+  - [Silver prize in Undergraduated student paper contest held by Korea Information Technology Society](http://www.todayan.com/news/articleView.html?idxno=230207)
   - [Founded an AI robot startup worth 100 million won for autistic children through government projects](https://github.com/hyunwoongko/social-robot-bao)
   - [Developed 'KoChat', The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat)
 - `2019.08 ~ 2020.08` : Undergraduated Researcher at [Autonomous Robot Lab](https://github.com/AI-Robot-Lab) in Chonbuk University
-  - [Research about citrus pest and disease recognition]()
-  - [Research about autonmouse strabismus recognition]()
-  - [Lecturer at 2020 Data Campus School held by Korea Data Agency]()
+  - [Research about citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
+  - [Research about autonmouse strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition)
+  - [Lecturer at 2020 Data Campus School held by Korea Data Agency](https://github.com/hyunwoongko/bigdata-lecture)
 - `2020.08 ~ present ` : AI Research Engineer at [Kakaobrain](https://github.com/kakaobrain)
   - Research about Korean quiz generation module
   - Developed Neural Network-Based Multilingual Natural Language Processing Toolkit
