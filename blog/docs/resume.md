@@ -66,12 +66,7 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   - Classical ML
   - Statistical Inference
   - Optimization Theory
-
-<br>
-
-### Publications
-- [Artificial Intelligence Social Robot to Help Education and Treatment of Children with Intellectual Developmental Disabilities - Hyunwoong Go, Wonwoo Shin,HyunjuLee, Seungmin Ji, CheolJung Yoo](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE08749986)
-
+  
 <br>
 
 ### Contacts
