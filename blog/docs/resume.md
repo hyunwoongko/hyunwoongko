@@ -12,7 +12,7 @@ AI Research Engineer ㆍ Software Developer <br><br>
 
 <br>
 
-" Be a creator not a programmer. "
+"Be a creator not a programmer." 
 
 </div>
 
