@@ -39,8 +39,9 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   - [Lecturer at 2020 Data Campus School held by Korea Data Agency](https://github.com/hyunwoongko/bigdata-lecture)
 - `2020.08 ~ present ` : AI Research Engineer at [Kakaobrain](https://github.com/kakaobrain)
   - Research about Korean quiz generation module
-  - Developed Neural Network-Based Multilingual Natural Language Processing Toolkit
-    - participated in generative modeling such as translation, summary, conversation, and question generation.
+  - [Developed 'Pororo', Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo)
+    - participated in generative modeling such as translation, summarization, question generation and so on.
+    - participated in basic NLP tasks such as word embedding, sentence tokenization and so on.
   - [Maintainer of 'KSS', Korean sentence splitter](https://github.com/hyunwoongko/kss)
     - [Taken over from the original creator likejazz (Sangkil-Park)](https://github.com/likejazz/korean-sentence-splitter)
   - [1st place in Korean Document Abstract Summary Competition held by Dacon (gusdnd852)](https://dacon.io/competitions/official/235673/leaderboard/)
