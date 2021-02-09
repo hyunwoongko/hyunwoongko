@@ -73,5 +73,6 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
 ### Contacts
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
 - Facebook : [https://www.facebook.com/hyunwoongko](https://www.facebook.com/hyunwoongko)
+- LinkedIn : [https://www.linkedin.com/in/hyunwoongko/](https://www.linkedin.com/in/hyunwoongko/)
 
 </div>
