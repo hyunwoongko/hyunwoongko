@@ -37,7 +37,7 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   - [Research about citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
   - [Research about autonmouse strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition)
   - [Lecturer at 2020 Data Campus School held by Korea Data Agency](https://github.com/hyunwoongko/bigdata-lecture)
-- `2020.08 ~ 2021.02 ` : AI Research Engineer at [Kakaobrain](https://github.com/kakaobrain)
+- `2020.08 ~ 2021.02` : AI Research Engineer at [Kakaobrain](https://github.com/kakaobrain)
   - Research about Korean quiz generation module
   - [Developed 'Pororo', Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo)
     - participated in generative modeling such as translation, summarization, question generation, paraphrase generation and so on.
