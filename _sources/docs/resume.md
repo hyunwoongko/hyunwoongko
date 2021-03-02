@@ -79,6 +79,9 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
 - [kobart-transformers](https://github.com/hyunwoongko/kobart-transformers): KoBART porting on huggingface transformers
 - [dialogpt-chat](https://github.com/hyunwoongko/dialogpt-chat): Package for chatting with DialoGPT
 - [bert2bert-summarization](https://github.com/hyunwoongko/bert2bert-summarization): Abstractive summarization using Bert2Bert framework
+- [citrus-pest-recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition): Android application for citrus pest recognition
+- [transformer-pytorch](https://github.com/hyunwoongko/transformer-pytorch): Implementation of Transformer model using Pytorch
+- [resnext-parallel-keras](https://github.com/hyunwoongko/resnext-parallel-keras): Parallel support implementation of ResNeXt model using Keras
 
 <br>
 
