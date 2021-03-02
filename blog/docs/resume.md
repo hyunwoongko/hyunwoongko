@@ -71,6 +71,24 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   
 <br>
 
+### Projects
+- [pororo](https://github.com/kakaobrain/pororo): Platform of neural models for natural language processing
+- [kochat](https://github.com/hyunwoongko/kochat): Opensource Korean chatbot framework
+- [kocrawl](https://github.com/hyunwoongko/kocrawl): Collection of useful Korean crawlers
+- [kss](https://github.com/hyunwoongko/kss): Korean sentence splitter
+- [kobart-transformers](https://github.com/hyunwoongko/kobart-transformers): KoBART porting on huggingface transformers
+- [dialogpt-chat](https://github.com/hyunwoongko/dialogpt-chat): Package for chatting with DialoGPT
+- [bert2bert-summarization](https://github.com/hyunwoongko/bert2bert-summarization): Abstractive summarization using Bert2Bert framework
+
+<br>
+
+### Curations
+- [nlp-review-kakaobrain](https://github.com/kakaobrain/nlp-paper-reading): NLP paper review for Kakaobrain NLP team
+- [nlp-review-jiphyeonjeon](https://github.com/jiphyeonjeon/nlp-review): NLP paper review for Jiphyeonjeon group
+- [nlp-collections](https://github.com/hyunwoongko/nlp-collections): NLP dataset & model
+
+<br>
+
 ### Contacts
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
 - Facebook : [https://www.facebook.com/hyunwoongko](https://www.facebook.com/hyunwoongko)
