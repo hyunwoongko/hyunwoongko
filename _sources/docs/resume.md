@@ -33,7 +33,7 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   - [2nd place in undergraduated student best paper awards held by Korea Information Technology Society](http://www.todayan.com/news/articleView.html?idxno=230207)
   - [Founded an AI robot startup worth 100 million won for autistic children through government projects](https://github.com/hyunwoongko/social-robot-bao)
   - [Developed 'KoChat', The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat)
-- `2019.08 ~ 2020.08` : Undergraduated Researcher at [Autonomous Robot Lab](https://github.com/AI-Robot-Lab) in Chonbuk University
+- `2019.08 ~ 2020.08` : Undergraduated Researcher at Autonomous Robot Lab in Chonbuk University
   - [Research about citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
   - [Research about autonmouse strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition)
   - [Lecturer at 2020 Data Campus School held by Korea Data Agency](https://github.com/hyunwoongko/bigdata-lecture)
@@ -73,15 +73,15 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
 
 ### Projects
 - [pororo](https://github.com/kakaobrain/pororo): Platform of neural models for natural language processing
+- [openchat](https://github.com/hyunwoongko/openchat): Opensource chatting framework for generative models
 - [kochat](https://github.com/hyunwoongko/kochat): Opensource Korean chatbot framework
 - [kocrawl](https://github.com/hyunwoongko/kocrawl): Collection of useful Korean crawlers
 - [kss](https://github.com/hyunwoongko/kss): Korean sentence splitter
+- [transformer](https://github.com/hyunwoongko/transformer): Implementation of Transformer model using Pytorch
+- [resnext-parallel](https://github.com/hyunwoongko/resnext-parallel): Parallel support implementation of ResNeXt model using Keras
 - [kobart-transformers](https://github.com/hyunwoongko/kobart-transformers): KoBART porting on huggingface transformers
-- [dialogpt-chat](https://github.com/hyunwoongko/dialogpt-chat): Package for chatting with DialoGPT
 - [bert2bert-summarization](https://github.com/hyunwoongko/bert2bert-summarization): Abstractive summarization using Bert2Bert framework
 - [citrus-pest-recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition): Android application for citrus pest recognition
-- [transformer-pytorch](https://github.com/hyunwoongko/transformer-pytorch): Implementation of Transformer model using Pytorch
-- [resnext-parallel-keras](https://github.com/hyunwoongko/resnext-parallel-keras): Parallel support implementation of ResNeXt model using Keras
 
 <br>
 
