@@ -20,7 +20,7 @@ AI Research Engineer ㆍ Software Developer <br><br>
 
 <div align=left>
   
-Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in Software Engineering and am currently working as an Co-Founder and AI Research Engineer at Tunib.ai. My dream is to be a creator who makes great software. I hope that the software I've created will give many people hope and help those in need.
+Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in Software Engineering and am currently working as an Co-founder and AI Research Engineer at TUNiB. My dream is to be a creator who makes great software. I hope that the software I've created will give many people hope and help those in need.
 
 <br>
 <br>
@@ -46,7 +46,7 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
     - [Taken over from the original creator likejazz (Sangkil-Park)](https://github.com/likejazz/korean-sentence-splitter)
   - [1st place in Korean Document Abstract Summary Competition held by Dacon (gusdnd852)](https://dacon.io/competitions/official/235673/leaderboard/)
   - [Manager of 'Jiphyeonjeon', Natural Language Processing Review Group](https://github.com/jiphyeonjeon/nlp-review)
-- `2021.03 ~ present` : Co-Founder & AI Research Engineer at Tunib.ai
+- `2021.03 ~ present` : Co-founder & AI Research Engineer at TUNiB
   - Comming Soon...
 <br>
 
