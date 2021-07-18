@@ -2,8 +2,6 @@
 
 ## Who Am I?
 
-----
-
 <br>
 
 AI Research Engineer ㆍ Software Developer <br><br>
