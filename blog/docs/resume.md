@@ -73,13 +73,6 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   
 <br>
 
-### Curations
-- [nlp-review-kakaobrain](https://github.com/kakaobrain/nlp-paper-reading): NLP paper review for Kakaobrain NLP team
-- [nlp-review-jiphyeonjeon](https://github.com/jiphyeonjeon/nlp-review): NLP paper review for Jiphyeonjeon group
-- [nlp-collections](https://github.com/hyunwoongko/nlp-collections): NLP dataset & model
-
-<br>
-
 ### Contacts
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
 - Facebook : [https://www.facebook.com/hyunwoongko](https://www.facebook.com/hyunwoongko)
