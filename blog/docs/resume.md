@@ -48,7 +48,9 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   - [Manager of 'Jiphyeonjeon', Natural language processing review group](https://github.com/jiphyeonjeon/nlp-review)
 - `2021.03 ~ present` : Co-founder & AI Research Engineer at TUNiB
   - [Manager of 'Chatbot Korea', Korean facebook group for chatbot research](facebook.com/groups/ChatbotDevKR)
-<br>
+  - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
+  - [Developed 'Parallelformers', Efficient Model Parallelization Toolkit for Deployment](https://github.com/tunib-ai/parallelformers)
+  <br>
 
 ### Interest Areas
 - Natural Langauge Processing
@@ -69,20 +71,6 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   - Statistical Inference
   - Optimization Theory
   
-<br>
-
-### Projects
-- [pororo](https://github.com/kakaobrain/pororo): Platform of neural models for natural language processing
-- [openchat](https://github.com/hyunwoongko/openchat): Opensource chatting framework for generative models
-- [kochat](https://github.com/hyunwoongko/kochat): Opensource Korean chatbot framework
-- [kocrawl](https://github.com/hyunwoongko/kocrawl): Collection of useful Korean crawlers
-- [kss](https://github.com/hyunwoongko/kss): Korean sentence splitter
-- [transformer](https://github.com/hyunwoongko/transformer): Implementation of Transformer model using Pytorch
-- [resnext-parallel](https://github.com/hyunwoongko/resnext-parallel): Parallel support implementation of ResNeXt model using Keras
-- [kobart-transformers](https://github.com/hyunwoongko/kobart-transformers): KoBART porting on huggingface transformers
-- [bert2bert-summarization](https://github.com/hyunwoongko/bert2bert-summarization): Abstractive summarization using Bert2Bert framework
-- [citrus-pest-recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition): Android application for citrus pest recognition
-
 <br>
 
 ### Curations
