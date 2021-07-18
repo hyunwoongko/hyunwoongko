@@ -4,7 +4,7 @@
 
 <br>
 
-AI Research Engineer ㆍ Software Developer <br><br>
+Machine Learning Engineer ㆍ Software Developer <br><br>
 
 <img width=400 src="https://avatars3.githubusercontent.com/u/38183241?s=460&u=bda10be940252ef4f36d945d5fc369f4a6b6b51f&v=4"> <br>
 
@@ -44,6 +44,7 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
     - [Taken over from the original creator likejazz (Sangkil-Park)](https://github.com/likejazz/korean-sentence-splitter)
   - [1st place in Korean Document Abstract Summary Competition held by Dacon (gusdnd852)](https://dacon.io/competitions/official/235673/leaderboard/)
   - [Manager of 'Jiphyeonjeon', Natural language processing review group](https://github.com/jiphyeonjeon/nlp-review)
+  - [Developed 'OpenChat', Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat)
 - `2021.03 ~ present` : Co-founder & AI Research Engineer at TUNiB
   - [Manager of 'Chatbot Korea', Korean facebook group for chatbot research](facebook.com/groups/ChatbotDevKR)
   - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
