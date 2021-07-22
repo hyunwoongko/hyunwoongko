@@ -33,7 +33,7 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   - [Developed 'KoChat', The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat)
 - `2019.08 ~ 2020.08` : Undergraduated Researcher at Autonomous Robot Lab in Chonbuk University
   - [Research about citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
-  - [Research about autonmouse strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition)
+  - [Research about autonomouse strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition)
   - [Lecturer at 2020 Data Campus School held by Korea Data Agency](https://github.com/hyunwoongko/bigdata-lecture)
 - `2020.08 ~ 2021.02` : AI Research Engineer at [Kakaobrain](https://github.com/kakaobrain)
   - Research about Korean quiz generation module
