@@ -55,15 +55,18 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
 ### Interest Areas
 - Natural Langauge Processing
   - Generative Modeling
+    - Language Modeling
     - Machine Translation
     - Text Summarization
     - Dialogue Generation
   - Loving any other tasks 🥰
 - Machine Learning Engineering
   - GPU Optimizations
+    - 3D Parallelism
+    - CUDA Programming
   - Lightweighting
     - Distillation
-    - Pruning
+    - Pruning & Blocksparse
     - Quantization
   - Serving & DevOps
 - Data Science
