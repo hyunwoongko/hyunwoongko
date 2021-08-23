@@ -74,8 +74,8 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   - Statistical Inference
   - Optimization Theory
 - Linguistics
-  - Korean morpheme analyzing
-  - Korean sentence segmentation  
+  - Korean Morpheme Analyzer
+  - Korean Sentence Segmentation  
 <br>
 
 ### Contacts
