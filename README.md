@@ -70,7 +70,9 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   - Classical ML
   - Statistical Inference
   - Optimization Theory
-  
+- Linguistics
+  - Korean morpheme analyzing
+  - Korean sentence segmentation  
 <br>
 
 ### Contacts
