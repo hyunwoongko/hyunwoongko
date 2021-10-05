@@ -49,7 +49,7 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   - [Manager of 'Chatbot Korea', Korean facebook group for chatbot research](facebook.com/groups/ChatbotDevKR)
   - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
   - [Developed 'Parallelformers', Efficient Model Parallelization Toolkit for Deployment](https://github.com/tunib-ai/parallelformers)
-
+  - Opensource Contributor: [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/pull/13726)
   <br>
 
 ### Interest Areas
