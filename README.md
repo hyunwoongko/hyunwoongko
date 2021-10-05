@@ -43,7 +43,7 @@ Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in 
   - [Maintainer of 'KSS', Korean sentence splitter](https://github.com/hyunwoongko/kss)
     - [Taken over from the original creator likejazz (Sangkil-Park)](https://github.com/likejazz/korean-sentence-splitter)
   - [1st place in Korean Document Abstract Summary Competition held by Dacon (gusdnd852)](https://dacon.io/competitions/official/235673/leaderboard/)
-  - [Manager of 'Jiphyeonjeon', Natural language processing review group](https://github.com/jiphyeonjeon/nlp-review)
+  - [Manager of 'Jiphyeonjeon', Natural language processing review group](https://github.com/jiphyeonjeon)
   - [Developed 'OpenChat', Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat)
 - `2021.03 ~ present` : Co-founder & AI Research Engineer at [TUNiB](https://github.com/tunib-ai)
   - [Manager of 'Chatbot Korea', Korean facebook group for chatbot research](facebook.com/groups/ChatbotDevKR)
