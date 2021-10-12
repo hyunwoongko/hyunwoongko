@@ -18,7 +18,7 @@ Machine Learning Engineer ㆍ Software Developer <br><br>
 
 <div align=left>
   
-Hello, my name is Hyunwoong Ko. I graduated from Chonbuk University majoring in Software Engineering and am currently working as an Co-founder and AI Research Engineer at TUNiB. My dream is to be a creator who makes great software. I hope that the software I've created will give hope to many people.
+Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majoring in Software Engineering and am currently working as an Co-founder and AI Research Engineer at TUNiB. My dream is to be a creator who makes great software. I hope that the software I've created will give hope to many people.
 
 <br>
 <br>
