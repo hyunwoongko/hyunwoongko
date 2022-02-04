@@ -50,7 +50,7 @@ Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majori
   - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
   - [Developed 'Parallelformers', Efficient Model Parallelization Toolkit for Deployment](https://github.com/tunib-ai/parallelformers)
   - [Developed 'OSLO', Open Source framework for Large-scale transformer Optimization](https://github.com/tunib-ai/oslo)
-  - Opensource Contributor: [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/pull/13726)
+  - Opensource Contributor: [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
   <br>
 
 ### Interest Areas
