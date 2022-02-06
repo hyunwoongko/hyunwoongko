@@ -51,6 +51,8 @@ Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majori
   - [Developed 'Parallelformers', Efficient Model Parallelization Toolkit for Deployment](https://github.com/tunib-ai/parallelformers)
   - [Developed 'OSLO', Open Source framework for Large-scale transformer Optimization](https://github.com/tunib-ai/oslo)
   - Opensource Contributor: [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
+- `2021.08 ~ present`: A lead developer of [HuggingFace 3D Parallelism](https://github.com/huggingface/transformers/issues/13690) Project
+- `2022.02 ~ present`: An engineering support of [EleutherAI magiCARP](https://github.com/EleutherAI/magiCARP) Project  
   <br>
 
 ### Interest Areas
