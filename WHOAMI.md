@@ -46,7 +46,7 @@ Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majori
   - [Manager of 'Jiphyeonjeon', Natural language processing review group](https://github.com/jiphyeonjeon)
   - [Developed 'OpenChat', Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat)
 - `2021.03 ~ present` : Co-founder & AI Research Engineer at [TUNiB](https://github.com/tunib-ai)
-  - [Manager of 'Chatbot Korea', Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
+  - [Founder of 'Chatbot Korea', Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
   - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
   - [Developed 'Parallelformers', Efficient Model Parallelization Toolkit for Deployment](https://github.com/tunib-ai/parallelformers)
   - [Developed 'OSLO', Open Source framework for Large-scale transformer Optimization](https://github.com/tunib-ai/oslo)
