@@ -8,7 +8,7 @@
 #### Currently, I am a ...
 - Machine learning engineer and co-founder of [TUNiB](https://github.com/tunib-ai).
 - Large-scale modeling engineer at [EleutherAI](https://github.com/eleutherai).
-- Lead developer of [HuggingFace](https://github.com/huggingface) 3D parallelism project.
+- Lead developer of [HuggingFace 3D parallelism project](https://github.com/huggingface/transformers/issues/13690).
 - Manager of [Chatbot Korea](https://www.facebook.com/groups/ChatbotDevKR) facebook group.
 
 #### In the past, I was a ...
