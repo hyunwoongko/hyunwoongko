@@ -6,7 +6,7 @@
 [![Linkedin](https://img.shields.io/badge/linkedin-black?logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/hyunwoongko/)](https://www.linkedin.com/in/hyunwoongko/)	
 
 #### Currently, I am a ...
-- Machine learning engineer and co-founder at the [TUNiB Inc](https://github.com/tunib-ai).
+- Machine learning engineer and co-founder of the [TUNiB Inc](https://github.com/tunib-ai).
 - Large-scale modeling engineer at the [EleutherAI](https://github.com/eleutherai).
 - Lead developer of the [HuggingFace](https://github.com/huggingface) 3D parallelism project.
 - Manager of the [Chatbot Korea](https://www.facebook.com/groups/ChatbotDevKR) facebook group.
