@@ -5,6 +5,6 @@
 [![Linkedin](https://img.shields.io/badge/LinkedIn-black?logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/hyunwoongko/)](https://www.linkedin.com/in/hyunwoongko/)	
 [![Facebook](https://img.shields.io/badge/facebook-black?logo=facebook&logoColor=white&link=https://www.facebook.com/hyunwoongko)](https://www.facebook.com/hyunwoongko)
 
-- Machine learning engineer and co-founder of [TUNiB Inc](https://github.com/tunib-ai).
-- Large-scale modeling engineer of [EleutherAI](https://github.com/eleutherai).
+- Machine learning engineer and co-founder at [TUNiB Inc](https://github.com/tunib-ai).
+- Large-scale modeling engineer at [EleutherAI](https://github.com/eleutherai).
 - Lead developer of [HuggingFace](https://github.com/huggingface) 3D parallelism project.
