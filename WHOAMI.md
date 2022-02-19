@@ -83,7 +83,7 @@ Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majori
 
 ### Contacts
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
-- Twitter: [https://twitter.com/hyunwoongko]
+- Twitter: [https://twitter.com/hyunwoongko](https://twitter.com/hyunwoongko)
 - Facebook : [https://www.facebook.com/hyunwoongko](https://www.facebook.com/hyunwoongko)
 - LinkedIn : [https://www.linkedin.com/in/hyunwoongko/](https://www.linkedin.com/in/hyunwoongko)
 
