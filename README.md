@@ -9,6 +9,7 @@
 - Machine learning engineer and co-founder at [TUNiB Inc](https://github.com/tunib-ai).
 - Large-scale modeling engineer at [EleutherAI](https://github.com/eleutherai).
 - Lead developer of [HuggingFace](https://github.com/huggingface) 3D parallelism project.
+- Participated in [LASSL](https://github.com/lassl) project.
 
 #### In the past, I was a ...
 - Machine learning engineer at [Kakaobrain](https://github.com/kakaobrain).
