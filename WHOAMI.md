@@ -55,7 +55,8 @@ Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majori
   - Contributed to OSLO to Transformers integration work
 - `2022.02 ~ present`: A large-scale modeling engineer at [EleutherAI](https://github.com/EleutherAI).  
   - Contributed to [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) refactoring and 100B training.
-  - Contributed to [magiCARP](https://github.com/EleutherAI/magicarp) project
+  - Contributed to [magiCARP](https://github.com/EleutherAI/magicarp) project.
+  - Launched Multilingual Transfer project.
   <br>
 
 ### Interest Areas
