@@ -77,7 +77,7 @@ Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majori
     - Quantization
   - Serving & DevOps
     - Graph optimization (kernel fusion)
-      - TensorRT, ONNX, ...
+      - TensorRT, ONNX, Faster Transformer, ...
     - Triton Inference Server
 - Data Science
   - Classical ML
