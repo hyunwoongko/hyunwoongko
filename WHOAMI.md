@@ -86,6 +86,8 @@ Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majori
 - Linguistics
   - Korean Morpheme Analyzer
   - Korean Sentence Segmentation  
+- Backend Development
+  - Spring Framework
 <br>
 
 ### Contacts
