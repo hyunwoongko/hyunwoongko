@@ -8,7 +8,7 @@
 
 #### Currently, I am a ...
 - Machine learning engineer and co-founder of [TUNiB](https://github.com/tunib-ai).
-- Leader of polyglot and oslo project at [EleutherAI](https://github.com/eleutherai).
+- Leader of [polyglot](https://github.com/EleutherAI/polyglot) and [oslo](https://github.com/EleutherAI/oslo) project at [EleutherAI](https://github.com/eleutherai).
 - Lead developer of [HuggingFace 3D parallelism project](https://github.com/huggingface/transformers/issues/13690).
 - Manager of [Chatbot Korea](https://www.facebook.com/groups/ChatbotDevKR) facebook group.
 
