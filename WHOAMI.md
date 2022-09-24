@@ -54,9 +54,9 @@ Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majori
 - `2021.08 ~ present`: A lead developer of [HuggingFace 3D parallelism](https://github.com/huggingface/transformers/issues/13690) project
   - Contributed to OSLO to Transformers integration work
 - `2022.02 ~ present`: A large-scale modeling engineer at [EleutherAI](https://github.com/EleutherAI).  
-  - Contributed to [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) refactoring and 100B training.
+  - Contributed to [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) refactoring.
   - Contributed to [magiCARP](https://github.com/EleutherAI/magicarp) project.
-  - Launched Multilingual Transfer project.
+  - Leader of [Polyglot](https://github.com/EleutherAI/polyglot) and [OSLO](https://github.com/EleutherAI/oslo) project.
   <br>
 
 ### Interest Areas
