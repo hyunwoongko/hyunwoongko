@@ -7,11 +7,11 @@
 [![Youtube](https://img.shields.io/badge/youtube-black?logo=Youtube&logoColor=white&link=https://www.youtube.com/channel/UCYshy3K1v4MYQD379YB77Uw)](https://www.youtube.com/channel/UCYshy3K1v4MYQD379YB77Uw)
 
 #### Currently, I am a ...
-- ML Engineer and Co-Founder at [TUNiB](https://github.com/tunib-ai).
+- Senior ML Engineer and Co-Founder at [TUNiB](https://github.com/tunib-ai).
 - Lead ML Scientist at [EleutherAI](https://github.com/eleutherai).
 - Leader of [polyglot](https://github.com/EleutherAI/polyglot) and [oslo](https://github.com/EleutherAI/oslo) project at [EleutherAI](https://github.com/eleutherai).
 - Manager of [Chatbot Korea](https://www.facebook.com/groups/ChatbotDevKR) facebook group.
 
 #### In the past, I was a ...
-- Machine learning engineer at [Kakaobrain](https://github.com/kakaobrain).
+- Junior ML Engineer at [Kakaobrain](https://github.com/kakaobrain).
 - Host of [Jiphyeonjeon](https://github.com/jiphyeonjeon) paper review group.
