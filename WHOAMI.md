@@ -59,8 +59,8 @@
   - Megatron-LM, DeepSpeed, OSLO
 - Model Deployment
   - FastAPI, Triton Inference Server
-- Graph Optimization
-  - TensorRT, ONNX, Faster Transformer, Optimum
+- Kernel Optimization
+  - TensorRT, ONNX, Faster Transformer, CUDA Programming
 - Cluster Ochestration
   - Kubernates, Slurm, AWS EKS, AWS ECS
 - Lightweighting
