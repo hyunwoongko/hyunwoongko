@@ -12,40 +12,41 @@
 
 ## Biography
 - `2014.03 ~ 2020.08` : BS in Software Engineering, Chonbuk National University
-  - Major GPA : 4.15 / Total GPA : 4.07 (1st)
-  - [5th place in Elecsthon held by KEPCO (Korea Electric Power Corporation)](https://blog.kepco.co.kr/1310)
-  - [3rd place in K-Hackerthon held by Korea MSIP (Ministry of Future, Planning and Science)](https://newsis.com/view/?id=NISX20181108_0000467462&cID=10808&pID=10800)
-  - [2nd place in undergraduated student best paper awards held by Korea Information Technology Society](http://www.todayan.com/news/articleView.html?idxno=230207)
-  - [Founded an AI robot startup worth 100 million won for autistic children through government projects](https://github.com/hyunwoongko/social-robot-bao)
-  - [Developed KoChat, The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat)
 - `2019.08 ~ 2020.08` : Undergraduated Researcher at Autonomous Robot Lab, Chonbuk National University
-  - [Research about citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
-  - [Research about autonomouse strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition)
-  - [Lecturer at 2020 Data Campus School held by Korea Data Agency](https://github.com/hyunwoongko/bigdata-lecture)
 - `2020.08 ~ 2021.02` : Machine Learning Engineer at [Kakaobrain](https://github.com/kakaobrain)
-  - Research about Korean quiz generation
-  - [Developed Pororo, Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo)
-    - Contributed to generative modeling such as translation, summarization, question generation, paraphrase generation.
-    - Contributed to basic NLP tasks such as word embedding, sentence tokenization.
-  - [Maintainer of KSS, Korean sentence splitter](https://github.com/hyunwoongko/kss)
-    - [It's been taken over from the original creator Sangkil-Park (likejazz)](https://github.com/likejazz/korean-sentence-splitter)
-  - [1st place in Korean Document Abstractive Summarization Competition held by Dacon (gusdnd852)](https://dacon.io/competitions/official/235673/leaderboard/)
-  - [Host of Jiphyeonjeon, Natural language processing review group](https://github.com/jiphyeonjeon)
-  - [Developed OpenChat, Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat)
 - `2021.03 ~ present` : Co-Founder & Machine Learning Engineer at [TUNiB](https://github.com/tunib-ai)
-  - [Developed BLOONY, A persona chatbot based on OpenAI GPT3](https://bloony.ai)
-  - Developed [Coco](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EC%BD%94%EC%BD%94%ED%8E%B8.mp4) & [Mas](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EB%A7%88%EC%8A%A4%ED%8E%B8.mp4), Persona chatbots based on our own language models
-  - [Developed TUNiBridge Demo, A demo website of our API services](https://demo.tunibridge.ai/)
-  - [Manager of Chatbot Korea, Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
-  - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
-  - [Developed Parallelformers, Efficient Model Parallelization Toolkit for Deployment](https://github.com/tunib-ai/parallelformers)
-  - [Developed OSLO, Open Source framework for Large-scale transformer Optimization](https://github.com/tunib-ai/oslo)
-  - [Developed python-mecab-kor, Yet Another Python Binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor)
-  - Opensource Contributor - [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
-- `2022.02 ~ present`: Lead Machine Learning Scientistat [EleutherAI](https://github.com/EleutherAI).  
-  - Contributed to [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) project.
-  - Contributed to [magiCARP](https://github.com/EleutherAI/magicarp) project.
-  - Leader of [Polyglot](https://github.com/EleutherAI/polyglot) and [OSLO](https://github.com/EleutherAI/oslo) project.
+- `2022.02 ~ present`: Lead Machine Learning Scientistat [EleutherAI](https://github.com/EleutherAI).
+
+## Projects
+- [KoChat, The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat)
+- [Citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
+- [Autonomous strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition)
+- [Pororo, Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo)
+- [KSS, Korean sentence splitter](https://github.com/hyunwoongko/kss)
+- [OpenChat, Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat)
+- [BLOONY, A persona chatbot based on OpenAI GPT3](https://bloony.ai)
+- Developed [Coco](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EC%BD%94%EC%BD%94%ED%8E%B8.mp4) & [Mas](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EB%A7%88%EC%8A%A4%ED%8E%B8.mp4), Persona chatbots based on TUNiB's own language models
+- [TUNiBridge Demo, A demo website of TUNiB's API services](https://demo.tunibridge.ai/)
+- [Parallelformers, Efficient Model Parallelization Toolkit for Deployment](https://github.com/tunib-ai/parallelformers)
+- [OSLO, Open Source framework for Large-scale transformer Optimization](https://github.com/tunib-ai/oslo)
+- [python-mecab-kor, Yet Another Python Binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor)
+- [Polyglot, Large Language Models of Well-balanced Competence in Multi-languages](https://github.com/EleutherAI/polyglot)
+- [OSLO, Open Source framework for Large-scale model Optimization](https://github.com/EleutherAI/oslo) project.
+
+## Awards
+- [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
+- [1st place in Korean Document Abstractive Summarization Competition held by Dacon (gusdnd852)]
+- [2nd place in undergraduated student best paper awards held by Korea Information Technology Society](http://www.todayan.com/news/articleView.html?idxno=230207)
+- [3rd place in K-Hackerthon held by Korea MSIP (Ministry of Future, Planning and Science)](https://newsis.com/view/?id=NISX20181108_0000467462&cID=10808&pID=10800)
+- [5th place in Elecsthon held by KEPCO (Korea Electric Power Corporation)](https://blog.kepco.co.kr/1310)
+
+## Activities
+- [Founded an AI robot startup worth 100 million won for autistic children through government projects](https://github.com/hyunwoongko/social-robot-bao)
+- [Lecturer at 2020 Data Campus School held by Korea Data Agency](https://github.com/hyunwoongko/bigdata-lecture)
+  (https://dacon.io/competitions/official/235673/leaderboard/)
+- [Host of Jiphyeonjeon, Natural language processing review group](https://github.com/jiphyeonjeon)
+- [Manager of Chatbot Korea, Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
+- Opensource Contribution - [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
 
 ## Interest Areas and Skills
 ### 1. Natural Langauge Processing
