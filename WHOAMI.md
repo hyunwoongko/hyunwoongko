@@ -39,8 +39,8 @@
 - `2020.08 ~ 2021.02` : Machine Learning Engineer at [Kakaobrain](https://github.com/kakaobrain)
   - Research about Korean quiz generation
   - [Developed 'Pororo', Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo)
-    - participated in generative modeling such as translation, summarization, question generation, paraphrase generation and so on.
-    - participated in basic NLP tasks such as word embedding, sentence tokenization and so on.
+    - participated in generative modeling such as translation, summarization, question generation, paraphrase generation.
+    - participated in basic NLP tasks such as word embedding, sentence tokenization.
   - [Maintainer of 'KSS', Korean sentence splitter](https://github.com/hyunwoongko/kss)
     - [Taken over from the original creator likejazz (Sangkil-Park)](https://github.com/likejazz/korean-sentence-splitter)
   - [1st place in Korean Document Abstractive Summarization Competition held by Dacon (gusdnd852)](https://dacon.io/competitions/official/235673/leaderboard/)
