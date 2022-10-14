@@ -55,7 +55,6 @@
 
 ### Machine Learning Engineering
 - Large-scale Modeling
-  - 3D Parallelism and CUDA Programming
   - Megatron-LM, DeepSpeed, OSLO
 - Model Deployment
   - FastAPI, Triton Inference Server
