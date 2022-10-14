@@ -30,9 +30,9 @@
 - [OSLO, Open Source framework for Large-scale model Optimization](https://github.com/EleutherAI/oslo)
 
 ### Researches
-- Brain Quiz, Korean Quiz Generation Module
 - [Citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
 - [Autonomous strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition)
+- Brain Quiz, Korean quiz generation module
 
 ## Services
 - [BLOONY, A persona chatbot based on OpenAI GPT3](https://bloony.ai)
