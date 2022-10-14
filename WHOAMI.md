@@ -4,23 +4,24 @@
 
 <br>
 
-Machine Learning Engineer ㆍ Software Developer <br><br>
-
 <img width=400 src="https://avatars3.githubusercontent.com/u/38183241?s=460&u=bda10be940252ef4f36d945d5fc369f4a6b6b51f&v=4"> <br>
 
-<br>
-
-"Be a creator not a programmer." 
+"Be a creator not a programmer"
 
 </div>
-
-<br>
-
-<div align=left>
   
-Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majoring in Software Engineering and am currently working as an Co-founder and Machine Learning Engineer at TUNiB Inc. My dream is to be a creator who makes great software. I hope that the software I've created will give hope to many people.
-
 <br>
+
+### TL;DR
+#### Currently, I am a ...
+- Senior ML Engineer and Co-Founder at [TUNiB](https://github.com/tunib-ai).
+- Lead ML Scientist at [EleutherAI](https://github.com/eleutherai).
+- Manager of [Chatbot Korea](https://www.facebook.com/groups/ChatbotDevKR) facebook group.
+
+#### In the past, I was a ...
+- Junior ML Engineer at [Kakaobrain](https://github.com/kakaobrain).
+- Host of [Jiphyeonjeon](https://github.com/jiphyeonjeon) paper review group.
+
 <br>
 
 ### Biography
