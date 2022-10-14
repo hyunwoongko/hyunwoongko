@@ -29,7 +29,7 @@
     - Contributed to basic NLP tasks such as word embedding, sentence tokenization.
   - [Maintainer of 'KSS', Korean sentence splitter](https://github.com/hyunwoongko/kss)
     - [Taken over from the original creator Sangkil-Park (likejazz)](https://github.com/likejazz/korean-sentence-splitter)
-  - [1st place in Korean Document Abstractive Summarization Competition held by Dacon (gusdnd852)](https://dacon.io/competitions/official/235673/leaderboard/)
+  - [1st place in Korean Document Abstractive Summarization Competition held by Dacon (ID is gusdnd852)](https://dacon.io/competitions/official/235673/leaderboard/)
   - [Host of 'Jiphyeonjeon', Natural language processing review group](https://github.com/jiphyeonjeon)
   - [Developed 'OpenChat', Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat)
 - `2021.03 ~ present` : Co-Founder & Machine Learning Engineer at [TUNiB](https://github.com/tunib-ai)
