@@ -11,7 +11,7 @@
 - Host of [Jiphyeonjeon](https://github.com/jiphyeonjeon) paper review group.
 
 ## Biography
-- `2014.03 ~ 2020.08` : Software Engineering Dept in Chonbuk University
+- `2014.03 ~ 2020.08` : BS in Software Engineering, Chonbuk National University
   - Major GPA : 4.15 / Total GPA : 4.07 (1st)
   - [5th place in Elecsthon held by KEPCO (Korea Electric Power Corporation)](https://blog.kepco.co.kr/1310)
   - [3rd place in K-Hackerthon held by Korea MSIP (Ministry of Future, Planning and Science)](https://newsis.com/view/?id=NISX20181108_0000467462&cID=10808&pID=10800)
@@ -25,8 +25,8 @@
 - `2020.08 ~ 2021.02` : Machine Learning Engineer at [Kakaobrain](https://github.com/kakaobrain)
   - Research about Korean quiz generation
   - [Developed 'Pororo', Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo)
-    - participated in generative modeling such as translation, summarization, question generation, paraphrase generation.
-    - participated in basic NLP tasks such as word embedding, sentence tokenization.
+    - Contributed to generative modeling such as translation, summarization, question generation, paraphrase generation.
+    - Contributed to basic NLP tasks such as word embedding, sentence tokenization.
   - [Maintainer of 'KSS', Korean sentence splitter](https://github.com/hyunwoongko/kss)
     - [Taken over from the original creator likejazz (Sangkil-Park)](https://github.com/likejazz/korean-sentence-splitter)
   - [1st place in Korean Document Abstractive Summarization Competition held by Dacon (gusdnd852)](https://dacon.io/competitions/official/235673/leaderboard/)
@@ -48,31 +48,29 @@
   - Generative Modeling
     - Language Modeling
     - Dialogue Generation
+    - Multilingual Modeling
     - Machine Translation
     - Text Summarization
-  - Loving any other tasks 🥰
+  - But I love any other tasks 🥰
 - Machine Learning Engineering
   - GPU Optimizations
     - Data & Model Parallelism
     - CUDA Programming
   - Lightweighting
-    - Distillation
+    - Knowledge Distillation
     - Pruning & Blocksparse
     - Quantization
-  - Serving & DevOps
-    - Graph optimization (kernel fusion)
-      - TensorRT, ONNX, Faster Transformer, ...
+  - Model Serving & DevOps
+    - FastAPI
     - Triton Inference Server
+    - Graph optimization
+      - TensorRT, ONNX, Faster Transformer, DeepSpeed, ...
     - DevOps
       - Kubernates, EKS, ECS, ECR
-- Data Science
-  - Classical ML
-  - Statistical Inference
-  - Optimization Theory
 - Linguistics
   - Korean Morpheme Analyzer
   - Korean Sentence Segmentation  
-- Backend Development
+- Java Backend Development
   - Spring Framework
 
 ## Contacts
