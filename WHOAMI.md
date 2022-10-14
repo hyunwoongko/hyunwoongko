@@ -49,7 +49,6 @@
 ## 4. Activities
 - [Founded an AI robot startup for autistic children](https://github.com/hyunwoongko/social-robot-bao)
 - [Lecturer at 2020 Data Campus School held by Korea Data Agency](https://github.com/hyunwoongko/bigdata-lecture)
-  (https://dacon.io/competitions/official/235673/leaderboard/)
 - [Host of Jiphyeonjeon, Natural language processing review group](https://github.com/jiphyeonjeon)
 - [Manager of Chatbot Korea, Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
 - Opensource Contribution - [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
