@@ -57,7 +57,7 @@
   - FastAPI, Triton Inference Server
 - Kernel Optimization
   - TensorRT, ONNX, Faster Transformer, CUDA Programming
-- Cluster Ochestration
+- Cluster Orchestration
   - Kubernates, Slurm, AWS EKS, AWS ECS
 - Lightweighting
   - Knowledge Distillation, Pruning, Quantization
