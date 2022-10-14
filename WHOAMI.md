@@ -1,15 +1,4 @@
 # Who is Kevin Ko?
-
-## 0. TL;DR
-#### Currently, I am a ...
-- Senior ML Engineer and Co-Founder at [TUNiB](https://github.com/tunib-ai).
-- Lead ML Scientist at [EleutherAI](https://github.com/eleutherai).
-- Manager of [Chatbot Korea](https://www.facebook.com/groups/ChatbotDevKR) facebook group.
-
-#### In the past, I was a ...
-- Junior ML Engineer at [Kakaobrain](https://github.com/kakaobrain).
-- Host of [Jiphyeonjeon](https://github.com/jiphyeonjeon) paper review group.
-
 ## 1. Biography
 - `2014.03 ~ 2020.08` : BS in Software Engineering, Chonbuk National University
 - `2019.08 ~ 2020.08` : Undergraduated Researcher at Autonomous Robot Lab, Chonbuk National University
