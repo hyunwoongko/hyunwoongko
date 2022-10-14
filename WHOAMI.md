@@ -37,7 +37,7 @@
 #### Researches
 - [Citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
 - [Autonomous strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition)
-- [Brain Quiz, Korean quiz generation module](https://github.com/hyunwoongko/hyunwoongko/blob/main/assets/brainquiz.gif?raw=true)
+- [Brain Quiz, Korean quiz generation module](https://github.com/hyunwoongko/hyunwoongko/blob/main/assets/brainquiz.gif)
 
 ## 3. Awards
 - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
