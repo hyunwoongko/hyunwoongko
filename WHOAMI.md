@@ -17,15 +17,15 @@
 
 #### 2.2. Open Sources
 - [KoChat, The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat)
-- [Transformer, PyTorch Implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer)
+- [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer)
 - [Pororo, Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo)
 - [Asian BART, Asian language bart models (En, Ja, Ko, Zh, ECJK)](https://github.com/kakaobrain/asian-bart)
 - [KSS, A Toolkit for Korean sentence segmentation](https://github.com/hyunwoongko/kss)
 - [OpenChat, Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat)
 - [Summarizers, Package for controllable summarization](https://github.com/hyunwoongko/summarizers)
-- [Parallelformers, Efficient Model Parallelization Toolkit for Deployment](https://github.com/tunib-ai/parallelformers)
-- [Python-Mecab-Kor, Yet Another Python Binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor)
-- [Polyglot, Large Language Models of Well-balanced Competence in Multi-languages](https://github.com/EleutherAI/polyglot)
+- [Parallelformers, Efficient model parallelization toolkit for deployment](https://github.com/tunib-ai/parallelformers)
+- [Python-Mecab-Kor, Yet another python binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor)
+- [Polyglot, Large language models of well-balanced competence in multi-languages](https://github.com/EleutherAI/polyglot)
 - [OSLO, Open Source framework for Large-scale model Optimization](https://github.com/EleutherAI/oslo)
 
 #### 2.3. Researches
