@@ -53,20 +53,21 @@
     - Text Summarization
   - But I love any other tasks 🥰
 - Machine Learning Engineering
-  - GPU Optimizations
+  - Large-scale Model Engineering
     - Data & Model Parallelism
     - CUDA Programming
+    - Megatron-LM, DeepSpeed, OSLO
+  - MLOps
+    - FastAPI
+    - Triton Inference Server
+    - Graph Optimization
+      - TensorRT, ONNX, Faster Transformer, DeepSpeed
+    - DevOps
+      - Kubernates, EKS, ECS, ECR
   - Lightweighting
     - Knowledge Distillation
     - Pruning & Blocksparse
     - Quantization
-  - Model Serving & DevOps
-    - FastAPI
-    - Triton Inference Server
-    - Graph Optimization
-      - TensorRT, ONNX, Faster Transformer, DeepSpeed, ...
-    - DevOps
-      - Kubernates, EKS, ECS, ECR
 - Linguistics
   - Korean Morpheme Analyzer
   - Korean Sentence Segmentation  
