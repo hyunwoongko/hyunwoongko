@@ -59,7 +59,7 @@
 - Model Deployment
   - FastAPI, Triton Inference Server
 - Graph Optimization
-  - TensorRT, ONNX, Faster Transformer, DeepSpeed
+  - TensorRT, ONNX, Faster Transformer, Optimum
 - Cluster Ochestration
   - Kubernates, Slurm, AWS EKS, AWS ECS
 - Lightweighting
