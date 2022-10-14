@@ -44,7 +44,7 @@
   - Project Lead of [Polyglot](https://github.com/EleutherAI/polyglot) and [OSLO](https://github.com/EleutherAI/oslo) project.
 
 ## Interest Areas
-### Natural Langauge Processing
+### 1. Natural Langauge Processing
 - Generative Modeling
   - Language Modeling
   - Dialogue Generation
@@ -53,7 +53,7 @@
   - Text Summarization
 - But I also love any other tasks 🥰
 
-### Machine Learning Engineering
+### 2. Machine Learning Engineering
 - Large-scale Modeling
   - Megatron-LM, DeepSpeed, OSLO
 - Model Deployment
@@ -65,7 +65,7 @@
 - Lightweighting
   - Knowledge Distillation, Pruning, Quantization
 
-### Linguistics
+### 3. Linguistics
 - Korean Morpheme Analyzer
 - Korean Sentence Segmentation  
 
