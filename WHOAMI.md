@@ -63,7 +63,6 @@
   - Knowledge Distillation, Pruning, Quantization
 
 ### 3. Linguistics
-- Korean Grammar
 - Korean Morpheme Analysis
 - Korean Sentence Segmentation  
 
