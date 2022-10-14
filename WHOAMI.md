@@ -51,7 +51,7 @@
   - Multilingual Modeling
   - Machine Translation
   - Text Summarization
-- But I love any other tasks 🥰
+- But I also love any other tasks 🥰
 
 ### Machine Learning Engineering
 - Large-scale Modeling
