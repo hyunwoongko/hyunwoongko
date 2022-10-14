@@ -53,16 +53,15 @@
     - Text Summarization
   - But I love any other tasks 🥰
 - Machine Learning Engineering
-  - Large-scale Model Engineering
-    - Data & Model Parallelism
-    - CUDA Programming
+  - Large-scale Modeling
+    - 3D Parallelism and CUDA Programming
     - Megatron-LM, DeepSpeed, OSLO
   - MLOps
-    - FastAPI
-    - Triton Inference Server
+    - Model Deployment
+      - FastAPI, Triton Inference Server
     - Graph Optimization
       - TensorRT, ONNX, Faster Transformer, DeepSpeed
-    - DevOps
+    - Cluster Ochestration
       - Kubernates, EKS, ECS, ECR
   - Lightweighting
     - Knowledge Distillation
