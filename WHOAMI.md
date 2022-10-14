@@ -43,7 +43,7 @@ Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majori
   - [Maintainer of 'KSS', Korean sentence splitter](https://github.com/hyunwoongko/kss)
     - [Taken over from the original creator likejazz (Sangkil-Park)](https://github.com/likejazz/korean-sentence-splitter)
   - [1st place in Korean Document Abstractive Summarization Competition held by Dacon (gusdnd852)](https://dacon.io/competitions/official/235673/leaderboard/)
-  - [Founder of 'Jiphyeonjeon', Natural language processing review group](https://github.com/jiphyeonjeon)
+  - [Host of 'Jiphyeonjeon', Natural language processing review group](https://github.com/jiphyeonjeon)
   - [Developed 'OpenChat', Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat)
 - `2021.03 ~ present` : Co-founder & Machine Learning Engineer at [TUNiB](https://github.com/tunib-ai)
   - [Manager of 'Chatbot Korea', Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
@@ -52,22 +52,22 @@ Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majori
   - [Developed 'OSLO', Open Source framework for Large-scale transformer Optimization](https://github.com/tunib-ai/oslo)
   - Opensource Contributor: [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
 - `2022.02 ~ present`: Lead Machine Learning Scientistat [EleutherAI](https://github.com/EleutherAI).  
-  - Contributed to [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) refactoring.
+  - Contributed to [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) project.
   - Contributed to [magiCARP](https://github.com/EleutherAI/magicarp) project.
-  - Project Lead of [Polyglot](https://github.com/EleutherAI/polyglot) and [OSLO](https://github.com/EleutherAI/oslo).
+  - Project Lead of [Polyglot](https://github.com/EleutherAI/polyglot) and [OSLO](https://github.com/EleutherAI/oslo) project.
   <br>
 
 ### Interest Areas
 - Natural Langauge Processing
   - Generative Modeling
     - Language Modeling
+    - Dialogue Generation
     - Machine Translation
     - Text Summarization
-    - Dialogue Generation
   - Loving any other tasks 🥰
 - Machine Learning Engineering
   - GPU Optimizations
-    - 3D Parallelism
+    - Data & Model Parallelism
     - CUDA Programming
   - Lightweighting
     - Distillation
@@ -78,7 +78,7 @@ Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majori
       - TensorRT, ONNX, Faster Transformer, ...
     - Triton Inference Server
     - DevOps
-      - k8s, EKS, ECS, ECR
+      - Kubernates, EKS, ECS, ECR
 - Data Science
   - Classical ML
   - Statistical Inference
