@@ -61,7 +61,7 @@
 - Graph Optimization
   - TensorRT, ONNX, Faster Transformer, DeepSpeed
 - Cluster Ochestration
-  - Kubernates, AWS EKS, AWS ECS
+  - Kubernates, Slurm, AWS EKS, AWS ECS
 - Lightweighting
   - Knowledge Distillation, Pruning, Quantization
 
