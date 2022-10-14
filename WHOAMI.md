@@ -7,7 +7,7 @@
 - `2019.08 ~ 2020.08` : Undergraduated Researcher at Autonomous Robot Lab, Chonbuk National University
 - `2020.08 ~ 2021.02` : Machine Learning Engineer at [Kakaobrain](https://github.com/kakaobrain)
 - `2021.03 ~ present` : Co-Founder & Machine Learning Engineer at [TUNiB](https://github.com/tunib-ai)
-- `2022.02 ~ present`: Lead Machine Learning Scientistat [EleutherAI](https://github.com/EleutherAI).
+- `2022.02 ~ present`: Lead Machine Learning Scientistat at [EleutherAI](https://github.com/EleutherAI).
 
 ## 2. Projects
 #### 2.1. Services
