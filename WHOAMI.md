@@ -47,7 +47,7 @@
 - [5th place in Elecsthon held by KEPCO (Korea Electric Power Corporation)](https://blog.kepco.co.kr/1310)
 
 ## 4. Activities
-- [Founded an AI robot startup worth 100 million won for autistic children through government projects](https://github.com/hyunwoongko/social-robot-bao)
+- [Founded an AI robot startup for autistic children](https://github.com/hyunwoongko/social-robot-bao)
 - [Lecturer at 2020 Data Campus School held by Korea Data Agency](https://github.com/hyunwoongko/bigdata-lecture)
   (https://dacon.io/competitions/official/235673/leaderboard/)
 - [Host of Jiphyeonjeon, Natural language processing review group](https://github.com/jiphyeonjeon)
