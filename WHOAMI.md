@@ -32,7 +32,7 @@
   - [1st place in Korean Document Abstractive Summarization Competition held by Dacon (gusdnd852)](https://dacon.io/competitions/official/235673/leaderboard/)
   - [Host of 'Jiphyeonjeon', Natural language processing review group](https://github.com/jiphyeonjeon)
   - [Developed 'OpenChat', Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat)
-- `2021.03 ~ present` : Co-founder & Machine Learning Engineer at [TUNiB](https://github.com/tunib-ai)
+- `2021.03 ~ present` : Co-Founder & Machine Learning Engineer at [TUNiB](https://github.com/tunib-ai)
   - [Manager of 'Chatbot Korea', Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
   - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
   - [Developed 'Parallelformers', Efficient Model Parallelization Toolkit for Deployment](https://github.com/tunib-ai/parallelformers)
