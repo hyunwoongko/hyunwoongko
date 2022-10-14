@@ -28,7 +28,6 @@
 - [Coco](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EC%BD%94%EC%BD%94%ED%8E%B8.mp4) & [Mas](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EB%A7%88%EC%8A%A4%ED%8E%B8.mp4), Persona chatbots based on TUNiB's own language models
 - [TUNiBridge Demo, A demo website of TUNiB's API services](https://demo.tunibridge.ai/)
 - [Parallelformers, Efficient Model Parallelization Toolkit for Deployment](https://github.com/tunib-ai/parallelformers)
-- [OSLO, Open Source framework for Large-scale transformer Optimization](https://github.com/tunib-ai/oslo)
 - [python-mecab-kor, Yet Another Python Binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor)
 - [Polyglot, Large Language Models of Well-balanced Competence in Multi-languages](https://github.com/EleutherAI/polyglot)
 - [OSLO, Open Source framework for Large-scale model Optimization](https://github.com/EleutherAI/oslo)
