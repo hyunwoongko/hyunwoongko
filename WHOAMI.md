@@ -42,7 +42,7 @@
 - `2022.02 ~ present`: Lead Machine Learning Scientistat [EleutherAI](https://github.com/EleutherAI).  
   - Contributed to [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) project.
   - Contributed to [magiCARP](https://github.com/EleutherAI/magicarp) project.
-  - Project Lead of [Polyglot](https://github.com/EleutherAI/polyglot) and [OSLO](https://github.com/EleutherAI/oslo) project.
+  - Leader of [Polyglot](https://github.com/EleutherAI/polyglot) and [OSLO](https://github.com/EleutherAI/oslo) project.
 
 ## Interest Areas and Skills
 ### 1. Natural Langauge Processing
