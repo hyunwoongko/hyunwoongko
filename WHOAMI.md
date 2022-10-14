@@ -44,34 +44,33 @@
   - Project Lead of [Polyglot](https://github.com/EleutherAI/polyglot) and [OSLO](https://github.com/EleutherAI/oslo) project.
 
 ## Interest Areas
-- Natural Langauge Processing
-  - Generative Modeling
-    - Language Modeling
-    - Dialogue Generation
-    - Multilingual Modeling
-    - Machine Translation
-    - Text Summarization
-  - But I love any other tasks 🥰
-- Machine Learning Engineering
-  - Large-scale Modeling
-    - 3D Parallelism and CUDA Programming
-    - Megatron-LM, DeepSpeed, OSLO
-  - MLOps
-    - Model Deployment
-      - FastAPI, Triton Inference Server
-    - Graph Optimization
-      - TensorRT, ONNX, Faster Transformer, DeepSpeed
-    - Cluster Ochestration
-      - Kubernates, AWS EKS, AWS ECS
-  - Lightweighting
-    - Knowledge Distillation
-    - Pruning & Blocksparse
-    - Quantization
-- Linguistics
-  - Korean Morpheme Analyzer
-  - Korean Sentence Segmentation  
-- Java Backend Development
-  - Spring Framework
+### Natural Langauge Processing
+- Generative Modeling
+  - Language Modeling
+  - Dialogue Generation
+  - Multilingual Modeling
+  - Machine Translation
+  - Text Summarization
+- But I love any other tasks 🥰
+
+### Machine Learning Engineering
+- Large-scale Modeling
+  - 3D Parallelism and CUDA Programming
+  - Megatron-LM, DeepSpeed, OSLO
+- Model Deployment
+  - FastAPI, Triton Inference Server
+  - Graph Optimization
+  - TensorRT, ONNX, Faster Transformer, DeepSpeed
+- Cluster Ochestration
+  - Kubernates, AWS EKS, AWS ECS
+- Lightweighting
+  - Knowledge Distillation
+  - Pruning & Blocksparse
+  - Quantization
+
+### Linguistics
+- Korean Morpheme Analyzer
+- Korean Sentence Segmentation  
 
 ## Contacts
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
