@@ -1,6 +1,6 @@
 # Who is Kevin Ko?
-## 0. Github Stat
-![Stat](https://github-readme-stats.vercel.app/api?username=hyunwoongko)
+## 0. Github Stats
+![Stats](https://github-readme-stats.vercel.app/api?username=hyunwoongko)
 
 ## 1. Biography
 - `2014.03 ~ 2020.08` : BS in Software Engineering, Chonbuk National University
