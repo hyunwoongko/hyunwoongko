@@ -35,7 +35,7 @@ Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majori
   - [Research about citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
   - [Research about autonomouse strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition)
   - [Lecturer at 2020 Data Campus School held by Korea Data Agency](https://github.com/hyunwoongko/bigdata-lecture)
-- `2020.08 ~ 2021.02` : AI Research Engineer at [Kakaobrain](https://github.com/kakaobrain)
+- `2020.08 ~ 2021.02` : Machine Learning Engineer at [Kakaobrain](https://github.com/kakaobrain)
   - Research about Korean quiz generation
   - [Developed 'Pororo', Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo)
     - participated in generative modeling such as translation, summarization, question generation, paraphrase generation and so on.
@@ -45,18 +45,16 @@ Hello, my name is Hyunwoong Kevin Ko. I graduated from Chonbuk University majori
   - [1st place in Korean Document Abstractive Summarization Competition held by Dacon (gusdnd852)](https://dacon.io/competitions/official/235673/leaderboard/)
   - [Founder of 'Jiphyeonjeon', Natural language processing review group](https://github.com/jiphyeonjeon)
   - [Developed 'OpenChat', Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat)
-- `2021.03 ~ present` : Co-founder & AI Research Engineer at [TUNiB](https://github.com/tunib-ai)
+- `2021.03 ~ present` : Co-founder & Machine Learning Engineer at [TUNiB](https://github.com/tunib-ai)
   - [Manager of 'Chatbot Korea', Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
   - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
   - [Developed 'Parallelformers', Efficient Model Parallelization Toolkit for Deployment](https://github.com/tunib-ai/parallelformers)
   - [Developed 'OSLO', Open Source framework for Large-scale transformer Optimization](https://github.com/tunib-ai/oslo)
   - Opensource Contributor: [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
-- `2021.08 ~ present`: A lead developer of [HuggingFace 3D parallelism](https://github.com/huggingface/transformers/issues/13690) project
-  - Contributed to OSLO to Transformers integration work
-- `2022.02 ~ present`: A large-scale modeling engineer at [EleutherAI](https://github.com/EleutherAI).  
+- `2022.02 ~ present`: Lead Machine Learning Scientistat [EleutherAI](https://github.com/EleutherAI).  
   - Contributed to [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) refactoring.
   - Contributed to [magiCARP](https://github.com/EleutherAI/magicarp) project.
-  - Leader of [Polyglot](https://github.com/EleutherAI/polyglot) and [OSLO](https://github.com/EleutherAI/oslo) project.
+  - Project Lead of [Polyglot](https://github.com/EleutherAI/polyglot) and [OSLO](https://github.com/EleutherAI/oslo).
   <br>
 
 ### Interest Areas
