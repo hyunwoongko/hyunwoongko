@@ -31,7 +31,7 @@
 - [OSLO, Open Source framework for Large-scale transformer Optimization](https://github.com/tunib-ai/oslo)
 - [python-mecab-kor, Yet Another Python Binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor)
 - [Polyglot, Large Language Models of Well-balanced Competence in Multi-languages](https://github.com/EleutherAI/polyglot)
-- [OSLO, Open Source framework for Large-scale model Optimization](https://github.com/EleutherAI/oslo) project.
+- [OSLO, Open Source framework for Large-scale model Optimization](https://github.com/EleutherAI/oslo)
 
 ## Awards
 - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
