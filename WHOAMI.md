@@ -47,11 +47,7 @@
 ## Interest Areas and Skills
 ### 1. Natural Langauge Processing
 - Generative Modeling
-  - Language Modeling
-  - Dialogue Generation
-  - Multilingual Modeling
-  - Machine Translation
-  - Text Summarization
+  - Language Modeling, Dialogue Generation, Machine Translation, Text Summarization
 - But I also love any other tasks 🥰
 
 ### 2. Machine Learning Engineering
