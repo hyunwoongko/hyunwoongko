@@ -55,12 +55,12 @@
 - Opensource Contribution - [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
 
 ## 5. Interest Areas and Skills
-#### 1) Natural Langauge Processing
+#### Natural Langauge Processing
 - Generative Modeling
   - Language Modeling, Dialogue Generation, Machine Translation, Text Summarization
 - But I also love any other tasks 🥰
 
-#### 2) Machine Learning Engineering
+#### Machine Learning Engineering
 - Large-scale Modeling
   - Megatron-LM, DeepSpeed, OSLO
 - Model Deployment
@@ -72,7 +72,7 @@
 - Lightweighting
   - Knowledge Distillation, Pruning, Quantization
 
-#### 3) Linguistics
+#### Linguistics
 - Korean Morpheme Analysis
 - Korean Sentence Segmentation  
 
