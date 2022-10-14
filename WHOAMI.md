@@ -18,6 +18,11 @@
 - `2022.02 ~ present`: Lead Machine Learning Scientistat [EleutherAI](https://github.com/EleutherAI).
 
 ## Projects
+#### Services
+- [BLOONY, A persona chatbot based on OpenAI GPT3](https://bloony.ai)
+- [Coco](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EC%BD%94%EC%BD%94%ED%8E%B8.mp4) & [Mas](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EB%A7%88%EC%8A%A4%ED%8E%B8.mp4), Persona chatbots based on TUNiB's own language models
+- [TUNiBridge Demo, A demo website of TUNiB's API services](https://demo.tunibridge.ai/)
+
 #### Open Sources
 - [KoChat, The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat)
 - [Pororo, Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo)
@@ -32,12 +37,7 @@
 #### Researches
 - [Citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
 - [Autonomous strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition)
-- Brain Quiz, Korean quiz generation module
-
-#### Services
-- [BLOONY, A persona chatbot based on OpenAI GPT3](https://bloony.ai)
-- [Coco](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EC%BD%94%EC%BD%94%ED%8E%B8.mp4) & [Mas](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EB%A7%88%EC%8A%A4%ED%8E%B8.mp4), Persona chatbots based on TUNiB's own language models
-- [TUNiBridge Demo, A demo website of TUNiB's API services](https://demo.tunibridge.ai/)
+- [Brain Quiz, Korean quiz generation module](https://github.com/hyunwoongko/hyunwoongko/blob/main/assets/brainquiz.gif?raw=true)
 
 ## Awards
 - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
