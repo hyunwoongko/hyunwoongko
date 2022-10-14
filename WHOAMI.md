@@ -63,7 +63,7 @@
   - Model Serving & DevOps
     - FastAPI
     - Triton Inference Server
-    - Graph optimization
+    - Graph Optimization
       - TensorRT, ONNX, Faster Transformer, DeepSpeed, ...
     - DevOps
       - Kubernates, EKS, ECS, ECR
