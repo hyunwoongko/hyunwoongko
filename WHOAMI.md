@@ -43,7 +43,7 @@
   - Contributed to [magiCARP](https://github.com/EleutherAI/magicarp) project.
   - Project Lead of [Polyglot](https://github.com/EleutherAI/polyglot) and [OSLO](https://github.com/EleutherAI/oslo) project.
 
-## Interest Areas
+## Interest Areas and Skills
 ### 1. Natural Langauge Processing
 - Generative Modeling
   - Language Modeling
@@ -66,7 +66,7 @@
   - Knowledge Distillation, Pruning, Quantization
 
 ### 3. Linguistics
-- Korean Morpheme Analyzer
+- Korean Morpheme Analysis
 - Korean Sentence Segmentation  
 
 ## Contacts
