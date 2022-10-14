@@ -1,6 +1,6 @@
 <div align=center>
 
-## Who Am I?
+# Who Am I?
 
 <br>
 
@@ -12,7 +12,7 @@
   
 <br>
 
-### TL;DR
+## TL;DR
 #### Currently, I am a ...
 - Senior ML Engineer and Co-Founder at [TUNiB](https://github.com/tunib-ai).
 - Lead ML Scientist at [EleutherAI](https://github.com/eleutherai).
@@ -24,7 +24,7 @@
 
 <br>
 
-### Biography
+## Biography
 - `2014.03 ~ 2020.08` : Software Engineering Dept in Chonbuk University
   - Major GPA : 4.15 / Total GPA : 4.07 (1st)
   - [5th place in Elecsthon held by KEPCO (Korea Electric Power Corporation)](https://blog.kepco.co.kr/1310)
@@ -58,7 +58,7 @@
   - Project Lead of [Polyglot](https://github.com/EleutherAI/polyglot) and [OSLO](https://github.com/EleutherAI/oslo) project.
   <br>
 
-### Interest Areas
+## Interest Areas
 - Natural Langauge Processing
   - Generative Modeling
     - Language Modeling
@@ -91,11 +91,9 @@
   - Spring Framework
 <br>
 
-### Contacts
+## Contacts
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
 - Twitter: [https://twitter.com/hyunwoongko](https://twitter.com/hyunwoongko)
 - Facebook : [https://www.facebook.com/hyunwoongko](https://www.facebook.com/hyunwoongko)
 - Instagram: [https://www.instagram.com/hyunwoong.ko/](https://www.instagram.com/hyunwoong.ko/)
 - LinkedIn : [https://www.linkedin.com/in/hyunwoongko](https://www.linkedin.com/in/hyunwoongko)
-
-</div>
