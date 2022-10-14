@@ -59,14 +59,12 @@
   - Megatron-LM, DeepSpeed, OSLO
 - Model Deployment
   - FastAPI, Triton Inference Server
-  - Graph Optimization
+- Graph Optimization
   - TensorRT, ONNX, Faster Transformer, DeepSpeed
 - Cluster Ochestration
   - Kubernates, AWS EKS, AWS ECS
 - Lightweighting
-  - Knowledge Distillation
-  - Pruning & Blocksparse
-  - Quantization
+  - Knowledge Distillation, Pruning, Quantization
 
 ### Linguistics
 - Korean Morpheme Analyzer
