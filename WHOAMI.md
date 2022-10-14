@@ -37,7 +37,7 @@
   - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
   - [Developed 'Parallelformers', Efficient Model Parallelization Toolkit for Deployment](https://github.com/tunib-ai/parallelformers)
   - [Developed 'OSLO', Open Source framework for Large-scale transformer Optimization](https://github.com/tunib-ai/oslo)
-  - Opensource Contributor: [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
+  - Opensource Contributor - [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
 - `2022.02 ~ present`: Lead Machine Learning Scientistat [EleutherAI](https://github.com/EleutherAI).  
   - Contributed to [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) project.
   - Contributed to [magiCARP](https://github.com/EleutherAI/magicarp) project.
