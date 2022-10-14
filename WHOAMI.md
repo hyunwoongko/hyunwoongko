@@ -10,8 +10,6 @@
 - Junior ML Engineer at [Kakaobrain](https://github.com/kakaobrain).
 - Host of [Jiphyeonjeon](https://github.com/jiphyeonjeon) paper review group.
 
-<br>
-
 ## Biography
 - `2014.03 ~ 2020.08` : Software Engineering Dept in Chonbuk University
   - Major GPA : 4.15 / Total GPA : 4.07 (1st)
@@ -44,7 +42,6 @@
   - Contributed to [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) project.
   - Contributed to [magiCARP](https://github.com/EleutherAI/magicarp) project.
   - Project Lead of [Polyglot](https://github.com/EleutherAI/polyglot) and [OSLO](https://github.com/EleutherAI/oslo) project.
-  <br>
 
 ## Interest Areas
 - Natural Langauge Processing
@@ -77,7 +74,6 @@
   - Korean Sentence Segmentation  
 - Backend Development
   - Spring Framework
-<br>
 
 ## Contacts
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
