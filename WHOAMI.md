@@ -35,7 +35,7 @@
 - `2021.03 ~ present` : Co-Founder & Machine Learning Engineer at [TUNiB](https://github.com/tunib-ai)
   - [Developed BLOONY, A persona chatbot based on OpenAI GPT3](https://bloony.ai)
   - Developed [Coco](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EC%BD%94%EC%BD%94%ED%8E%B8.mp4) & [Mas](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EB%A7%88%EC%8A%A4%ED%8E%B8.mp4), Persona chatbots based on our own language models
-  - [Developed TUNiBridge Demo](https://demo.tunibridge.ai/)
+  - [Developed TUNiBridge Demo, A demo website of our API services](https://demo.tunibridge.ai/)
   - [Manager of Chatbot Korea, Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
   - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
   - [Developed Parallelformers, Efficient Model Parallelization Toolkit for Deployment](https://github.com/tunib-ai/parallelformers)
