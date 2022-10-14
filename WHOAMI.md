@@ -18,7 +18,7 @@
   - [2nd place in undergraduated student best paper awards held by Korea Information Technology Society](http://www.todayan.com/news/articleView.html?idxno=230207)
   - [Founded an AI robot startup worth 100 million won for autistic children through government projects](https://github.com/hyunwoongko/social-robot-bao)
   - [Developed 'KoChat', The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat)
-- `2019.08 ~ 2020.08` : Undergraduated Researcher at Autonomous Robot Lab in Chonbuk University
+- `2019.08 ~ 2020.08` : Undergraduated Researcher at Autonomous Robot Lab, Chonbuk National University
   - [Research about citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
   - [Research about autonomouse strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition)
   - [Lecturer at 2020 Data Campus School held by Korea Data Agency](https://github.com/hyunwoongko/bigdata-lecture)
