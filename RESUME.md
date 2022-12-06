@@ -59,7 +59,7 @@
 2. **Prompt Programming**
     - I've been writing all of prompts used in BLOONY.
     - I've been writing almost all prompts used for autonomous data generation used at TUNiB.
-3. **Generative Modeling**
+3. **Generative Language Modeling**
     - I made many generative models in Pororo such as Translation, Summarization, Question generation and Pharaprase generation.
     - I researched about Korean quiz generation modeling at Kakaobrain.
     - I've been making all of generative chatbot models of TUNiB such as Coco, Mas and BLOONY.
