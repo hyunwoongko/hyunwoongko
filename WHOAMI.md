@@ -53,11 +53,11 @@
 1. Language model pre-training
     - I've been training 5+ pre-trained models such as TUNiB-GPT, TUNiB-Electra and Polyglot.
 2. Prompt programming
-    - I've been writing all of prompts used in BLOONY at TUNiB.
-    - I've been writing almost all prompts for autonomous data generation at TUNiB.
+    - I've been writing all of prompts used in BLOONY.
+    - I've been writing almost all prompts used for autonomous data generation used at TUNiB.
 3. Generative model tuning
     - I made various generative models on Pororo library such as Translation, Summarization, Question generation and Pharaprase generation.
-    - I've been making all of generative chatbot models such as Coco, Mas and BLOONY at TUNiB.
+    - I've been making all of generative chatbot models of TUNiB such as Coco, Mas and BLOONY.
     - I've been making TUNiB N행시 models which are very popular in the Korean internet community.
 4. Korean language processing
     - I've been making Kss, the most famous Korean sentence segmentation library.
