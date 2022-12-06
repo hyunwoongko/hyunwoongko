@@ -24,11 +24,12 @@
 - [OpenChat, Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat)
 - [Summarizers, Package for controllable summarization](https://github.com/hyunwoongko/summarizers)
 - [Parallelformers, Efficient model parallelization toolkit for deployment](https://github.com/tunib-ai/parallelformers)
-- [Python-Mecab-Kor, Yet another python binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor)
+- [TUNiB-Electra, Korean English bilingual electa models](https://github.com/tunib-ai/tunib-electra)
 - [Polyglot, Large language models of well-balanced competence in multi-languages](https://github.com/EleutherAI/polyglot)
 - [OSLO, Open Source framework for Large-scale model Optimization](https://github.com/EleutherAI/oslo)
-- [Pydatrie, Pure python double array trie implmentation](https://githug.com/hyunwoongko/pydatrie)
+- [Python-Mecab-Kor, Yet another python binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor)
 - [Pecab, Pure python Korean morpheme analyzer based on Mecab](https://githug.com/hyunwoongko/pecab)
+- [Pydatrie, Pure python double array trie implmentation](https://githug.com/hyunwoongko/pydatrie)
 
 #### 2.3. Researches
 - [Citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
