@@ -51,7 +51,7 @@
 
 ## 5. Skills and Experiences
 1. Language model pre-training
-    - I've been training 5+ pre-trained models such as TUNiB-GPT, TUNiB-Electra and Polyglot.
+    - I've been pre-training 5+ models such as TUNiB-GPT, TUNiB-Electra and Polyglot.
 2. Prompt programming
     - I've been writing all of prompts used in BLOONY.
     - I've been writing almost all prompts used for autonomous data generation used at TUNiB.
