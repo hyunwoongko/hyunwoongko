@@ -56,7 +56,7 @@
     - I've been writing all of prompts used in BLOONY.
     - I've been writing almost all prompts used for autonomous data generation used at TUNiB.
 3. Generative modeling
-    - I made many generative models on Pororo library such as Translation, Summarization, Question generation and Pharaprase generation.
+    - I made many generative models in Pororo such as Translation, Summarization, Question generation and Pharaprase generation.
     - I've been making all of generative chatbot models of TUNiB such as Coco, Mas and BLOONY.
     - I've been making TUNiB N행시 models which are very popular in the Korean internet community.
 4. Korean language processing
