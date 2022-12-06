@@ -15,28 +15,24 @@
 - [Coco](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EC%BD%94%EC%BD%94%ED%8E%B8.mp4) & [Mas](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EB%A7%88%EC%8A%A4%ED%8E%B8.mp4), Persona chatbots based on TUNiB's own language models
 - [TUNiBridge Demo, A demo of TUNiB's API services](https://demo.tunibridge.ai/)
 
-#### 2.2. Open Sources
-- 1k+ ⭐
-  - [Pororo, Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo)
-- 500+ ⭐
-  - [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer)
-  - [Parallelformers, Efficient model parallelization toolkit for deployment](https://github.com/tunib-ai/parallelformers)
-- 400+ ⭐
-  - [OpenChat, Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat)
-- 200+ ⭐
-  - [KoChat, The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat)
-  - [KSS, A Toolkit for Korean sentence segmentation](https://github.com/hyunwoongko/kss)
-- 100+ ⭐
-  - [Large-scale LM Tutorials, Large-scale language modeling tutorials with PyTorch](https://github.com/tunib-ai/large-scale-lm-tutorials)
-  - [Polyglot, Large language models of well-balanced competence in multi-languages](https://github.com/EleutherAI/polyglot)
-- Others
-  - [OSLO, Open Source framework for Large-scale model Optimization](https://github.com/EleutherAI/oslo)
-  - [TUNiB-Electra, Korean English bilingual electa models](https://github.com/tunib-ai/tunib-electra)
-  - [Asian BART, Asian language bart models (En, Ja, Ko, Zh, ECJK)](https://github.com/kakaobrain/asian-bart)
-  - [Python-Mecab-Kor, Yet another python binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor)
-  - [Pecab, Pure python Korean morpheme analyzer based on Mecab](https://githug.com/hyunwoongko/pecab)
-  - [Pydatrie, Pure python double array trie implmentation](https://githug.com/hyunwoongko/pydatrie)
-  - [Summarizers, Package for controllable summarization](https://github.com/hyunwoongko/summarizers)
+#### 2.2. Open Sources (50+ stars only)
+- [Pororo, Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo) (1.2k+ ⭐)
+- [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer) (500+ ⭐)
+- [Parallelformers, Efficient model parallelization toolkit for deployment](https://github.com/tunib-ai/parallelformers) (500+ ⭐)
+- [OpenChat, Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat) (400+ ⭐)
+- [KoChat, The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat) (200+ ⭐)
+- [KSS, A Toolkit for Korean sentence segmentation](https://github.com/hyunwoongko/kss) (200+ ⭐)
+- [OSLO, Open Source framework for Large-scale model Optimization](https://github.com/tunib-ai/oslo) (200+ ⭐)
+- [Large-scale LM Tutorials, Large-scale language modeling tutorials with PyTorch](https://github.com/tunib-ai/large-scale-lm-tutorials) (100+ ⭐)
+- [Polyglot, Large language models of well-balanced competence in multi-languages](https://github.com/EleutherAI/polyglot) (100+ ⭐)
+- [TUNiB-Electra, Korean English bilingual electa models](https://github.com/tunib-ai/tunib-electra) (50+ ⭐)
+- [Asian BART, Asian language bart models (En, Ja, Ko, Zh, ECJK)](https://github.com/kakaobrain/asian-bart) (50+ ⭐)
+- [Kocrawl, Package for controllable summarization](https://github.com/hyunwoongko/kocrawl) (50+ ⭐)
+- [Summarizers, Package for controllable summarization](https://github.com/hyunwoongko/summarizers) (50+ ⭐)
+- [Python Mecab Kor, Yet another python binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor) (50+ ⭐)
+- [Pecab, Pure python Korean morpheme analyzer based on Mecab](https://githug.com/hyunwoongko/pecab) (50+ ⭐)
+- [Kobart-transformers, Kobart model on Huggingface transformers](https://github.com/hyunwoongko/kobart-transformers) (50+ ⭐)
+- [NLP-Datasets, Curation note of NLP datasets](https://github.com/hyunwoongko/nlp-collections) (50+ ⭐)
 
 #### 2.3. Researches
 - [Citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
