@@ -55,7 +55,7 @@
 2. Prompt programming
     - I've been writing all of prompts used in BLOONY.
     - I've been writing almost all prompts used for autonomous data generation used at TUNiB.
-3. Generative model tuning
+3. Generative modeling
     - I made various generative models on Pororo library such as Translation, Summarization, Question generation and Pharaprase generation.
     - I've been making all of generative chatbot models of TUNiB such as Coco, Mas and BLOONY.
     - I've been making TUNiB N행시 models which are very popular in the Korean internet community.
@@ -68,11 +68,11 @@
 6. Distributed Processing
     - I've been building almost all deep learining parallelization mechanism from scratch on Parallelformers and OSLO project.
     - I co-worked with HF 3D Parallelism team and Microsoft DeepSpeed team.
-    - I've been contributing to several famous libraries such as Megatron-LM, DeepSpeed.
+    - I've been contributing to several famous libraries such as Megatron-LM and DeepSpeed.
 7. Cluster orchestration and server operating
     - I've been deploying almost all TUNiB models using AWS ECS.
     - Especially the number of daily request of TUNiB N행시 was 2,000,000.
-    - I used pre-built EKS cluster in EleutherAI and currently studying K8S & EKS.
+    - I used pre-built EKS cluster in EleutherAI and currently studying K8S and EKS.
     - I've been also using Slurm launcher well in EleutherAI.
 8. Kernel optimization
     - I have deploying almost all TUNiB models with TensorRT, ONNX and DeepSpeed Inference.
