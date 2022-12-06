@@ -1,4 +1,4 @@
-# Curriculum Vitae
+# Resume
 ## 0. Github Stats
 ![Stats](https://github-readme-stats.vercel.app/api?username=hyunwoongko)
 
