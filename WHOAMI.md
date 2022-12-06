@@ -16,20 +16,27 @@
 - [TUNiBridge Demo, A demo of TUNiB's API services](https://demo.tunibridge.ai/)
 
 #### 2.2. Open Sources
-- [KoChat, The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat)
-- [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer)
-- [Pororo, Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo)
-- [Asian BART, Asian language bart models (En, Ja, Ko, Zh, ECJK)](https://github.com/kakaobrain/asian-bart)
-- [KSS, A Toolkit for Korean sentence segmentation](https://github.com/hyunwoongko/kss)
-- [OpenChat, Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat)
-- [Summarizers, Package for controllable summarization](https://github.com/hyunwoongko/summarizers)
-- [Parallelformers, Efficient model parallelization toolkit for deployment](https://github.com/tunib-ai/parallelformers)
-- [TUNiB-Electra, Korean English bilingual electa models](https://github.com/tunib-ai/tunib-electra)
-- [Polyglot, Large language models of well-balanced competence in multi-languages](https://github.com/EleutherAI/polyglot)
-- [OSLO, Open Source framework for Large-scale model Optimization](https://github.com/EleutherAI/oslo)
-- [Python-Mecab-Kor, Yet another python binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor)
-- [Pecab, Pure python Korean morpheme analyzer based on Mecab](https://githug.com/hyunwoongko/pecab)
-- [Pydatrie, Pure python double array trie implmentation](https://githug.com/hyunwoongko/pydatrie)
+- 1k+ ⭐
+  - [Pororo, Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo)
+- 500+ ⭐
+  - [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer)
+  - [Parallelformers, Efficient model parallelization toolkit for deployment](https://github.com/tunib-ai/parallelformers)
+- 400+ ⭐
+  - [OpenChat, Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat)
+- 200+ ⭐
+  - [KoChat, The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat)
+  - [KSS, A Toolkit for Korean sentence segmentation](https://github.com/hyunwoongko/kss)
+- 100+ ⭐
+  - [Large-scale LM Tutorials, Large-scale language modeling tutorials with PyTorch](https://github.com/tunib-ai/large-scale-lm-tutorials)
+  - [Polyglot, Large language models of well-balanced competence in multi-languages](https://github.com/EleutherAI/polyglot)
+- Others
+  - [OSLO, Open Source framework for Large-scale model Optimization](https://github.com/EleutherAI/oslo)
+  - [TUNiB-Electra, Korean English bilingual electa models](https://github.com/tunib-ai/tunib-electra)
+  - [Asian BART, Asian language bart models (En, Ja, Ko, Zh, ECJK)](https://github.com/kakaobrain/asian-bart)
+  - [Python-Mecab-Kor, Yet another python binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor)
+  - [Pecab, Pure python Korean morpheme analyzer based on Mecab](https://githug.com/hyunwoongko/pecab)
+  - [Pydatrie, Pure python double array trie implmentation](https://githug.com/hyunwoongko/pydatrie)
+  - [Summarizers, Package for controllable summarization](https://github.com/hyunwoongko/summarizers)
 
 #### 2.3. Researches
 - [Citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
