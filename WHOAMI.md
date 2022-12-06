@@ -50,24 +50,39 @@
 ## 5. Interest Areas and Skills
 #### 5.1. Natural Langauge Processing
 - Generative Modeling
-  - Language Modeling, Dialogue Generation, Machine Translation, Text Summarization
-- But I also love any other tasks 🥰
+  - I have many experiences about langauge model pre-training (TUNiB-GPT, TUNiB-Electra, Polyglot)
+  - I have many experiences about prompt programming (BLOONY, autonomous data Generation)
+  - I made various generative models in Pororo (machine translation, question generation, summarization, pharaprase generation)
+  - I made various chatbot models in TUNiB (Coco, Mas, BLOONY)
+  - But I also love any other tasks like text classification and sequence tagging 🥰
+- Korean Language Processing
+  - I one of the best expert of Korean sequence segementation (Kss)
+  - I also made a Korean morpheme analyzer myself (Pecab)
+- Data Crawling & Collection
+  - I am one of the great expert of web data crawling (TUNiB-GPT Data:1.2TB)
+  - I also made hyper-scale dataset for language model pre-training (Polyglot Data:5+TB)
 
-#### 5.2. Machine Learning Engineering
-- Large-scale Modeling
-  - Megatron-LM, DeepSpeed, OSLO
-- Model Deployment
-  - FastAPI, Triton Inference Server
-- Kernel Optimization
-  - TensorRT, ONNX, Faster Transformer, CUDA Programming
+#### 5.2. Large scale modeling
+- Large model pre-training
+  - I have many experiences about large scale model pre-training (Polyglot, TUNiB-GPT)
+- Distributed Processing
+  - I have made almost all deep learining parallelization mechanism from scratch (Oslo)
+  - I co-worked with Hugging Face and Microsoft about distributed prcessing (HF 3D Parallelism team, DeepSpeed Inference)
+  - I have some experiences of contributions to famous libraries (Megatron-LM, DeepSpeed)
+
+#### 5.2. MLOps & Server
 - Cluster Orchestration
-  - Kubernates, Slurm, AWS EKS, AWS ECS
-- Lightweighting
-  - Knowledge Distillation, Pruning, Quantization
+  - I have deployed almost all TUNiB models with AWS ECS
+    - Especially the number of daily request of TUNiB N행시 was 2,000,000
+  - I am used pre-built EKS cluster in EleutherAI and studying K8S & EKS cluster building
+  - I am also using Slurm launcher well in EleutherAI
+- Kernel Optimization
+  - I have deployed almost all TUNiB models with TensorRT, ONNX and DeepSpeed Inference
+  - I also have an experience of making Torchscript based compiler with PyTorch team
+- Backend Programming
+  - I made almost all backend server of TUNiB B2B model using FastAPI 
+  - I made BLOONY backend server using Java Spring at TUNiB
 
-#### 5.3. Linguistics
-- Korean Morpheme Analysis
-- Korean Sentence Segmentation  
 
 ## 6. Contacts
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
