@@ -1,5 +1,4 @@
 ## Who is Kevin Ko?
-[![WMI](https://img.shields.io/badge/whoami-black?logo=Webflow&logoColor=white)](https://github.com/hyunwoongko/hyunwoongko/blob/main/WHOAMI.md)
 [![Twitter](https://img.shields.io/badge/twitter-black?logo=twitter&logoColor=white&link=https://twitter.com/hyunwoongko)](https://twitter.com/hyunwoongko)
 [![Facebook](https://img.shields.io/badge/facebook-black?logo=facebook&logoColor=white&link=https://www.facebook.com/hyunwoongko)](https://www.facebook.com/hyunwoongko)
 [![Instagram](https://img.shields.io/badge/instagram-black?logo=instagram&logoColor=white&link=https://www.instagram.com/hyunwoong.ko/)](https://www.instagram.com/hyunwoong.ko/)
@@ -14,3 +13,5 @@
 #### In the past, I was a ...
 - Junior ML Engineer at [Kakaobrain](https://github.com/kakaobrain).
 - Host of [Jiphyeonjeon](https://github.com/jiphyeonjeon) paper review group.
+
+For more details, please refer to [here](https://github.com/hyunwoongko/hyunwoongko/blob/main/RESUME.md).
