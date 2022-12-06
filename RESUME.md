@@ -41,7 +41,7 @@
 
 ## 3. Awards
 - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
-- [1st place in Korean Document Abstractive Summarization Competition held by Dacon (username is gusdnd852)](https://dacon.io/competitions/open/235673/leaderboard)
+- [1st place in Korean Document Abstractive Summarization Competition held by Dacon (username: gusdnd852)](https://dacon.io/competitions/open/235673/leaderboard)
 - [2nd place in undergraduated student best paper awards held by Korea Information Technology Society](http://www.todayan.com/news/articleView.html?idxno=230207)
 - [3rd place in K-Hackerthon held by Korea MSIP (Ministry of Future, Planning and Science)](https://newsis.com/view/?id=NISX20181108_0000467462&cID=10808&pID=10800)
 - [5th place in Elecsthon held by KEPCO (Korea Electric Power Corporation)](https://blog.kepco.co.kr/1310)
