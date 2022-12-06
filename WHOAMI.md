@@ -47,11 +47,11 @@
 - [Manager of Chatbot Korea, Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
 - Opensource Contribution - [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
 
-## 5. Interest Areas and Skills
+## 5. Skills and Experiences
 #### 5.1. Natural Langauge Processing
 - Generative Modeling
   - I have many experiences about langauge model pre-training (TUNiB-GPT, TUNiB-Electra, Polyglot)
-  - I have many experiences about prompt programming (BLOONY, autonomous data Generation)
+  - I am one of the expert of prompt programming (BLOONY, autonomous data generation)
   - I made various generative models in Pororo (machine translation, question generation, summarization, pharaprase generation)
   - I made various chatbot models in TUNiB (Coco, Mas, BLOONY)
   - But I also love any other tasks like text classification and sequence tagging 🥰
