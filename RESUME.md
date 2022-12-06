@@ -70,6 +70,7 @@
 5. **Data Crawling & Collection**
     - I crawled 1.2TB of Korean text data from web to make TUNiB-GPT.
     - I am building 10+TB of Multilingual text dataset to make Polyglot.
+    - I enjoy to use the two techniques for crawling: backend crawling and offline parsing.
 6. **Distributed Processing**
     - I've been building almost all deep learining parallelization mechanism from scratch on Parallelformers and OSLO project.
     - I co-worked with HF 3D Parallelism team and Microsoft DeepSpeed team.
