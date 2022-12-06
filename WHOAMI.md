@@ -50,7 +50,6 @@
 - Opensource Contribution - [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
 
 ## 5. Skills and Experiences
-#### 5.1. Natural Langauge Processing
 1. Language model pre-training
     - I've been training 5+ pre-trained models such as TUNiB-GPT, TUNiB-Electra and Polyglot.
 2. Prompt programming
