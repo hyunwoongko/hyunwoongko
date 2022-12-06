@@ -54,33 +54,33 @@
 - Opensource Contribution - [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
 
 ## 5. Skills and Experiences
-1. Language model pre-training
+1. Language Model Pre-training
     - I've been pre-training 5+ models such as TUNiB-GPT, TUNiB-Electra and Polyglot.
-2. Prompt programming
+2. Prompt Programming
     - I've been writing all of prompts used in BLOONY.
     - I've been writing almost all prompts used for autonomous data generation used at TUNiB.
-3. Generative modeling
+3. Generative Modeling
     - I made many generative models in Pororo such as Translation, Summarization, Question generation and Pharaprase generation.
     - I've been making all of generative chatbot models of TUNiB such as Coco, Mas and BLOONY.
     - I've been making TUNiB N행시 models which are very popular in the Korean internet community.
-4. Korean language processing
+4. Korean Language Processing
     - I've been making Kss, the most famous Korean sentence segmentation library.
     - I also made Pecab, pure python Korean morpheme analyzer based on Mecab-ko-dic.
-5. Data crawling & collection
+5. Data Crawling & Collection
     - I crawled 1.2TB of Korean text data from web to make TUNiB-GPT.
     - I am building 10+TB of Multilingual text dataset to make Polyglot.
 6. Distributed Processing
     - I've been building almost all deep learining parallelization mechanism from scratch on Parallelformers and OSLO project.
     - I co-worked with HF 3D Parallelism team and Microsoft DeepSpeed team.
     - I've been contributing to several famous libraries such as Megatron-LM and DeepSpeed.
-7. Cluster orchestration and server operating
+7. Cluster Orchestration and Server Operating
     - I've been deploying almost all TUNiB models using AWS ECS, especially the number of daily request of TUNiB N행시 was 2,000,000.
     - I used pre-built EKS cluster in EleutherAI and currently studying K8S and EKS cluster building.
     - I've been also using Slurm launcher well in EleutherAI.
-8. Kernel optimization
+8. Kernel Optimization
     - I have deploying almost all TUNiB models with TensorRT, ONNX and DeepSpeed Inference.
     - I also have an experience of making Torchscript based compiler with PyTorch team.
-9. Backend server programming
+9. Backend Server Programming
     - I've been making almost all backend servers of TUNiB models using FastAPI.
     - I've been made BLOONY backend server using Java Spring , but currently migrated to FastAPI at TUNiB.
 
