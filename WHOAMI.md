@@ -78,7 +78,7 @@
     - I also have an experience of making Torchscript based compiler with PyTorch team.
 9. Backend server programming
     - I've been making almost all backend servers of TUNiB models using FastAPI.
-    - I've been made BLOONY backend server using Java Spring , currently migrated to FastAPI at TUNiB.
+    - I've been made BLOONY backend server using Java Spring , but currently migrated to FastAPI at TUNiB.
 
 ## 6. Contacts
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
