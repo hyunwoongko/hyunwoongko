@@ -53,45 +53,32 @@
 #### 5.1. Natural Langauge Processing
 1. Language model pre-training
     - I've been training 5+ pre-trained models such as TUNiB-GPT, TUNiB-Electra and Polyglot.
-
 2. Prompt programming
     - I've been writing all of prompts used in BLOONY at TUNiB.
     - I've been writing almost all prompts for autonomous data generation at TUNiB.
-
 3. Generative model tuning
     - I made various generative models on Pororo library such as Translation, Summarization, Question generation and Pharaprase generation.
     - I've been making all of generative chatbot models such as Coco, Mas and BLOONY at TUNiB.
     - I've been making TUNiB N행시 models which are very popular in the Korean internet community.
-
 4. Korean language processing
     - I've been making Kss, the most famous Korean sentence segmentation library.
     - I also made Pecab, pure python Korean morpheme analyzer based on Mecab-ko-dic.
-
 5. Data crawling & collection
     - I crawled 1.2TB of Korean text data from web to make TUNiB-GPT.
     - I am building 10+TB of Multilingual text dataset to make Polyglot.
-
-#### 5.2. Large scale modeling
-6. Large model pre-training
-    - I've been training several large scale models such as TUNiB-GPT and Polyglot.
-
-7. Distributed Processing
+6. Distributed Processing
     - I've been building almost all deep learining parallelization mechanism from scratch on Parallelformers and OSLO project.
     - I co-worked with HF 3D Parallelism team and Microsoft DeepSpeed team.
     - I've been contributing to several famous libraries such as Megatron-LM, DeepSpeed.
-
-#### 5.2. MLOps & Server
-8. Cluster orchestration and server operating
+7. Cluster orchestration and server operating
     - I've been deploying almost all TUNiB models using AWS ECS.
     - Especially the number of daily request of TUNiB N행시 was 2,000,000.
     - I used pre-built EKS cluster in EleutherAI and currently studying K8S & EKS.
     - I've been also using Slurm launcher well in EleutherAI.
-
-9. Kernel optimization
+8. Kernel optimization
     - I have deploying almost all TUNiB models with TensorRT, ONNX and DeepSpeed Inference.
     - I also have an experience of making Torchscript based compiler with PyTorch team.
-
-10. Backend server
+9. Backend server programming
     - I've been making almost all backend servers of TUNiB models using FastAPI.
     - I've been made BLOONY backend server using Java Spring , currently migrated to FastAPI at TUNiB.
 
