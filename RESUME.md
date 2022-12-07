@@ -31,8 +31,8 @@
 - [Summarizers, Package for controllable summarization](https://github.com/hyunwoongko/summarizers) (50+ ⭐)
 - [Python Mecab Kor, Yet another python binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor) (50+ ⭐)
 - [Pecab, Pure python Korean morpheme analyzer based on Mecab](https://githug.com/hyunwoongko/pecab) (50+ ⭐)
-- [Kobart-transformers, Kobart model on Huggingface transformers](https://github.com/hyunwoongko/kobart-transformers) (50+ ⭐)
-- [NLP-Datasets, Curation note of NLP datasets](https://github.com/hyunwoongko/nlp-collections) (50+ ⭐)
+- [Kobart Transformers, Kobart model on Huggingface transformers](https://github.com/hyunwoongko/kobart-transformers) (50+ ⭐)
+- [NLP Datasets, Curation note of NLP datasets](https://github.com/hyunwoongko/nlp-collections) (50+ ⭐)
 
 #### 2.3. Researches
 - [Citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
