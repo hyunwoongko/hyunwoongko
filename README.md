@@ -41,10 +41,10 @@ For more details, please refer to [here](https://github.com/hyunwoongko/hyunwoon
   media="(prefers-color-scheme: dark)"
 />
 <source
-  srcset="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo"
+  srcset="https://github-readme-stats.vercel.app/api/pin/?username=tunib-ai&repo=parallelformers"
   media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
 />
-<img width=400 padding-left=200 src="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo" />
+<img width=400 padding-left=200 src="https://github-readme-stats.vercel.app/api/pin/?username=tunib-ai&repo=parallelformers" />
 </picture>
 </a>
 <br><br>
