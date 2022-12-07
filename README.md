@@ -48,31 +48,4 @@ For more details, please refer to [here](https://github.com/hyunwoongko/hyunwoon
 </a>
 </picture>
 <br><br>
-<picture>
-<source 
-  srcset="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo&theme=dark&show_owner"
-  media="(prefers-color-scheme: dark)"
-/>
-<source
-  srcset="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo"
-  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-/>
-<a href="https://github.com/kakaobrain/pororo">
-<img width=400 padding-left=200 src="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo" />
-</a>
-</picture>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<picture>
-<source 
-  srcset="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo&theme=dark&show_owner"
-  media="(prefers-color-scheme: dark)"
-/>
-<source
-  srcset="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo"
-  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-/>
-<a href="https://github.com/kakaobrain/pororo">
-<img width=400 padding-left=200 src="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo" />
-</a>
-</picture>
 </p>
