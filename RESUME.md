@@ -20,7 +20,7 @@
 - [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer) (500+ ⭐)
 - [Parallelformers, Efficient model parallelization toolkit for deployment](https://github.com/tunib-ai/parallelformers) (500+ ⭐)
 - [OpenChat, Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat) (400+ ⭐)
-- [KoChat, The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat) (200+ ⭐)
+- [KoChat, The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat) (300+ ⭐)
 - [KSS, A Toolkit for Korean sentence segmentation](https://github.com/hyunwoongko/kss) (200+ ⭐)
 - [OSLO, Open Source framework for Large-scale model Optimization](https://github.com/tunib-ai/oslo) (200+ ⭐)
 - [Large-scale LM Tutorials, Large-scale language modeling tutorials with PyTorch](https://github.com/tunib-ai/large-scale-lm-tutorials) (100+ ⭐)
