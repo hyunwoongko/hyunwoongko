@@ -30,7 +30,7 @@ For more details, please refer to [here](https://github.com/hyunwoongko/hyunwoon
   srcset="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo"
   media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
 />
-<img width=430 src="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo" />
+<img width=420 src="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo" />
 </picture>
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -44,7 +44,7 @@ For more details, please refer to [here](https://github.com/hyunwoongko/hyunwoon
   srcset="https://github-readme-stats.vercel.app/api/pin/?username=tunib-ai&repo=parallelformers"
   media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
 />
-<img width=430 src="https://github-readme-stats.vercel.app/api/pin/?username=tunib-ai&repo=parallelformers" />
+<img width=420 src="https://github-readme-stats.vercel.app/api/pin/?username=tunib-ai&repo=parallelformers" />
 </picture>
 </a>
 <br><br>
