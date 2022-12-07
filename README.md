@@ -20,12 +20,54 @@ For more details, please refer to [here](https://github.com/hyunwoongko/hyunwoon
 
 ## Repositories
 <p align="center">
-  <a href="https://github.com/kakaobrain/pororo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo"></img></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/tunib-ai/parallelformers"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tunib-ai&repo=parallelformers"></img></a>
-  <br><br>
-  <a href="https://github.com/tunib-ai/parallelformers"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tunib-ai&repo=parallelformers"></img></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/tunib-ai/parallelformers"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tunib-ai&repo=parallelformers"></img></a>
-
+<a>  
+<picture>
+<source 
+  srcset="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo&theme=dark"
+  media="(prefers-color-scheme: dark)"
+/>
+<source
+  srcset="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo"
+  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo" />
+</a>
+</picture>
+<picture>
+<source 
+  srcset="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo&theme=dark"
+  media="(prefers-color-scheme: dark)"
+/>
+<source
+  srcset="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo"
+  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo" />
+</a>
+</picture>
+<br>
+<picture>
+<source 
+  srcset="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo&theme=dark"
+  media="(prefers-color-scheme: dark)"
+/>
+<source
+  srcset="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo"
+  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo" />
+</a>
+</picture>
+<picture>
+<source 
+  srcset="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo&theme=dark"
+  media="(prefers-color-scheme: dark)"
+/>
+<source
+  srcset="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo"
+  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo" />
+</a>
+</picture>
 </p>
