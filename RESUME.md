@@ -26,7 +26,7 @@
 - [Large-scale LM Tutorials, Large-scale language modeling tutorials with PyTorch](https://github.com/tunib-ai/large-scale-lm-tutorials) (⭐100+)
 - [Polyglot, Large language models of well-balanced competence in multi-languages](https://github.com/EleutherAI/polyglot) (⭐100+)
 - [TUNiB-Electra, Korean English bilingual electa models](https://github.com/tunib-ai/tunib-electra) (⭐50+)
-- [Asian BART, Asian language bart models (En, Ja, Ko, Zh, ECJK)](https://github.com/kakaobrain/asian-bart) (⭐50+)
+- [Asian BART, Asian language bart models (En, Ja, Ko, Zh, ECJK)](https://github.com/hyunwoongko/asian-bart) (⭐50+)
 - [Kocrawl, Package for controllable summarization](https://github.com/hyunwoongko/kocrawl) (⭐50+)
 - [Summarizers, Package for controllable summarization](https://github.com/hyunwoongko/summarizers) (⭐50+)
 - [Python Mecab Kor, Yet another python binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor) (⭐50+)
