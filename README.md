@@ -17,5 +17,9 @@
 For more details, please refer to [here](https://github.com/hyunwoongko/hyunwoongko/blob/main/RESUME.md).
 
 ## Repositories
-[![](https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo)](https://github.com/kakaobrain/pororo)
-[![](https://github-readme-stats.vercel.app/api/pin/?username=tunib-ai&repo=parallelformers)](https://github.com/tunib-ai/parallelformers)
+<p align="center">
+  <a href="https://github.com/kakaobrain/pororo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo"></img></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/kakaobrain/pororo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo"></img></a>
+
+</p>
