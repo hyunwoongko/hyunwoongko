@@ -21,11 +21,11 @@ For more details, please refer to [here](https://github.com/hyunwoongko/hyunwoon
 ## Repositories
 <p align="center">
   <a href="https://github.com/kakaobrain/pororo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=kakaobrain&repo=pororo"></img></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;
   <a href="https://github.com/tunib-ai/parallelformers"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tunib-ai&repo=parallelformers"></img></a>
-  <br><br>
+  <br>
   <a href="https://github.com/tunib-ai/parallelformers"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tunib-ai&repo=parallelformers"></img></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;
   <a href="https://github.com/tunib-ai/parallelformers"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tunib-ai&repo=parallelformers"></img></a>
 
 </p>
