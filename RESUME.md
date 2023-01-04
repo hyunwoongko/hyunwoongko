@@ -17,7 +17,7 @@
 
 #### 2.2. Open Sources (50+ stars only)
 - [Pororo, Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo) (⭐1.2k+)
-- [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer) (⭐500+)
+- [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer) (⭐600+)
 - [Parallelformers, Efficient model parallelization toolkit for deployment](https://github.com/tunib-ai/parallelformers) (⭐500+)
 - [OpenChat, Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat) (⭐400+)
 - [KoChat, The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat) (⭐300+)
@@ -25,12 +25,12 @@
 - [OSLO, Open Source framework for Large-scale model Optimization](https://github.com/tunib-ai/oslo) (⭐200+)
 - [Large-scale LM Tutorials, Large-scale language modeling tutorials with PyTorch](https://github.com/tunib-ai/large-scale-lm-tutorials) (⭐100+)
 - [Polyglot, Large language models of well-balanced competence in multi-languages](https://github.com/EleutherAI/polyglot) (⭐100+)
+- [Pecab, Pure python Korean morpheme analyzer based on Mecab](https://githug.com/hyunwoongko/pecab) (⭐100+)
 - [TUNiB-Electra, Korean English bilingual electa models](https://github.com/tunib-ai/tunib-electra) (⭐50+)
 - [Asian BART, Asian language bart models (En, Ja, Ko, Zh, ECJK)](https://github.com/hyunwoongko/asian-bart) (⭐50+)
 - [Kocrawl, Package for controllable summarization](https://github.com/hyunwoongko/kocrawl) (⭐50+)
 - [Summarizers, Package for controllable summarization](https://github.com/hyunwoongko/summarizers) (⭐50+)
 - [Python Mecab Kor, Yet another python binding for Mecab-Ko](https://github.com/hyunwoongko/python-mecab-kor) (⭐50+)
-- [Pecab, Pure python Korean morpheme analyzer based on Mecab](https://githug.com/hyunwoongko/pecab) (⭐50+)
 - [Kobart Transformers, Kobart model on Huggingface transformers](https://github.com/hyunwoongko/kobart-transformers) (⭐50+)
 - [NLP Datasets, Curation note of NLP datasets](https://github.com/hyunwoongko/nlp-collections) (⭐50+)
 
