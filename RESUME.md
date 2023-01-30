@@ -78,7 +78,7 @@
 7. **Cluster Orchestration and Server Operating**
     - I've been deploying almost all TUNiB models using AWS ECS, especially the number of daily request of TUNiB N행시 was 2,000,000.
     - I used pre-built EKS cluster in EleutherAI and currently studying K8S and EKS cluster building.
-    - I've been also using Slurm launcher well in EleutherAI.
+    - I've been using Slurm launcher well in EleutherAI.
 8. **Kernel Optimization**
     - I have deploying almost all TUNiB models with TensorRT, ONNX and DeepSpeed Inference.
     - I also have an experience of making Torchscript based compiler with PyTorch team.
