@@ -18,7 +18,7 @@
 #### 2.2. Open Sources (50+ stars only)
 - [Pororo, Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo) (⭐1.2k+)
 - [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer) (⭐800+)
-- [Parallelformers, Efficient model parallelization toolkit for deployment](https://github.com/tunib-ai/parallelformers) (⭐500+)
+- [Parallelformers, Efficient model parallelization toolkit for deployment](https://github.com/tunib-ai/parallelformers) (⭐600+)
 - [OpenChat, Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat) (⭐400+)
 - [KoChat, The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat) (⭐300+)
 - [KSS, A Toolkit for Korean sentence segmentation](https://github.com/hyunwoongko/kss) (⭐200+)
