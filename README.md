@@ -12,6 +12,6 @@
 
 #### In the past, I was a ...
 - (2020.08 ~ 2021.03) ML Engineer at [Kakaobrain](https://github.com/kakaobrain).
-- (2020.06 ~ 2023.06) Host of [Jiphyeonjeon](https://github.com/jiphyeonjeon) paper review group.
+- (2021.03 ~ 2021.12) Host of [Jiphyeonjeon](https://github.com/jiphyeonjeon) paper review group.
 
 For more details, please refer to [here](https://github.com/hyunwoongko/hyunwoongko/blob/main/RESUME.md).
