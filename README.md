@@ -6,12 +6,12 @@
 [![Youtube](https://img.shields.io/badge/youtube-black?logo=Youtube&logoColor=white&link=https://www.youtube.com/channel/UCYshy3K1v4MYQD379YB77Uw)](https://www.youtube.com/channel/UCYshy3K1v4MYQD379YB77Uw)
 
 #### Currently, I am a ...
-- ML Engineer and Co-Founder at [TUNiB](https://github.com/tunib-ai).
-- Lead ML Scientist at [EleutherAI](https://github.com/eleutherai).
-- Manager of [Chatbot Korea](https://www.facebook.com/groups/ChatbotDevKR) facebook group.
+- (2021.03 ~ present) ML Engineer and Co-Founder at [TUNiB](https://github.com/tunib-ai).
+- (2022.02 ~ present) Lead ML Scientist at [EleutherAI](https://github.com/eleutherai).
+- (2021.03 ~ present) Manager of [Chatbot Korea](https://www.facebook.com/groups/ChatbotDevKR) facebook group.
 
 #### In the past, I was a ...
-- ML Engineer at [Kakaobrain](https://github.com/kakaobrain).
-- Host of [Jiphyeonjeon](https://github.com/jiphyeonjeon) paper review group.
+- (2020.08 ~ 2021.03) ML Engineer at [Kakaobrain](https://github.com/kakaobrain).
+- (2020.06 ~ 2023.06) Host of [Jiphyeonjeon](https://github.com/jiphyeonjeon) paper review group.
 
 For more details, please refer to [here](https://github.com/hyunwoongko/hyunwoongko/blob/main/RESUME.md).
