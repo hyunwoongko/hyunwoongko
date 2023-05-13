@@ -7,7 +7,7 @@
 
 #### Currently, I am a ...
 - (2023.05 ~ present) ML Researcher at [Kakao Brain](https://github.com/kakaobrain).
-- (2022.02 ~ present) Lead ML Scientist at [EleutherAI](https://github.com/eleutherai).
+- (2022.02 ~ present) ML Research Director at [EleutherAI](https://github.com/eleutherai).
 - (2021.03 ~ present) Manager of [Chatbot Korea](https://www.facebook.com/groups/ChatbotDevKR) facebook group.
 
 #### In the past, I was a ...
