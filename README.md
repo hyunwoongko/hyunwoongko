@@ -13,7 +13,7 @@
 #### In the past, I was a ...
 - (2022.02 ~ 2023.05) Lead ML Scientist at [EleutherAI](https://github.com/eleutherai).
 - (2021.03 ~ 2023.05) ML Engineer and Co-Founder at [TUNiB](https://github.com/tunib-ai).
-- (2020.08 ~ 2021.03) ML Engineer at [Kakao Brain](https://github.com/kakaobrain).
 - (2021.03 ~ 2021.12) Host of [Jiphyeonjeon](https://github.com/jiphyeonjeon) paper review group.
+- (2020.08 ~ 2021.03) ML Engineer at [Kakao Brain](https://github.com/kakaobrain).
 
 For more details, please refer to [here](https://github.com/hyunwoongko/hyunwoongko/blob/main/RESUME.md).
