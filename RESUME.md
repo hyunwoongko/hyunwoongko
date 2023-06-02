@@ -78,7 +78,7 @@
     - I've been contributing to several famous libraries such as Megatron-LM and DeepSpeed.
 7. **Cluster Orchestration and Server Operating**
     - I've been deploying almost all TUNiB models using AWS ECS, especially the number of daily request of TUNiB N행시 was 2,000,000.
-    - I used pre-built EKS cluster in EleutherAI and currently studying K8S and EKS cluster building.
+    - I've built k8s cluster on GKE for model evalauation in KakaoBrain.
     - I've been using Slurm launcher well in EleutherAI.
 8. **Kernel Optimization**
     - I have deploying almost all TUNiB models with TensorRT, ONNX and DeepSpeed Inference.
