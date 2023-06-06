@@ -47,14 +47,17 @@
 - [3rd place in K-Hackerthon held by Korea MSIP (Ministry of Future, Planning and Science)](https://newsis.com/view/?id=NISX20181108_0000467462&cID=10808&pID=10800)
 - [5th place in Elecsthon held by KEPCO (Korea Electric Power Corporation)](https://blog.kepco.co.kr/1310)
 
-## 4. Activities
+## 4. Publications
+- [A Technical Report for Polyglot-Ko: Open-Source Large-Scale Korean Language Models](https://arxiv.org/abs/2306.02254)
+
+## 5. Activities
 - [Founded an AI robot startup for autistic children](https://github.com/hyunwoongko/social-robot-bao)
 - [Lecturer at 2020 Data Campus School held by Korea Data Agency](https://github.com/hyunwoongko/bigdata-lecture)
 - [Host of Jiphyeonjeon, Natural language processing paper review group](https://github.com/jiphyeonjeon)
 - [Manager of Chatbot Korea, Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
 - Opensource Contribution - [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
 
-## 5. Skills and Experiences
+## 6. Skills and Experiences
 1. **Language Model Pre-training**
     - I've been pre-training 5+ models such as TUNiB-GPT, TUNiB-Electra and Polyglot.
 2. **Prompt Programming**
@@ -87,7 +90,7 @@
     - I've been making almost all backend servers of TUNiB models using FastAPI.
     - I've been made BLOONY backend server using Java Spring , but currently migrated to FastAPI at TUNiB.
 
-## 6. Contacts
+## 7. Contacts
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
 - Twitter: [https://twitter.com/hyunwoongko](https://twitter.com/hyunwoongko)
 - Facebook : [https://www.facebook.com/hyunwoongko](https://www.facebook.com/hyunwoongko)
