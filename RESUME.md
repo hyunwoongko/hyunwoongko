@@ -23,7 +23,7 @@
 - [OpenChat, Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat) (⭐400+)
 - [KoChat, The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat) (⭐400+)
 - [Polyglot, Large language models of well-balanced competence in multi-languages](https://github.com/EleutherAI/polyglot) (⭐300+)
-- [KSS, A Toolkit for Korean sentence segmentation](https://github.com/hyunwoongko/kss) (⭐200+)
+- [KSS, A Toolkit for Korean sentence segmentation](https://github.com/hyunwoongko/kss) (⭐300+)
 - [OSLO, Open Source framework for Large-scale model Optimization](https://github.com/tunib-ai/oslo) (⭐200+)
 - [Large-scale LM Tutorials, Large-scale language modeling tutorials with PyTorch](https://github.com/tunib-ai/large-scale-lm-tutorials) (⭐100+)
 - [Pecab, Pure python Korean morpheme analyzer based on Mecab](https://githug.com/hyunwoongko/pecab) (⭐100+)
