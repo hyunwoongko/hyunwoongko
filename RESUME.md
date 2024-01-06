@@ -17,8 +17,8 @@
 - [TUNiBridge Demo, A demo of TUNiB's API services](https://demo.tunibridge.ai/)
 
 #### 2.2. Open Sources (50+ stars only)
+- [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer) (⭐1.7k+)
 - [Pororo, Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo) (⭐1.2k+)
-- [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer) (⭐1.2k+)
 - [Parallelformers, Efficient model parallelization toolkit for deployment](https://github.com/tunib-ai/parallelformers) (⭐700+)
 - [OpenChat, Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat) (⭐400+)
 - [KoChat, The first Korean opensource chatbot framework](https://github.com/hyunwoongko/kochat) (⭐400+)
