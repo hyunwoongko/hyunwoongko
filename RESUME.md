@@ -1,7 +1,4 @@
 # Resume
-## 0. Github Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=hyunwoongko)
-
 ## 1. Biography
 - `2014.03 ~ 2020.08` : BS in Software Engineering, Chonbuk National University
 - `2019.08 ~ 2020.08` : Undergraduated Researcher at Autonomous Robot Lab, Chonbuk National University
