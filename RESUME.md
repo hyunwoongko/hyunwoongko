@@ -1,26 +1,36 @@
 # Curriculum Vitae
 ## 1. Who am I?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/hyunwoongko/hyunwoongko/assets/38183241/1fdac571-2e3e-497a-babc-31609f98094a" width=50%>
 
+- Name: Hyunwoong Ko (Kevin Ko)
+- Birth: 1995.09.12
+- Job: Software Engineer / AI Researcher
 
 ## 2. Skill Sets
-- Languages: Python, Java, C++
-- Tools: IntelliJ, PyCharm
-- Libraries:
-    - Language model training: Pytorch, Transformers, Megatron-LM, DeepSpeed, TRL and OpenRLHF
-    - Language model evaluation: LM-evaluation-harness
-    - DevOps / MLOps: Docker, Kubernetes, ECS, EKS, GKE, Triton inference server, ONNX and TensorRT
-    - Web server backend: Flask, FastAPI and Spring boot
-    - Korean language processing: MeCab
+- Languages:
+    - Python: Excellent
+    - Java: Excellent
+    - C++: Available
 - Topics:
     - Language model pre-training
     - Language model alignment
+    - Language model optimization
     - Prompt programming
     - Korean language processing
     - Data processing and crawling
     - Distributed programming
-    - Web server backend programming
+    - DevOps / MLOps
+    - Backend development
+- Libraries:
+    - Language model training: Pytorch, Transformers, Megatron-LM, DeepSpeed, TRL and OpenRLHF
+    - Language model evaluation: LM-evaluation-harness
+    - Language model optimization: Torchscript, Triton inference server, ONNX and TensorRT
+    - DevOps: Docker, Kubernetes, ECS, EKS, GKE, Github action and Codepipeline
+    - Backend development: Flask, FastAPI and Spring boot
+    - Korean language processing: MeCab
 
-#### <code>2014.03 ~ 2020.08</code>: BS in Software Engineering, Chonbuk National University
+## 3. Biography
+#### (<code>2014.03 ~ 2020.08</code>) BS in Software Engineering, Chonbuk National University
 1. GPA
     - 4.15 (major) / 4.07 (total)
     - 1st ranked.
@@ -33,18 +43,15 @@
     - [5th place in Elecsthon held by KEPCO (Korea Electric Power Corporation)](https://blog.kepco.co.kr/1310)
 4. ETC
     - I founded an [AI robot startup for autistic children](https://github.com/hyunwoongko/social-robot-bao).
- <br>
- 
-#### <code>2019.08 ~ 2020.08</code>: Undergraduate Researcher at Autonomous Robot Lab, Chonbuk National University
+
+#### (<code>2019.08 ~ 2020.08</code>) Undergraduate Researcher at Autonomous Robot Lab, Chonbuk National University
 1. Researches
     - I conducted a research about [citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition).
     - I conducted a research about [autonomous strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition).
 2. ETC
     - I was a lecturer at [2020 Data Campus School](https://github.com/hyunwoongko/bigdata-lecture) held by Korea Data Agency.
-<br>
- 
-#### <code>2020.08 ~ 2021.02</code>: Machine Learning Engineer at <a href="https://kakaobrain.com">Kakao Brain</a>
 
+#### (<code>2020.08 ~ 2021.02</code>) Machine Learning Engineer at <a href="https://kakaobrain.com">Kakao Brain</a>
 1. [BrainQA](https://github.com/hyunwoongko/hyunwoongko/blob/main/assets/brainquiz.gif?raw=true)
     - I researched Korean quiz generation model.
     - This model was integrated to [Pororo library](https://kakaobrain.github.io/pororo/seq2seq/qg.html)
@@ -53,10 +60,8 @@
     - I developed almost all generative models in Pororo such as Question Generation, Text Summarization and Machine Translation.
 3. ETC
     - I hosted [Jiphyeonjeon](https://github.com/jiphyeonjeon), a natural language processing paper review group.
-<br>
  
-#### <code>2021.03 ~ 2023.05</code>: Co-Founder & Machine Learning Engineer at <a href="https://tunib.ai">TUNiB</a>
-
+#### (<code>2021.03 ~ 2023.05</code>) Co-Founder & Machine Learning Engineer at <a href="https://tunib.ai">TUNiB</a>
 1. [Coco & Mas](https://dearmate.ai/)
     - Coco & Mas are Korean persona chatbots which have dog persona.
     - We collected Korean chatbot dataset with crowdsourcers, and tested crowdsourcing methods to improve data quality and yield.
@@ -84,10 +89,8 @@
     - [1st place in Korean Document Abstractive Summarization Competition held by Dacon (username: gusdnd852)](https://dacon.io/competitions/open/235673/leaderboard)
 6. ETC
     - I became a manager of [Chatbot Korea](https://facebook.com/groups/ChatbotDevKR), Korean facebook group for chatbot research.
-<br>
  
-#### <code>2022.02 ~ 2023.09</code>: Lead Machine Learning Scientist at <a href="https://eleuther.ai">EleutherAI</a>
-    
+#### (<code>2022.02 ~ 2023.09</code>) Lead Machine Learning Scientist at <a href="https://eleuther.ai">EleutherAI</a>
 1. [Polyglot](https://github.com/EleutherAI/polyglot)
     - Polyglot is EleutherAI's multilingual modeling project.
     - We collected 1.2 TB of korean texts for language model pre-training.
@@ -101,10 +104,8 @@
     - OSLO is a framework that provides various GPU based optimization technologies for large-scale modeling.
     - Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.
     - I was developing Tensor Parallelism, Pipeline Parallelism, Kernel Fusion, Activation Checkpointing engines.
-<br>
  
-#### <code>2023.05 ~ present</code>: Machine Learning Researcher at <a href="https://kakaobrain.com">Kakao Brain</a>
-    
+#### (<code>2023.05 ~ present</code>) Machine Learning Researcher at <a href="https://kakaobrain.com">Kakao Brain</a>
 1. Foundation Model Pre-training
     - I pre-trained KoGPT2, the foundation model at KakaoBrain.
     - Among its various sizes, the largest one is over 60B.
@@ -122,9 +123,8 @@
     - I developed GKE (Google Kubernetes Engine) based evaluation pipelines.
     - I improved data deduplication pipeline, its speed has doubled by the improvement.
     - I improved monitoring / planning methods for language model pre-training.
-<br>
  
-# How to contact?
+## 4. How to contact?
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
 - Twitter: [https://twitter.com/hyunwoongko](https://twitter.com/hyunwoongko)
 - Facebook : [https://www.facebook.com/hyunwoongko](https://www.facebook.com/hyunwoongko)
