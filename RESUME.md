@@ -1,4 +1,22 @@
 # Curriculum Vitae
+## Skill Sets
+- Languages: Python, Java, C++
+- Tools: IntelliJ, PyCharm
+- Libraries:
+    - Language model training: Pytorch, Transformers, Megatron-LM, DeepSpeed, TRL and OpenRLHF
+    - Language model evaluation: LM-evaluation-harness
+    - DevOps / MLOps: Docker, Kubernetes, ECS, EKS, GKE, Triton inference server, ONNX and TensorRT
+    - Web server backend: Flask, FastAPI and Spring boot
+    - Korean language processing: MeCab
+- Topics:
+    - Language model pre-training
+    - Language model alignment
+    - Prompt programming
+    - Korean language processing
+    - Data processing and crawling
+    - Distributed programming
+    - Web server backend programming
+
 #### <code>2014.03 ~ 2020.08</code>: BS in Software Engineering, Chonbuk National University
 1. GPA
     - 4.15 (major) / 4.07 (total)
