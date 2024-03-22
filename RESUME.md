@@ -76,8 +76,10 @@
     - [Pecab](https://github.com/hyunwoongko/pecab): Pure python morpheme analyzer based on Mecab-ko-dic.
     - [Parallelformers](https://github.com/hyunwoongko/parallelformers): Easy-to-use transformer model deployment toolkit based on Hugging Face Transformers. The core mechanism of this library was integrated to Microsoft DeepSpeed Inference.
     - [Large-scale LM Tutorials](https://github.com/tunib-ai/large-scale-lm-tutorials): Large-scale language modeling tutorials with PyTorch
-5. ETC
+5. Awards
     - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
+    - [1st place in Korean Document Abstractive Summarization Competition held by Dacon (username: gusdnd852)](https://dacon.io/competitions/open/235673/leaderboard)
+6. ETC
     - I became a manager of [Chatbot Korea](https://facebook.com/groups/ChatbotDevKR), Korean facebook group for chatbot research.
 
 </details>
