@@ -1,5 +1,8 @@
 # Curriculum Vitae
-## Skill Sets
+## 1. Who am I?
+
+
+## 2. Skill Sets
 - Languages: Python, Java, C++
 - Tools: IntelliJ, PyCharm
 - Libraries:
