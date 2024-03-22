@@ -7,27 +7,28 @@
 - Job: Software Engineer / AI Researcher
 
 ## 2. Skill Sets
-- Languages:
-    - Python: Excellent
-    - Java: Excellent
-    - C++: Available
-- Topics:
-    - Language model pre-training
-    - Language model alignment
-    - Language model optimization
-    - Prompt programming
-    - Korean language processing
-    - Data processing and crawling
-    - Distributed programming
-    - DevOps / MLOps
-    - Backend development
-- Libraries:
-    - Language model training: Pytorch, Transformers, Megatron-LM, DeepSpeed, TRL and OpenRLHF
-    - Language model evaluation: LM-evaluation-harness
-    - Language model optimization: Torchscript, Triton inference server, ONNX and TensorRT
-    - DevOps: Docker, Kubernetes, ECS, EKS, GKE, Github action and Codepipeline
-    - Backend development: Flask, FastAPI and Spring boot
-    - Korean language processing: MeCab
+#### Languages
+- Python: Excellent
+- Java: Excellent
+- C++: Available
+
+#### Topics
+- Language model pre-training
+- Language model alignment
+- Language model optimization
+- Prompt programming
+- Korean language processing
+- Data processing and crawling
+- Distributed programming
+- DevOps / MLOps
+- Backend development
+
+#### Libraries
+- Language model training: Pytorch, Transformers, Megatron-LM, DeepSpeed, TRL and OpenRLHF
+- Language model evaluation: LM-evaluation-harness
+- Language model optimization: Torchscript, Triton inference server, ONNX and TensorRT
+- DevOps: Docker, Kubernetes, ECS, EKS, GKE, Github Action and Code Pipeline
+- Backend development: Flask, FastAPI and Spring Boot
 
 ## 3. Biography
 #### (<code>2014.03 ~ 2020.08</code>) BS in Software Engineering, Chonbuk National University
