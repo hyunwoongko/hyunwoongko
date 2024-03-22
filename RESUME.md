@@ -4,12 +4,31 @@
   <summary>
     <code>2014.03 ~ 2020.08</code>: BS in Software Engineering, Chonbuk National University
   </summary>
+
+1. GPA
+    - Major: 4.15
+    - Total: 4.07
+    - Rank: 1st
+2. Activities
+    - [Founded an AI robot startup for autistic children](https://github.com/hyunwoongko/social-robot-bao)
+3. Awards
+    - [2nd place in undergraduated student best paper awards held by Korea Information Technology Society](http://www.todayan.com/news/articleView.html?idxno=230207)
+    - [3rd place in K-Hackerthon held by Korea MSIP (Ministry of Future, Planning and Science)](https://newsis.com/view/?id=NISX20181108_0000467462&cID=10808&pID=10800)
+    - [5th place in Elecsthon held by KEPCO (Korea Electric Power Corporation)](https://blog.kepco.co.kr/1310)
+
 </details>
 
 <details>
   <summary>
     <code>2019.08 ~ 2020.08</code>: Undergraduate Researcher at Autonomous Robot Lab, Chonbuk National University
   </summary>
+
+1. Researches
+    - [Citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
+    - [Autonomous strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition)
+2. Activities
+    - [Lecturer at 2020 Data Campus School held by Korea Data Agency](https://github.com/hyunwoongko/bigdata-lecture)
+
 </details>
 
 <details>
@@ -23,6 +42,8 @@
 2. Pororo (https://github.com/kakaobrain/pororo)
     - Pororo is an opensource multilingual NLP toolkit.
     - I developed almost all generative models in Pororo such as Question Generation, Text Summarization and Machine Translation.
+3. ETC
+    - [Host of Jiphyeonjeon, Natural language processing paper review group](https://github.com/jiphyeonjeon)
 
 </details>
 
@@ -31,9 +52,8 @@
     <code>2021.03 ~ 2023.05</code>: Co-Founder & Machine Learning Engineer at <a href="https://tunib.ai">TUNiB</a>
   </summary>
 
-
-1. Coco&Mas (https://dearmate.ai/)
-    - Coco&Mas are Korean persona chatbots which have dog persona.
+1. Coco & Mas (https://dearmate.ai/)
+    - Coco & Mas are Korean persona chatbots which have dog persona.
     - We collected Korean chatbot dataset with crowdsourcers, and tested crowdsourcing methods to improve data quality and yield.
     - I pre-trained 1.3B Korean model to create these chatbots and fine-tune the models using the data we've collected.
     - I researched the impact of pre-training and continual learning techniques.
@@ -52,6 +72,9 @@
     - Kss: The most famous Korean sentence segmentation toolkit.
     - Pecab: Pure python morpheme analyzer based on Mecab-ko-dic.
     - Parallelformers: Easy-to-use transformer model deployment toolkit based on Hugging Face Transformers. The core mechanism of this library was integrated to Microsoft DeepSpeed Inference.
+5. ETC
+    - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
+    - [Manager of Chatbot Korea, Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
 
 </details>
 
