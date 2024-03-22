@@ -1,4 +1,4 @@
-# Resume
+# Curriculum Vitae
 #### <code>2014.03 ~ 2020.08</code>: BS in Software Engineering, Chonbuk National University
 1. GPA
     - 4.15 (major) / 4.07 (minor)
