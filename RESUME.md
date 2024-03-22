@@ -42,7 +42,7 @@
     - Pororo is an opensource multilingual NLP toolkit.
     - I developed almost all generative models in Pororo such as Question Generation, Text Summarization and Machine Translation.
 3. ETC
-    - [Host of Jiphyeonjeon, Natural language processing paper review group](https://github.com/jiphyeonjeon)
+    - I hosted [Jiphyeonjeon](https://github.com/jiphyeonjeon), a natural language processing paper review group.
 
 </details>
 
@@ -73,7 +73,7 @@
     - Parallelformers: Easy-to-use transformer model deployment toolkit based on Hugging Face Transformers. The core mechanism of this library was integrated to Microsoft DeepSpeed Inference.
 5. ETC
     - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
-    - [Manager of Chatbot Korea, Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
+    - I became a manager of [Chatbot Korea](https://facebook.com/groups/ChatbotDevKR), Korean facebook group for chatbot research.
 
 </details>
 
