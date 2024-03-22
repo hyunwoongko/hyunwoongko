@@ -69,6 +69,7 @@
     
 1. [Polyglot](https://github.com/EleutherAI/polyglot)
     - Polyglot is EleutherAI's multilingual modeling project.
+    - We collected 1.2 TB of korean texts for language model pre-training.
     - We released 1B, 3B, 6B, 13B models trained on large-scale Korean dataset.
     - We publihed [a technical report of polyglot-ko](https://arxiv.org/abs/2306.02254)
     - I was managing all members in Polyglot team and developing dataset preprocessing, training, evaluation pipelines.
