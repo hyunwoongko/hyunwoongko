@@ -14,7 +14,7 @@
 - [TUNiBridge Demo, A demo of TUNiB's API services](https://demo.tunibridge.ai/)
 
 #### 2.2. Open Sources (50+ stars only)
-- [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer) (⭐1.7k+)
+- [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer) (⭐2.0k+)
 - [Pororo, Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo) (⭐1.2k+)
 - [Parallelformers, Efficient model parallelization toolkit for deployment](https://github.com/tunib-ai/parallelformers) (⭐700+)
 - [OpenChat, Easy to use opensource chatting framework via neural networks](https://github.com/hyunwoongko/openchat) (⭐400+)
@@ -54,40 +54,7 @@
 - [Manager of Chatbot Korea, Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
 - Opensource Contribution - [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
 
-## 6. Skills and Experiences
-1. **Language Model Pre-training**
-    - I've been pre-training 5+ models such as TUNiB-GPT, TUNiB-Electra and Polyglot.
-2. **Prompt Programming**
-    - I've been writing all prompts used in BLOONY.
-    - I've been writing almost all prompts used for autonomous data generation used at TUNiB.
-3. **Generative Language Modeling**
-    - I made many generative models in Pororo such as Translation, Summarization, Question generation and Pharaprase generation.
-    - I did resarches about Korean quiz generation modeling at Kakaobrain.
-    - I've been making all generative chatbot models of TUNiB such as Coco, Mas and BLOONY.
-    - I've been making TUNiB N행시 models which are very popular in the Korean internet community.
-4. **Korean Language Processing**
-    - I've been making Kss, the most famous Korean sentence segmentation library.
-    - I also made Pecab, pure python Korean morpheme analyzer based on Mecab-ko-dic.
-5. **Data Crawling & Collection**
-    - I crawled 1.2TB of Korean text data from web to make TUNiB-GPT.
-    - I am building 10+TB of Multilingual text dataset to make Polyglot.
-    - I enjoy to use the two techniques for crawling: backend crawling and offline parsing.
-6. **Distributed Processing**
-    - I've been building almost all deep learining parallelization mechanism from scratch on Parallelformers and OSLO project.
-    - I co-worked with HF 3D Parallelism team and Microsoft DeepSpeed team.
-    - I've been contributing to several famous libraries such as Megatron-LM and DeepSpeed.
-7. **Cluster Orchestration and Server Operating**
-    - I've been deploying almost all TUNiB models using AWS ECS, especially the number of daily request of TUNiB N행시 was 2,000,000.
-    - I've built k8s cluster on GKE for model evalauation in KakaoBrain.
-    - I've been using Slurm launcher well in EleutherAI.
-8. **Kernel Optimization**
-    - I have deploying almost all TUNiB models with TensorRT, ONNX and DeepSpeed Inference.
-    - I also have an experience of making Torchscript based compiler with PyTorch team.
-9. **Backend Server Programming**
-    - I've been making almost all backend servers of TUNiB models using FastAPI.
-    - I've been made BLOONY backend server using Java Spring , but currently migrated to FastAPI at TUNiB.
-
-## 7. Contacts
+## 6. Contacts
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
 - Twitter: [https://twitter.com/hyunwoongko](https://twitter.com/hyunwoongko)
 - Facebook : [https://www.facebook.com/hyunwoongko](https://www.facebook.com/hyunwoongko)
