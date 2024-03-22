@@ -26,7 +26,7 @@
 
 1. [BrainQA](https://github.com/hyunwoongko/hyunwoongko/blob/main/assets/brainquiz.gif?raw=true)
     - I researched Korean quiz generation model.
-    - This model was integrated to Pororo library (https://kakaobrain.github.io/pororo/seq2seq/qg.html)
+    - This model was integrated to [Pororo library](https://kakaobrain.github.io/pororo/seq2seq/qg.html)
 2. [Pororo](https://github.com/kakaobrain/pororo)
     - Pororo is an opensource multilingual NLP toolkit.
     - I developed almost all generative models in Pororo such as Question Generation, Text Summarization and Machine Translation.
