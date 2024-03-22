@@ -7,13 +7,7 @@
 - `2022.02 ~ 2023.09`: Lead Machine Learning Scientist at [EleutherAI](https://github.com/EleutherAI)
 - `2023.05 ~ present`: Machine Learning Researcher at [Kakao Brain](https://github.com/kakaobrain)
 
-## 2. Projects
-#### 2.1. Services
-- [BLOONY, A persona chatbot based on OpenAI GPT3](https://bloony.ai)
-- [Coco](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EC%BD%94%EC%BD%94%ED%8E%B8.mp4) & [Mas](https://tunib.ai/video/%EB%94%94%EC%96%B4%EB%A9%94%EC%9D%B4%ED%8A%B8_%EC%86%8C%EA%B0%9C%EC%98%81%EC%83%81_%EB%A7%88%EC%8A%A4%ED%8E%B8.mp4), Persona chatbots based on TUNiB's own language models
-- [TUNiBridge Demo, A demo of TUNiB's API services](https://demo.tunibridge.ai/)
-
-#### 2.2. Open Sources (50+ stars only)
+## 2. Open Source Projects (50+ stars only)
 - [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer) (⭐2.0k+)
 - [Pororo, Multilingual natural language processing toolkit](https://github.com/kakaobrain/pororo) (⭐1.2k+)
 - [Parallelformers, Efficient model parallelization toolkit for deployment](https://github.com/tunib-ai/parallelformers) (⭐700+)
@@ -32,11 +26,6 @@
 - [Kobart Transformers, Kobart model on Huggingface transformers](https://github.com/hyunwoongko/kobart-transformers) (⭐50+)
 - [NLP Datasets, Curation note of NLP datasets](https://github.com/hyunwoongko/nlp-collections) (⭐50+)
 
-#### 2.3. Researches
-- [Citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
-- [Autonomous strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition)
-- [Brain Quiz, Korean quiz generation module](https://github.com/hyunwoongko/hyunwoongko/blob/main/assets/brainquiz.gif)
-
 ## 3. Awards
 - [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
 - [1st place in Korean Document Abstractive Summarization Competition held by Dacon (username: gusdnd852)](https://dacon.io/competitions/open/235673/leaderboard)
@@ -47,14 +36,7 @@
 ## 4. Publications
 - [A Technical Report for Polyglot-Ko: Open-Source Large-Scale Korean Language Models](https://arxiv.org/abs/2306.02254)
 
-## 5. Activities
-- [Founded an AI robot startup for autistic children](https://github.com/hyunwoongko/social-robot-bao)
-- [Lecturer at 2020 Data Campus School held by Korea Data Agency](https://github.com/hyunwoongko/bigdata-lecture)
-- [Host of Jiphyeonjeon, Natural language processing paper review group](https://github.com/jiphyeonjeon)
-- [Manager of Chatbot Korea, Korean facebook group for chatbot research](https://facebook.com/groups/ChatbotDevKR)
-- Opensource Contribution - [Megatron-LM](https://github.com/nvidia/Megatron-LM/commits?author=hyunwoongko), [DeepSpeed](https://github.com/microsoft/DeepSpeed/commits?author=hyunwoongko), [Transformers](https://github.com/huggingface/transformers/commits?author=hyunwoongko)
-
-## 6. Contacts
+## 5. Contacts
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
 - Twitter: [https://twitter.com/hyunwoongko](https://twitter.com/hyunwoongko)
 - Facebook : [https://www.facebook.com/hyunwoongko](https://www.facebook.com/hyunwoongko)
