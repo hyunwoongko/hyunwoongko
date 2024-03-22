@@ -1,11 +1,103 @@
 # Resume
 ## 1. Biography
-- `2014.03 ~ 2020.08` : BS in Software Engineering, Chonbuk National University
-- `2019.08 ~ 2020.08` : Undergraduated Researcher at Autonomous Robot Lab, Chonbuk National University
-- `2020.08 ~ 2021.02` : Machine Learning Engineer at [Kakao Brain](https://kakaobrain.com)
-- `2021.03 ~ 2023.05` : Co-Founder & Machine Learning Engineer at [TUNiB](https://tunib.ai)
-- `2022.02 ~ 2023.09`: Lead Machine Learning Scientist at [EleutherAI](https://eleuther.ai)
-- `2023.05 ~ present`: Machine Learning Researcher at [Kakao Brain](https://kakaobrain.com)
+<details>
+  <summary>
+    <code>2014.03 ~ 2020.08</code>: BS in Software Engineering, Chonbuk National University
+  </summary>
+</details>
+
+<details>
+  <summary>
+    <code>2019.08 ~ 2020.08</code>: Undergraduate Researcher at Autonomous Robot Lab, Chonbuk National University
+  </summary>
+</details>
+
+<details>
+  <summary>
+    <code>2020.08 ~ 2021.02</code>: Machine Learning Engineer at <a href="https://kakaobrain.com">Kakao Brain</a>
+  </summary>
+
+1. BrainQA
+    - I researched Korean quiz generation model.
+    - This model was integrated to Pororo library (https://kakaobrain.github.io/pororo/seq2seq/qg.html)
+2. Pororo (https://github.com/kakaobrain/pororo)
+    - Pororo is an opensource multilingual NLP toolkit.
+    - I developed almost all generative models in Pororo such as Question Generation, Text Summarization and Machine Translation.
+
+</details>
+
+<details>
+  <summary>
+    <code>2021.03 ~ 2023.05</code>: Co-Founder & Machine Learning Engineer at <a href="https://tunib.ai">TUNiB</a>
+  </summary>
+
+
+1. Coco&Mas (https://dearmate.ai/)
+    - Coco&Mas are Korean persona chatbots which have dog persona.
+    - We collected Korean chatbot dataset with crowdsourcers, and tested crowdsourcing methods to improve data quality and yield.
+    - I pre-trained 1.3B Korean model to create these chatbots and fine-tune the models using the data we've collected.
+    - I researched the impact of pre-training and continual learning techniques.
+    - I deployed these models with Triton Inference Server and AWS ECS cluster.
+2. BLOONY (https://bloony.ai/)
+    - BLOONY is an English chatbot powered by OpenAI GPT
+    - I developed backend server using Java Spring Boot
+    - I researched instruction following ability of OpenAI GPT3, and found innovate prompting methodology. In that time there's no instruction fine-tuned model, so the instruction following ability of the models was not very good. The methodology I made at the time became famous a year later as a technique called COT (Chain of thought).
+    - I deployed overall services using AWS ECS cluster.
+3. TUNiBridge (https://tunibridge.ai/)
+    - TUNiBridge is a service that provides various natural language models API.
+    - I improved safety check module's TPS from 7 to 240 using NVIDIA TensorRT, Triton Inference Server and AWS ECS.
+    - TUNiB N행시 service had been very popular in the Korean Internet community for about two weeks, with about 2 million requests per day. I improved the existing system to make the service more desirable.
+    - I designed and developed overall system and deployed 20+ APIs.
+4. Opensource activities
+    - Kss: The most famous Korean sentence segmentation toolkit.
+    - Pecab: Pure python morpheme analyzer based on Mecab-ko-dic.
+    - Parallelformers: Easy-to-use transformer model deployment toolkit based on Hugging Face Transformers. The core mechanism of this library was integrated to Microsoft DeepSpeed Inference.
+
+</details>
+
+<details>
+  <summary>
+    <code>2022.02 ~ 2023.09</code>: Lead Machine Learning Scientist at <a href="https://eleuther.ai">EleutherAI</a>
+  </summary>
+    
+1. Polyglot: https://github.com/EleutherAI/polyglot
+    - Polyglot is EleutherAI's multilingual modeling project.
+    - We released 1B, 3B, 6B, 13B models trained on large-scale Korean dataset.
+    - I was managing all members in Polyglot team and developing dataset preprocessing, training, evaluation pipelines.
+2. Japanese StableLM: https://stability.ai/blog/stability-ai-new-jplm-japanese-language-model-stablelm
+    - We released Japanese StableLM models by co-working StabilityAI Japan.
+    - We released 7B foundation language model and instruction fine-tuned model.
+3. OSLO: https://github.com/EleutherAI/oslo
+    - OSLO is a framework that provides various GPU based optimization technologies for large-scale modeling. Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.
+    - OSLO makes these technologies easy-to-use by magical compatibility with Hugging Face Transformers that is being considered as a de facto standard in NLP field. We look forward large-scale modeling technologies to be more democratized by significantly decreasing the difficulty of using these technologies using OSLO.
+    - I was developing Tensor Parallelism, Pipeline Parallelism, Kernel Fusion, Activation Checkpointing engines.
+
+</details>
+
+<details>
+  <summary>
+    <code>2023.05 ~ present</code>: Machine Learning Researcher at <a href="https://kakaobrain.com">Kakao Brain</a>
+  </summary>
+    
+1. Foundation Model Pre-training
+    - I pre-trained KoGPT2, the foundation model at KakaoBrain.
+    - Among its various sizes, the largest one is over 60B.
+2. Long Context Fine-tuning
+    - I conducted research to extend KoGPT2 for long contexts.
+    - I tested various existing techniques and internal ideas.
+    - I successfully extended the model from 4k length to 32k and 65k lengths.
+3. Multimodal Fine-tuning
+    - I conducted research on extending KoGPT2 for multimodal tasks, primarily text-image input and text output.
+    - I combined vision encoders with auto-regressive language models, effectively handling image inputs.
+4. Codebase Management
+    - I am managing various internal codebases.
+    - Notably, Megatron-LM for pre-training and OpenRLHF for alignment
+5. ETC
+    - I developed GKE (Google Kubernetes Engine) based evaluation pipelines.
+    - I improved data deduplication pipeline, its speed has doubled by the improvement.
+    - I improved monitoring / planning methods for language model pre-training.
+
+</details>
 
 ## 2. Open Source Projects (50+ stars only)
 - [Transformer, PyTorch implementation of Attention Is All You Need](https://github.com/hyunwoongko/transformer) (⭐2.0k+)
