@@ -51,7 +51,7 @@
     - I was a lecturer at [2020 Data Campus School](https://github.com/hyunwoongko/bigdata-lecture) held by Korea Data Agency.
 
 #### [<code>2020.08 ~ 2021.02</code>] Machine Learning Engineer at <a href="https://kakaobrain.com">Kakao Brain</a>
-1. [BrainQA](https://github.com/hyunwoongko/hyunwoongko/blob/main/assets/brainquiz.gif?raw=true)
+1. [BrainQA](https://github.com/hyunwoongko/hyunwoongko/blob/main/assets/brainquiz.gif)
     - I researched Korean quiz generation model.
     - This model was integrated to [Pororo library](https://kakaobrain.github.io/pororo/seq2seq/qg.html)
 2. [Pororo](https://github.com/kakaobrain/pororo)
