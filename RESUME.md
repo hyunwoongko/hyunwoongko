@@ -12,14 +12,16 @@
     - [5th place in Elecsthon held by KEPCO (Korea Electric Power Corporation)](https://blog.kepco.co.kr/1310)
 4. ETC
     - I founded an [AI robot startup for autistic children](https://github.com/hyunwoongko/social-robot-bao).
-
+ <br>
+ 
 #### <code>2019.08 ~ 2020.08</code>: Undergraduate Researcher at Autonomous Robot Lab, Chonbuk National University
 1. Researches
     - I conducted a research about [citrus pest and disease recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition).
     - I conducted a research about [autonomous strabismus recognition](https://github.com/hyunwoongko/strabismus-recognition).
 2. ETC
     - I was a lecturer at [2020 Data Campus School](https://github.com/hyunwoongko/bigdata-lecture) held by Korea Data Agency.
-
+<br>
+ 
 #### <code>2020.08 ~ 2021.02</code>: Machine Learning Engineer at <a href="https://kakaobrain.com">Kakao Brain</a>
 
 1. [BrainQA](https://github.com/hyunwoongko/hyunwoongko/blob/main/assets/brainquiz.gif?raw=true)
@@ -30,7 +32,8 @@
     - I developed almost all generative models in Pororo such as Question Generation, Text Summarization and Machine Translation.
 3. ETC
     - I hosted [Jiphyeonjeon](https://github.com/jiphyeonjeon), a natural language processing paper review group.
-
+<br>
+ 
 #### <code>2021.03 ~ 2023.05</code>: Co-Founder & Machine Learning Engineer at <a href="https://tunib.ai">TUNiB</a>
 
 1. [Coco & Mas](https://dearmate.ai/)
@@ -60,9 +63,8 @@
     - [1st place in Korean Document Abstractive Summarization Competition held by Dacon (username: gusdnd852)](https://dacon.io/competitions/open/235673/leaderboard)
 6. ETC
     - I became a manager of [Chatbot Korea](https://facebook.com/groups/ChatbotDevKR), Korean facebook group for chatbot research.
-
-</details>
-
+<br>
+ 
 #### <code>2022.02 ~ 2023.09</code>: Lead Machine Learning Scientist at <a href="https://eleuther.ai">EleutherAI</a>
     
 1. [Polyglot](https://github.com/EleutherAI/polyglot)
@@ -78,7 +80,8 @@
     - OSLO is a framework that provides various GPU based optimization technologies for large-scale modeling.
     - Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.
     - I was developing Tensor Parallelism, Pipeline Parallelism, Kernel Fusion, Activation Checkpointing engines.
-
+<br>
+ 
 #### <code>2023.05 ~ present</code>: Machine Learning Researcher at <a href="https://kakaobrain.com">Kakao Brain</a>
     
 1. Foundation Model Pre-training
@@ -98,7 +101,8 @@
     - I developed GKE (Google Kubernetes Engine) based evaluation pipelines.
     - I improved data deduplication pipeline, its speed has doubled by the improvement.
     - I improved monitoring / planning methods for language model pre-training.
-
+<br>
+ 
 # How to contact?
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
 - Twitter: [https://twitter.com/hyunwoongko](https://twitter.com/hyunwoongko)
