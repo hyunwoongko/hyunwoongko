@@ -72,7 +72,6 @@
     - We released 1B, 3B, 6B, 13B models trained on large-scale Korean dataset.
     - We publihed [a technical report of polyglot-ko](https://arxiv.org/abs/2306.02254)
     - I was managing all members in Polyglot team and developing dataset preprocessing, training, evaluation pipelines.
-
 2. [Japanese StableLM](https://stability.ai/blog/stability-ai-new-jplm-japanese-language-model-stablelm)
     - We released Japanese StableLM models by co-working StabilityAI Japan.
     - We released 7B foundation language model and instruction fine-tuned model.
