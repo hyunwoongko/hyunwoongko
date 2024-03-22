@@ -1,7 +1,7 @@
 # Curriculum Vitae
 #### <code>2014.03 ~ 2020.08</code>: BS in Software Engineering, Chonbuk National University
 1. GPA
-    - 4.15 (major) / 4.07 (minor)
+    - 4.15 (major) / 4.07 (total)
     - 1st ranked.
 2. Opensources
     - [Transformer](https://github.com/hyunwoongko/transformer): PyTorch implementation of Attention Is All You Need
