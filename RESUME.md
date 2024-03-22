@@ -9,7 +9,7 @@
     - 4.15 (major) / 4.07 (minor)
     - 1st ranked.
 2. Activities
-    - [I founded an AI robot startup for autistic children](https://github.com/hyunwoongko/social-robot-bao).
+    - I founded an [AI robot startup for autistic children](https://github.com/hyunwoongko/social-robot-bao).
 3. Awards
     - [2nd place in undergraduated student best paper awards held by Korea Information Technology Society](http://www.todayan.com/news/articleView.html?idxno=230207)
     - [3rd place in K-Hackerthon held by Korea MSIP (Ministry of Future, Planning and Science)](https://newsis.com/view/?id=NISX20181108_0000467462&cID=10808&pID=10800)
