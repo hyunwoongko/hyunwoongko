@@ -108,6 +108,7 @@
 1. Foundation Model Pre-training
     - I pre-trained KoGPT2, the foundation model at KakaoBrain.
     - Among its various sizes, the largest one is over 60B.
+    - It got similar performance with LLaMA2 in English, much better in Korean.
 2. Long Context Fine-tuning
     - I conducted research to extend KoGPT2 for long contexts.
     - I tested various existing techniques and internal ideas.
