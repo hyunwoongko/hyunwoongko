@@ -124,7 +124,7 @@
     - I improved monitoring / planning methods for language model pre-training.
 
 #### [<code>2024.06 ~ present</code>] Machine Learning Researcher at <a href="https://kakaocorp.com">Kakao</a>
-- Currently working in LM alignment team.
+- Currently working at LM alignment team.
  
 ## 4. How to contact?
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
