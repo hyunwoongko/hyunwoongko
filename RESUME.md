@@ -120,7 +120,7 @@
     - I am managing various internal codebases.
     - Notably, Megatron-LM for pre-training and OpenRLHF for alignment
 5. Publication
-    - [ACL 2024] Length-aware Byte Pair Encoding for Mitigating Over-segmentation in Korean Machine TranslationLength-aware Byte Pair Encoding for Mitigating Over-segmentation in Korean Machine Translation 
+    - [ACL 2024] Length-aware Byte Pair Encoding for Mitigating Over-segmentation in Korean Machine Translation
 6. ETC
     - I developed GKE (Google Kubernetes Engine) based evaluation pipelines.
     - I improved data deduplication pipeline, its speed has doubled by the improvement.
