@@ -104,7 +104,7 @@
     - Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.
     - I was developing Tensor Parallelism, Pipeline Parallelism, Kernel Fusion, Activation Checkpointing engines.
  
-#### [<code>2023.05 ~ present</code>] Machine Learning Researcher at <a href="https://kakaobrain.com">Kakao Brain</a>
+#### [<code>2023.05 ~ 2024.06</code>] Machine Learning Researcher at <a href="https://kakaobrain.com">Kakao Brain</a>
 1. Foundation Model Pre-training
     - I pre-trained KoGPT2, the foundation model at KakaoBrain.
     - Among its various sizes, the largest one is over 60B.
@@ -122,6 +122,9 @@
     - I developed GKE (Google Kubernetes Engine) based evaluation pipelines.
     - I improved data deduplication pipeline, its speed has doubled by the improvement.
     - I improved monitoring / planning methods for language model pre-training.
+
+#### [<code>2024.06 ~ present</code>] Machine Learning Researcher at <a href="https://kakaocorp.com">Kakao</a>
+- Currently working in LM alignment team.
  
 ## 4. How to contact?
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
