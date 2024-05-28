@@ -125,6 +125,7 @@
     - I improved monitoring / planning methods for language model pre-training.
 6. Publication
     - [ACL 2024] Length-aware Byte Pair Encoding for Mitigating Over-segmentation in Korean Machine TranslationLength-aware Byte Pair Encoding for Mitigating Over-segmentation in Korean Machine Translation 
+
 #### [<code>2024.06 ~ present</code>] Machine Learning Researcher at <a href="https://kakaocorp.com">Kakao</a>
 - Currently working at LM alignment team.
  
