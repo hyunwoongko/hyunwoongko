@@ -130,10 +130,8 @@
 1. Language Model Alignment
     - I created an interenal evaluation framework for aligned models.
     - I am currently focusing on AI-assisted dataset generation for language model alignment (Project Leader).
-
 2. Multimodal Foundation Model
     - I am currently focusing on training the multimodal model in Korean language and culture.
-
 3. ETC
     - I am also leading most of the work related to the Infiniband cluster (Slurm) for both projects.
  
