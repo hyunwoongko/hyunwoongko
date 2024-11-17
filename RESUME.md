@@ -24,7 +24,7 @@
 - Libraries
   - Language model training: Pytorch, Transformers, Megatron-LM, DeepSpeed, TRL and OpenRLHF
   - Language model evaluation: LM-evaluation-harness
-  - Language model optimization: Torchscript, Triton inference server, ONNX and TensorRT
+  - Language model optimization: Torchscript, Triton inference server, ONNX and TensorRT, VLLM, Flash Attention
   - DevOps: Docker, Kubernetes, ECS, EKS, GKE, Github Action and Code Pipeline
   - Backend development: Flask, FastAPI and Spring Boot
 
