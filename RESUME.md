@@ -15,6 +15,7 @@
   - Language model pre-training
   - Language model alignment
   - Language model optimization
+  - Multimodal model training
   - Prompt programming
   - Korean language processing
   - Data processing and crawling
