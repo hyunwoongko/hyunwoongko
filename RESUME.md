@@ -70,16 +70,16 @@
 - Research: [Autonomous Strabismus Recognition](https://github.com/hyunwoongko/strabismus-recognition)
 
 ## Open Sources
-- [nanoRLHF](https://github.com/hyunwoongko/nanoRLHF): From-scratch Implementation of Arrow, Ray, Megatron-LM, Flash attention, vLLM and Verl
-- [OSLO](https://github.com/tunib-ai/oslo): Open Source Framework for Large-scale Model Optimization
-- [Parallelformers](https://github.com/hyunwoongko/parallelformers): LLM Deployment Toolkit based on HF Transformers. (integrated to DeepSpeed Inference)
-- [Large-scale LM Tutorials](https://github.com/tunib-ai/large-scale-lm-tutorials): Large-scale Language Modeling Tutorials with PyTorch
-- [Kss](https://github.com/hyunwoongko/kss): The Most Famous Korean Sentence Segmentation Toolkit.
-- [Pecab](https://github.com/hyunwoongko/pecab): Pure Python Morpheme Analyzer based on Mecab-ko-dic.
+- [Transformer](https://github.com/hyunwoongko/transformer): PyTorch Implementation of Attention Is All You Need (Github 4k+ stars)
+- [Pororo](https://github.com/kakaobrain/pororo): Open Source Multilingual NLP toolkit. (Github 1k+ stars)
 - [KoChat](https://github.com/hyunwoongko/kochat): The First Korean Open Source Chatbot Framework
 - [OpenChat](https://github.com/hyunwoongko/openchat): Easy to use Opensource Chatbot Framework via Neural Networks
-- [Pororo](https://github.com/kakaobrain/pororo): Open Source Multilingual NLP toolkit. (Github 1k+ stars)
-- [Transformer](https://github.com/hyunwoongko/transformer): PyTorch Implementation of Attention Is All You Need (Github 4k+ stars)
+- [Kss](https://github.com/hyunwoongko/kss): The Most Famous Korean Sentence Segmentation Toolkit.
+- [Pecab](https://github.com/hyunwoongko/pecab): Pure Python Morpheme Analyzer based on Mecab-ko-dic.
+- [Large-scale LM Tutorials](https://github.com/tunib-ai/large-scale-lm-tutorials): Large-scale Language Modeling Tutorials with PyTorch
+- [Parallelformers](https://github.com/hyunwoongko/parallelformers): LLM Deployment Toolkit based on HF Transformers. (integrated to DeepSpeed Inference)
+- [OSLO](https://github.com/tunib-ai/oslo): Open Source Framework for Large-scale Model Optimization
+- [nanoRLHF](https://github.com/hyunwoongko/nanoRLHF): From-scratch Implementation of Arrow, Ray, Megatron-LM, Flash attention, vLLM and Verl
 
 ## Education
 - BS in Software Engineering, Chonbuk National University
