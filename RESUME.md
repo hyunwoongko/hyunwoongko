@@ -69,7 +69,7 @@
 - [Transformer](https://github.com/hyunwoongko/transformer): PyTorch implementation of Attention Is All You Need (Github 4k+ stars)
 - [KoChat](https://github.com/hyunwoongko/kochat): The first Korean open source chatbot framework
 - [OpenChat](https://github.com/hyunwoongko/openchat): Easy to use opensource chatting framework via neural networks
-- [Pororo](https://github.com/kakaobrain/pororo): Open source multilingual NLP toolkit.
+- [Pororo](https://github.com/kakaobrain/pororo): Open source multilingual NLP toolkit. (Github 1k stars)
 - [Kss](https://github.com/hyunwoongko/kss): The most famous Korean sentence segmentation toolkit.
 - [Pecab](https://github.com/hyunwoongko/pecab): Pure python morpheme analyzer based on Mecab-ko-dic.
 - [Large-scale LM Tutorials](https://github.com/tunib-ai/large-scale-lm-tutorials): Large-scale language modeling tutorials with PyTorch
