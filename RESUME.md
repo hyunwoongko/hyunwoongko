@@ -66,16 +66,16 @@
 - Research: [Autonomous Strabismus Recognition](https://github.com/hyunwoongko/strabismus-recognition)
 
 ## Open Sources
-- [nanoRLHF](https://github.com/hyunwoongko/nanoRLHF): From-scratch implementation of Arrow, Ray, Megatron-LM, Flash attention, vLLM and Verl
+- [nanoRLHF](https://github.com/hyunwoongko/nanoRLHF): From-scratch Implementation of Arrow, Ray, Megatron-LM, Flash attention, vLLM and Verl
 - [OSLO](https://github.com/tunib-ai/oslo): Open Source framework for Large-scale model Optimization
-- [Parallelformers](https://github.com/hyunwoongko/parallelformers): LLM deployment toolkit based on HF Transformers. (integrated to DeepSpeed Inference)
-- [Large-scale LM Tutorials](https://github.com/tunib-ai/large-scale-lm-tutorials): Large-scale language modeling tutorials with PyTorch
-- [Kss](https://github.com/hyunwoongko/kss): The most famous Korean sentence segmentation toolkit.
-- [Pecab](https://github.com/hyunwoongko/pecab): Pure python morpheme analyzer based on Mecab-ko-dic.
-- [KoChat](https://github.com/hyunwoongko/kochat): The first Korean open source chatbot framework
-- [OpenChat](https://github.com/hyunwoongko/openchat): Easy to use opensource chatting framework via neural networks
-- [Pororo](https://github.com/kakaobrain/pororo): Open source multilingual NLP toolkit. (Github 1k+ stars)
-- [Transformer](https://github.com/hyunwoongko/transformer): PyTorch implementation of Attention Is All You Need (Github 4k+ stars)
+- [Parallelformers](https://github.com/hyunwoongko/parallelformers): LLM Deployment Toolkit based on HF Transformers. (integrated to DeepSpeed Inference)
+- [Large-scale LM Tutorials](https://github.com/tunib-ai/large-scale-lm-tutorials): Large-scale Language Modeling Tutorials with PyTorch
+- [Kss](https://github.com/hyunwoongko/kss): The Most Famous Korean Sentence Segmentation Toolkit.
+- [Pecab](https://github.com/hyunwoongko/pecab): Pure Python Morpheme Analyzer based on Mecab-ko-dic.
+- [KoChat](https://github.com/hyunwoongko/kochat): The First Korean Open Source Chatbot Framework
+- [OpenChat](https://github.com/hyunwoongko/openchat): Easy to use Opensource Chatbot Framework via Neural Networks
+- [Pororo](https://github.com/kakaobrain/pororo): Open Source Multilingual NLP toolkit. (Github 1k+ stars)
+- [Transformer](https://github.com/hyunwoongko/transformer): PyTorch Implementation of Attention Is All You Need (Github 4k+ stars)
 
 ## Education
 - BS in Software Engineering, Chonbuk National University
@@ -95,8 +95,8 @@
 - Presentation (집현전): [Large-scale LM에 대한 얕고 넓은 지식들](https://www.youtube.com/watch?v=w4a-ARCEiqU)
 - Presentation (AI Star): [새로운 AI 챗봇?! 오픈소스 AI와 지금 직접 채팅을 해보세요.](https://www.youtube.com/watch?v=uN-OBI0n0JE)
 - Lecturer: [2020 Data Campus School](https://github.com/hyunwoongko/bigdata-lecture)
-- Manager: [Chatbot Korea](https://facebook.com/groups/ChatbotDevKR), Korean facebook group for chatbot
-- Manager: [Jiphyeonjeon](https://github.com/jiphyeonjeon), NLP paper review group
+- Manager: [Chatbot Korea](https://facebook.com/groups/ChatbotDevKR), Korean Facebook Group for Chatbot
+- Manager: [Jiphyeonjeon](https://github.com/jiphyeonjeon), NLP Paper Review Group
 
 ## Awards
 - [1st place in Korean Document Abstractive Summarization Competition held by Dacon](https://dacon.io/competitions/open/235673/leaderboard) (username: gusdnd852)
