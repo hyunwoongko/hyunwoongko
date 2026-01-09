@@ -74,6 +74,7 @@
 - [Pecab](https://github.com/hyunwoongko/pecab): Pure python morpheme analyzer based on Mecab-ko-dic.
 - [Large-scale LM Tutorials](https://github.com/tunib-ai/large-scale-lm-tutorials): Large-scale language modeling tutorials with PyTorch
 - [Parallelformers](https://github.com/hyunwoongko/parallelformers): Easy-to-use transformer model deployment toolkit based on Hugging Face Transformers. (integrated to DeepSpeed Inference)
+- [OSLO](https://github.com/tunib-ai/oslo): Open Source framework for Large-scale model Optimization
 - [nanoRLHF](https://github.com/hyunwoongko/nanoRLHF): From-scratch implementation of Arrow, Ray, Megatron-LM, Flash attention, vLLM and Verl
 
 ## Education
