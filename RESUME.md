@@ -13,7 +13,7 @@
 - Languages
   - Python (Excellent), Java (Excellent), C++ (Available)
 - Topics
-  - LLM Pre-training, LLM Alignment, LLM Optimization, Multi-modality, Korean language processing, Data processing, DevOps, Backend Development
+  - LLM Pre-training, LLM Alignment, LLM Optimization, Multi-modality, DevOps, Backend Development
 - Tools
   - Training: PyTorch, Transformers, Megatron-LM, DeepSpeed, Verl, Nemo-RL
   - Evaluation: LM-Evaluation-Harness, Nemo-Evaluator
@@ -67,9 +67,9 @@
 
 ## Open Sources
 - [Transformer](https://github.com/hyunwoongko/transformer): PyTorch implementation of Attention Is All You Need (Github 4k+ stars)
+- [Pororo](https://github.com/kakaobrain/pororo): Open source multilingual NLP toolkit. (Github 1k+ stars)
 - [KoChat](https://github.com/hyunwoongko/kochat): The first Korean open source chatbot framework
 - [OpenChat](https://github.com/hyunwoongko/openchat): Easy to use opensource chatting framework via neural networks
-- [Pororo](https://github.com/kakaobrain/pororo): Open source multilingual NLP toolkit. (Github 1k+ stars)
 - [Kss](https://github.com/hyunwoongko/kss): The most famous Korean sentence segmentation toolkit.
 - [Pecab](https://github.com/hyunwoongko/pecab): Pure python morpheme analyzer based on Mecab-ko-dic.
 - [Large-scale LM Tutorials](https://github.com/tunib-ai/large-scale-lm-tutorials): Large-scale language modeling tutorials with PyTorch
@@ -82,13 +82,13 @@
   - GPA: 4.15 (major) / 4.07 (total), 1st ranked
 
 ## Publications
+- [Kanana: Compute-efficient Bilingual Language Models](https://arxiv.org/abs/2502.18934) (arXiv preprint)
 - [Length-aware Byte Pair Encoding for Mitigating Over-segmentation in Korean Machine Translation](https://aclanthology.org/2024.findings-acl.135/) (ACL 2024 Findings)
 - [A Technical Report for Polyglot-Ko: Open-Source Large-Scale Korean Language Models](https://arxiv.org/abs/2306.02254) (arXiv preprint)
-- [Kanana: Compute-efficient Bilingual Language Models](https://arxiv.org/abs/2502.18934) (arXiv preprint)
 
 ## Activities
-- Blog writing: [국내 최초 MoE 모델 ‘Kanana-MoE’ 개발기](https://tech.kakao.com/posts/716)
 - Blog writing: [Kanana 언어모델에 추론 기능 붙여보기 (feat. Kanana-1.5)](https://tech.kakao.com/posts/724)
+- Blog writing: [국내 최초 MoE 모델 ‘Kanana-MoE’ 개발기](https://tech.kakao.com/posts/716)
 - Presentation (챗GPT 러닝데이): [딥러닝 병렬처리 및 Polyglot 언어모델](https://www.youtube.com/watch?v=a0TB-_WFjNk)
 - Presentation (LangCon 2023): [EleutherAI에서의 1년](https://www.youtube.com/watch?v=yeAY_7cQj5k)
 - Presentation (LangCon 2021): [Parallelformers: 빅모델 배포를 향한 여정](https://www.youtube.com/watch?v=eHqUMThhs2A)
@@ -99,8 +99,7 @@
 - Manager: [Jiphyeonjeon](https://github.com/jiphyeonjeon), NLP paper review group
 
 ## Awards
+- [1st place in Korean Document Abstractive Summarization Competition held by Dacon](https://dacon.io/competitions/open/235673/leaderboard) (username: gusdnd852)
+- [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
 - [2nd place in undergraduated student best paper awards held by Korea Information Technology Society](http://www.todayan.com/news/articleView.html?idxno=230207)
 - [3rd place in K-Hackerthon held by Korea MSIP (Ministry of Future, Planning and Science)](https://newsis.com/view/?id=NISX20181108_0000467462&cID=10808&pID=10800)
-- [5th place in Elecsthon held by KEPCO (Korea Electric Power Corporation)](https://blog.kepco.co.kr/1310)
-- [1st place in Korea AI competetion held by Ministry of Science and ICT](https://m.etnews.com/20210715000270)
-- [1st place in Korean Document Abstractive Summarization Competition held by Dacon](https://dacon.io/competitions/open/235673/leaderboard) (username: gusdnd852)
