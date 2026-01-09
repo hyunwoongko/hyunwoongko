@@ -129,7 +129,7 @@
 
 #### [<code>2024.06 ~ present</code>] Machine Learning Researcher at <a href="https://kakaocorp.com">Kakao</a>
 1. Language Model Alignment
-    - I trained Kanana `1.0`, `1.5`, `1.5-thinking (internal)` and `2.0-instruct` models.
+    - I trained Kanana 1.0, 1.5, 1.5-thinking (internal) and 2.0-instruct models.
       - [kanana-nano-2.1b-instruct](https://huggingface.co/kakaocorp/kanana-nano-2.1b-instruct) (sft project leader)
       - [kanana-1.5-8b-instruct-2505](https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505) (sft project leader)
       - [kanana-1.5-15.7b-a3b-instruct](https://huggingface.co/kakaocorp/kanana-1.5-15.7b-a3b-instruct) (on-policy distillation)
