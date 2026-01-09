@@ -20,7 +20,7 @@
   - Backend Dev: FastAPI, Flask, Spring Boot
 
 ## Work Experiences
-### Kakao Corp: 2024.06 ~ present
+#### Kakao Corp: 2024.06 ~ present
 - Role: LLM Researcher
 - Language Model Alignment (Part Leader)
   - SFT: [Kanana-nano-2.1b-instruct](https://huggingface.co/kakaocorp/kanana-nano-2.1b-instruct)
@@ -33,7 +33,7 @@
 - Multi-modal Foundation Model (Team Member)
   - DPO: [Kanana-1.5-v-3b-instruct](https://huggingface.co/kakaocorp/kanana-1.5-v-3b-instruct)
 
-### Kakao Brain: 2023.05 ~ 2024.05
+#### Kakao Brain: 2023.05 ~ 2024.05
 - Role: LLM Researcher
 - Language Model Pre-training (Team Member)
   - Pre-training: KoGPT2-66B
@@ -41,7 +41,7 @@
   - Long-context Fine-tuning (4k to 32k)
   - Developed inteneral training framework (Megatron-LM)
 
-### EleutherAI: 2022.02 ~ 2023.09
+#### EleutherAI: 2022.02 ~ 2023.09
 - Role: ML Scientist
 - Language Model Pre-training (Team Leader)
   - Pre-training: [Polyglot-Ko](https://github.com/EleutherAI/polyglot)
@@ -50,7 +50,7 @@
 - Framework Development (Team Leader)
   - Developed TP, PP, Kernel Fusion: [OSLO](https://github.com/EleutherAI/oslo)
 
-### TUNiB: 2021.03 ~ 2023.05
+#### TUNiB: 2021.03 ~ 2023.05
 - Role: Co-Founder, ML Engineer
 - Chatbot Research (Team Leader)
   - CPT & SFT: [Coco & Mas](https://dearmate.ai/)
@@ -59,12 +59,12 @@
   - Model Optimization using ONNX & TensorRT
   - Serve API Servers using AWS ECS & Triton Inference Server
 
-### Kakao Brain: 2020.08 ~ 2021.02
+#### Kakao Brain: 2020.08 ~ 2021.02
 - Role: ML Engineer
 - Framework Development
   - Question Generation, Text Summarization, Machine Translation: [Pororo](https://github.com/kakaobrain/pororo)
 
-### Chonbuk National University: 2019.08 ~ 2020.08
+#### Chonbuk National University: 2019.08 ~ 2020.08
 - Role: Undergraduated Researcher
 - Research: [Citrus Pest and Disease Recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
 - Research: [Autonomous Strabismus Recognition](https://github.com/hyunwoongko/strabismus-recognition)
