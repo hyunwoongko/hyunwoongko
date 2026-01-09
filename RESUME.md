@@ -13,7 +13,7 @@
 - Languages
   - Python (Excellent), Java (Excellent), C++ (Available)
 - Topics
-  - LLM Pre-training, LLM Alignment, LLM Optimization, Multi-modality, DevOps, Backend Development
+  - LLM Pre-training, LLM Alignment, LLM Optimization, DevOps, Backend Development
 - Tools
   - Training: PyTorch, Transformers, Megatron-LM, DeepSpeed, Verl, Nemo-RL
   - Evaluation: LM-Evaluation-Harness, Nemo-Evaluator
