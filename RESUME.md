@@ -1,8 +1,6 @@
 # Curriculum Vitae
 
-<p align="center">
-  <img src="https://github.com/hyunwoongko/hyunwoongko/assets/38183241/1fdac571-2e3e-497a-babc-31609f98094a" width=50%>  
-</p>
+<img src="https://github.com/hyunwoongko/hyunwoongko/assets/38183241/1fdac571-2e3e-497a-babc-31609f98094a" width=50%>  
 
 - Name: Hyunwoong Ko (Kevin Ko)
 - Birth: 1995.09.12
