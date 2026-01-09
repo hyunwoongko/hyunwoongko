@@ -15,7 +15,7 @@
 - Tools
   - Training: PyTorch, Transformers, Megatron-LM, DeepSpeed, Verl, Nemo-RL
   - Evaluation: LM-Evaluation-Harness, Nemo-Evaluator
-  - Optimization: Triton, ONNX, TensorRT, vLLM, Flash Attention
+  - Optimization: Triton, ONNX, TensorRT, vLLM, CUDA Graph, Flash Attention
   - DevOps: Docker, Kubernates, ECS, EKS, GKE, Github Action
   - Backend Dev: FastAPI, Flask, Spring Boot
 
