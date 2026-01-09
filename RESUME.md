@@ -140,7 +140,7 @@
       - [Kanana 언어모델에 추론 기능 붙여보기 (feat. Kanana-1.5)](https://tech.kakao.com/posts/724)
     - I developed an interenal evaluation framework for aligned models.
 2. Multimodal Foundation Model
-    - I trained [kanana-1.5-v-3b-instruct](https://huggingface.co/kakaocorp/kanana-1.5-v-3b-instruct).
+    - I trained [kanana-1.5-v-3b-instruct](https://huggingface.co/kakaocorp/kanana-1.5-v-3b-instruct) model.
     - Especially, I developed preference learning (DPO) feature in our internal codebase and focused on DPO training.
 3. Publication
     - [Kanana: Compute-efficient Bilingual Language Models](https://arxiv.org/abs/2502.18934)
