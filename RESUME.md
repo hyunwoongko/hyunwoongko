@@ -138,7 +138,7 @@
     - I wrote multiple technical blogs.
       - [국내 최초 MoE 모델 ‘Kanana-MoE’ 개발기](https://tech.kakao.com/posts/716)
       - [Kanana 언어모델에 추론 기능 붙여보기 (feat. Kanana-1.5)](https://tech.kakao.com/posts/724)
-    - I created an interenal evaluation framework for aligned models.
+    - I developed an interenal evaluation framework for aligned models.
 2. Multimodal Foundation Model
     - I trained the multimodal model (VLM) focused on Korean language and cultures.
     - I developed preference learning (DPO) for multimodal models on our internal training codebases.
