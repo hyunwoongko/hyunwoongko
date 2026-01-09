@@ -20,7 +20,8 @@
   - Backend Dev: FastAPI, Flask, Spring Boot
 
 ## Work Experiences
-### Kakao Corp (LLM Researcher): 2024.06 ~ present
+### Kakao Corp: 2024.06 ~ present
+- Role: LLM Researcher
 - Language Model Alignment (Part Leader)
   - SFT: [Kanana-nano-2.1b-instruct](https://huggingface.co/kakaocorp/kanana-nano-2.1b-instruct)
   - SFT: [Kanana-1.5-8b-instruct-2505](https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505)
@@ -32,14 +33,16 @@
 - Multi-modal Foundation Model (Team Member)
   - DPO: [Kanana-1.5-v-3b-instruct](https://huggingface.co/kakaocorp/kanana-1.5-v-3b-instruct)
 
-### Kakao Brain (LLM Researcher): 2023.05 ~ 2024.05
+### Kakao Brain: 2023.05 ~ 2024.05
+- Role: LLM Researcher
 - Language Model Pre-training (Team Member)
   - Pre-training: KoGPT2-66B
     - KoGPT2-66B got similar performance with LLaMA2-70B
   - Long-context Fine-tuning (4k to 32k)
   - Developed inteneral training framework (Megatron-LM)
 
-### EleutherAI (ML Scientist): 2022.02 ~ 2023.09
+### EleutherAI: 2022.02 ~ 2023.09
+- Role: ML Scientist
 - Language Model Pre-training (Team Leader)
   - Pre-training: [Polyglot-Ko](https://github.com/EleutherAI/polyglot)
     - Polyglot-Ko is the first commercially usable open source Korean LLM
@@ -47,7 +50,8 @@
 - Framework Development (Team Leader)
   - Developed TP, PP, Kernel Fusion: [OSLO](https://github.com/EleutherAI/oslo)
 
-### TUNiB (Co-Founder): 2021.03 ~ 2023.05
+### TUNiB: 2021.03 ~ 2023.05
+- Role: Co-Founder, ML Engineer
 - Chatbot Research (Team Leader)
   - CPT & SFT: [Coco & Mas](https://dearmate.ai/)
   - Prompt Engineering & Backend Dev: [BLOONY](https://www.youtube.com/watch?v=5UfC2H19r6c)
@@ -55,7 +59,8 @@
   - Model Optimization using ONNX & TensorRT
   - Serve API Servers using AWS ECS & Triton Inference Server
 
-### Kakao Brain (ML Enginer): 2020.08 ~ 2021.02
+### Kakao Brain: 2020.08 ~ 2021.02
+- Role: ML Engineer
 - Framework Development
   - Question Generation, Text Summarization, Machine Translation: [Pororo](https://github.com/kakaobrain/pororo)
 
