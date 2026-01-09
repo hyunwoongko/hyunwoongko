@@ -64,7 +64,8 @@
 - Framework Development
   - Question Generation, Text Summarization, Machine Translation: [Pororo](https://github.com/kakaobrain/pororo)
 
-### Chonbuk National University (Undergrad Researcher): 2019.08 ~ 2020.08
+### Chonbuk National University: 2019.08 ~ 2020.08
+- Role: Undergraduated Researcher
 - Research: [Citrus Pest and Disease Recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
 - Research: [Autonomous Strabismus Recognition](https://github.com/hyunwoongko/strabismus-recognition)
 
