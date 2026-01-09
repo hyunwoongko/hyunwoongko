@@ -129,14 +129,23 @@
 
 #### [<code>2024.06 ~ present</code>] Machine Learning Researcher at <a href="https://kakaocorp.com">Kakao</a>
 1. Language Model Alignment
+    - I trained Kanana `1.0`, `1.5`, `1.5-thinking (internal)` and `2.0-instruct` models.
+      - https://huggingface.co/kakaocorp/kanana-nano-2.1b-instruct (sft part leader)
+      - https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505 (sft part leader)
+      - https://huggingface.co/kakaocorp/kanana-1.5-15.7b-a3b-instruct (on-policy distillation)
+      - https://huggingface.co/kakaocorp/kanana-2-30b-a3b-instruct (instruct part leader)
+    - Especially, Kanana-2-30b-a3b-instruct model got similar performance with Qwen3-30b-a3b model. 
+    - I wrote multiple technical blogs.
+      - https://tech.kakao.com/posts/716
+      - https://tech.kakao.com/posts/724
     - I created an interenal evaluation framework for aligned models.
-    - I am currently focusing on AI-assisted dataset generation for language model alignment (Project Leader).
 2. Multimodal Foundation Model
-    - I am currently focusing on training the multimodal model in Korean language and culture.
-    - I am also focusing on preference learning of multimodal model using algorithms such as DPO, PPO.
-3. ETC
-    - I am also leading most of the work related to the Infiniband cluster (Slurm) for both projects.
- 
+    - I trained the multimodal model focused on Korean language and culture domain.
+    - I developed preference learning of multimodal model 
+3. Publication
+    - [Kanana: Compute-efficient Bilingual Language Models](https://arxiv.org/abs/2502.18934)
+4. Opensources
+    - [nanoRLHF](https://github.com/hyunwoongko/nanoRLHF): from-scratch implementation of apache arrow, ray, megatron-lm, vllm, verl and flash attention
 ## 4. How to contact?
 - Github : [https://github.com/hyunwoongko](https://github.com/hyunwoongko)
 - Twitter: [https://twitter.com/hyunwoongko](https://twitter.com/hyunwoongko)
