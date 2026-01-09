@@ -67,7 +67,7 @@
 
 ## Open Sources
 - [nanoRLHF](https://github.com/hyunwoongko/nanoRLHF): From-scratch Implementation of Arrow, Ray, Megatron-LM, Flash attention, vLLM and Verl
-- [OSLO](https://github.com/tunib-ai/oslo): Open Source framework for Large-scale model Optimization
+- [OSLO](https://github.com/tunib-ai/oslo): Open Source Framework for Large-scale Model Optimization
 - [Parallelformers](https://github.com/hyunwoongko/parallelformers): LLM Deployment Toolkit based on HF Transformers. (integrated to DeepSpeed Inference)
 - [Large-scale LM Tutorials](https://github.com/tunib-ai/large-scale-lm-tutorials): Large-scale Language Modeling Tutorials with PyTorch
 - [Kss](https://github.com/hyunwoongko/kss): The Most Famous Korean Sentence Segmentation Toolkit.
