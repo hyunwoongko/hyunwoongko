@@ -66,16 +66,16 @@
 - Research: [Autonomous Strabismus Recognition](https://github.com/hyunwoongko/strabismus-recognition)
 
 ## Open Sources
-- [Transformer](https://github.com/hyunwoongko/transformer): PyTorch implementation of Attention Is All You Need (Github 4k+ stars)
-- [Pororo](https://github.com/kakaobrain/pororo): Open source multilingual NLP toolkit. (Github 1k+ stars)
-- [KoChat](https://github.com/hyunwoongko/kochat): The first Korean open source chatbot framework
-- [OpenChat](https://github.com/hyunwoongko/openchat): Easy to use opensource chatting framework via neural networks
+- [nanoRLHF](https://github.com/hyunwoongko/nanoRLHF): From-scratch implementation of Arrow, Ray, Megatron-LM, Flash attention, vLLM and Verl
+- [OSLO](https://github.com/tunib-ai/oslo): Open Source framework for Large-scale model Optimization
+- [Parallelformers](https://github.com/hyunwoongko/parallelformers): LLM deployment toolkit based on HF Transformers. (integrated to DeepSpeed Inference)
 - [Kss](https://github.com/hyunwoongko/kss): The most famous Korean sentence segmentation toolkit.
 - [Pecab](https://github.com/hyunwoongko/pecab): Pure python morpheme analyzer based on Mecab-ko-dic.
+- [KoChat](https://github.com/hyunwoongko/kochat): The first Korean open source chatbot framework
+- [OpenChat](https://github.com/hyunwoongko/openchat): Easy to use opensource chatting framework via neural networks
 - [Large-scale LM Tutorials](https://github.com/tunib-ai/large-scale-lm-tutorials): Large-scale language modeling tutorials with PyTorch
-- [Parallelformers](https://github.com/hyunwoongko/parallelformers): LLM deployment toolkit based on HF Transformers. (integrated to DeepSpeed Inference)
-- [OSLO](https://github.com/tunib-ai/oslo): Open Source framework for Large-scale model Optimization
-- [nanoRLHF](https://github.com/hyunwoongko/nanoRLHF): From-scratch implementation of Arrow, Ray, Megatron-LM, Flash attention, vLLM and Verl
+- [Pororo](https://github.com/kakaobrain/pororo): Open source multilingual NLP toolkit. (Github 1k+ stars)
+- [Transformer](https://github.com/hyunwoongko/transformer): PyTorch implementation of Attention Is All You Need (Github 4k+ stars)
 
 ## Education
 - BS in Software Engineering, Chonbuk National University
