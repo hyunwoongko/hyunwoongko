@@ -130,10 +130,10 @@
 #### [<code>2024.06 ~ present</code>] Machine Learning Researcher at <a href="https://kakaocorp.com">Kakao</a>
 1. Language Model Alignment
     - I trained Kanana `1.0`, `1.5`, `1.5-thinking (internal)` and `2.0-instruct` models.
-      - [kanana-nano-2.1b-instruct](https://huggingface.co/kakaocorp/kanana-nano-2.1b-instruct) (sft part leader)
-      - [kanana-1.5-8b-instruct-2505](https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505) (sft part leader)
+      - [kanana-nano-2.1b-instruct](https://huggingface.co/kakaocorp/kanana-nano-2.1b-instruct) (sft project leader)
+      - [kanana-1.5-8b-instruct-2505](https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505) (sft project leader)
       - [kanana-1.5-15.7b-a3b-instruct](https://huggingface.co/kakaocorp/kanana-1.5-15.7b-a3b-instruct) (on-policy distillation)
-      - [kanana-2-30b-a3b-instruct](https://huggingface.co/kakaocorp/kanana-2-30b-a3b-instruct) (instruct part leader)
+      - [kanana-2-30b-a3b-instruct](https://huggingface.co/kakaocorp/kanana-2-30b-a3b-instruct) (instruct project leader)
       - Especially, Kanana-2-30b-a3b-instruct model got similar performance with Qwen3-30b-a3b model. 
     - I wrote multiple technical blogs.
       - [국내 최초 MoE 모델 ‘Kanana-MoE’ 개발기](https://tech.kakao.com/posts/716)
@@ -141,7 +141,8 @@
     - I created an interenal evaluation framework for aligned models.
 2. Multimodal Foundation Model
     - I trained the multimodal model (VLM) focused on Korean language and cultures.
-    - I developed preference learning (DPO) for multimodal models on our internal training codebases 
+    - I developed preference learning (DPO) for multimodal models on our internal training codebases.
+    - Released [kanana-1.5-v-3b-instruct](https://huggingface.co/kakaocorp/kanana-1.5-v-3b-instruct).
 3. Publication
     - [Kanana: Compute-efficient Bilingual Language Models](https://arxiv.org/abs/2502.18934)
 4. Opensources
