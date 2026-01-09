@@ -95,8 +95,8 @@
 - Presentation (집현전): [Large-scale LM에 대한 얕고 넓은 지식들](https://www.youtube.com/watch?v=w4a-ARCEiqU)
 - Presentation (AI Star): [새로운 AI 챗봇?! 오픈소스 AI와 지금 직접 채팅을 해보세요.](https://www.youtube.com/watch?v=uN-OBI0n0JE)
 - Lecturer: [2020 Data Campus School](https://github.com/hyunwoongko/bigdata-lecture)
-- Manager: [Chatbot Korea](https://facebook.com/groups/ChatbotDevKR), Korean Facebook Group for Chatbot
-- Manager: [Jiphyeonjeon](https://github.com/jiphyeonjeon), NLP Paper Review Group
+- Manager: [Chatbot Korea](https://facebook.com/groups/ChatbotDevKR) (Korean Facebook Group for Chatbot)
+- Manager: [Jiphyeonjeon](https://github.com/jiphyeonjeon) (NLP Paper Review Group)
 
 ## Awards
 - [1st place in Korean Document Abstractive Summarization Competition held by Dacon](https://dacon.io/competitions/open/235673/leaderboard) (username: gusdnd852)
