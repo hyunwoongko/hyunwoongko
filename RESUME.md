@@ -74,8 +74,8 @@
 - [Pororo](https://github.com/kakaobrain/pororo): Open Source Multilingual NLP toolkit. (Github 1k+ stars)
 - [KoChat](https://github.com/hyunwoongko/kochat): The First Korean Open Source Chatbot Framework
 - [OpenChat](https://github.com/hyunwoongko/openchat): Easy to use Opensource Chatbot Framework via Neural Networks
-- [Kss](https://github.com/hyunwoongko/kss): The Most Famous Korean Sentence Segmentation Toolkit.
-- [Pecab](https://github.com/hyunwoongko/pecab): Pure Python Morpheme Analyzer based on Mecab-ko-dic.
+- [Kss](https://github.com/hyunwoongko/kss): The Most Famous Korean Sentence Segmentation Toolkit
+- [Pecab](https://github.com/hyunwoongko/pecab): Pure Python Morpheme Analyzer based on Mecab-ko-dic
 - [Large-scale LM Tutorials](https://github.com/tunib-ai/large-scale-lm-tutorials): Large-scale Language Modeling Tutorials with PyTorch
 - [Parallelformers](https://github.com/hyunwoongko/parallelformers): LLM Deployment Toolkit based on HF Transformers. (integrated to DeepSpeed Inference)
 - [OSLO](https://github.com/tunib-ai/oslo): Open Source Framework for Large-scale Model Optimization
