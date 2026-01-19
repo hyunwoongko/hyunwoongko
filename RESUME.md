@@ -91,6 +91,7 @@
 - [A Technical Report for Polyglot-Ko: Open-Source Large-Scale Korean Language Models](https://arxiv.org/abs/2306.02254) (arXiv preprint)
 
 ## Activities
+- Blog writing: [Kanana-2 개발기 (2): 개선된 post-training recipe를 중심으로](https://tech.kakao.com/posts/808)
 - Blog writing: [Kanana 언어모델에 추론 기능 붙여보기 (feat. Kanana-1.5)](https://tech.kakao.com/posts/724)
 - Blog writing: [국내 최초 MoE 모델 ‘Kanana-MoE’ 개발기](https://tech.kakao.com/posts/716)
 - Presentation (챗GPT 러닝데이): [딥러닝 병렬처리 및 Polyglot 언어모델](https://www.youtube.com/watch?v=a0TB-_WFjNk)
