@@ -1,6 +1,6 @@
 ## Who is Kevin Ko?
 
-- (2024.06 ~ present) ML Researcher at Kakao.
+- (2024.06 ~ 2026.02) ML Researcher at Kakao.
 - (2023.05 ~ 2024.05) ML Researcher at Kakao Brain.
 - (2022.02 ~ 2023.09) ML Lead Scientist at EleutherAI.
 - (2021.03 ~ 2023.05) ML Engineer and Co-Founder at TUNiB.
