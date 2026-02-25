@@ -53,7 +53,7 @@
 #### TUNiB: 2021.03 ~ 2023.05
 - Role: Co-Founder, ML Engineer
 - Chatbot Research (Team Leader)
-  - CPT & SFT: [Coco & Mas](https://dearmate.ai/)
+  - CPT & SFT: [Coco & Mas](https://www.youtube.com/watch?v=h6oHDZDrdWw)
   - Prompt Engineering & Backend Dev: [BLOONY](https://www.youtube.com/watch?v=5UfC2H19r6c)
 - API Serving (Team Leader)
   - Model Optimization using ONNX & TensorRT
