@@ -24,7 +24,7 @@
 #### Upstage: 2026.02 ~ present
 - Role: AI Research Engineer
 - LLM Post Training (Part member)
-  - Working on Agentic Capability Part
+  - Working on Agentic Capability part
 
 #### Kakao Corp: 2024.06 ~ 2026.02
 - Role: LLM Researcher
