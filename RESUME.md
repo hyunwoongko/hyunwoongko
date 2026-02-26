@@ -20,7 +20,13 @@
   - Backend Dev: FastAPI, Flask, Spring Boot
 
 ## Work Experiences
-#### Kakao Corp: 2024.06 ~ present
+
+#### Upstage: 2026.02 ~ present
+- Role: AI Research Engineer
+- LLM Post Training (Part member)
+  - Agentic Capability Team
+
+#### Kakao Corp: 2024.06 ~ 2026.02
 - Role: LLM Researcher
 - Language Model Alignment (Part Leader)
   - SFT: [Kanana-nano-2.1b-instruct](https://huggingface.co/kakaocorp/kanana-nano-2.1b-instruct)
