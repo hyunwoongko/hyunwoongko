@@ -33,16 +33,19 @@
 #### Kakao Brain: 2023.05 ~ 2024.05
 - Role: AI Research Engineer
 - Team: LLM Pre-training (Team Member)
-  - Model: KoGPT2-66B
+  - Model: KoGPT2-66B (private)
     - KoGPT2-66B got similar performance with LLaMA2-70B
   - Dev: internal training framework (Megatron-LM)
 
 #### EleutherAI: 2022.02 ~ 2023.09
 - Role: ML Scientist
-- Team: Multilingual Model Training (Team Leader)
-  - Model: [Polyglot-Ko](https://github.com/EleutherAI/polyglot)
+- Team: Multilingual LLM Training (Team Leader)
+  - Model: [Polyglot-Ko-1.3B](https://huggingface.co/EleutherAI/polyglot-ko-1.3b)
+  - Model: [Polyglot-Ko-3.8B](https://huggingface.co/EleutherAI/polyglot-ko-3.8b)
+  - Model: [Polyglot-Ko-5.8B](https://huggingface.co/EleutherAI/polyglot-ko-5.8b)
+  - Model: [Polyglot-Ko-12.8B](https://huggingface.co/EleutherAI/polyglot-ko-12.8b)
     - Polyglot-Ko is the first commercially usable open source Korean LLM
-- Team: Framework Development (Team Leader)
+- Team: LLM Framework Development (Team Leader)
   - Dev: [OSLO](https://github.com/EleutherAI/oslo)
 
 #### TUNiB: 2021.03 ~ 2023.05
