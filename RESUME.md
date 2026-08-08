@@ -4,35 +4,25 @@
 
 - Name: Hyunwoong Ko (Kevin Ko)
 - Birth: 1995.09.12
-- Job: Software Engineer / AI Researcher
+- Job: AI Researcher / AI System Engineer
 - Social Media: [Github](https://github.com/hyunwoongko), [Facebook](https://www.facebook.com/hyunwoongko), [LinkedIn](https://www.linkedin.com/in/hyunwoongko)
-
-## Skills
-- Languages
-  - Python (Excellent), Java (Excellent), C++ (Available)
-- Topics
-  - LLM Pre-training, LLM Alignment, LLM Optimization, DevOps, Backend Development
-- Tools
-  - Training: PyTorch, Transformers, Megatron-LM, DeepSpeed, Verl, Nemo-RL
-  - Evaluation: LM-Evaluation-Harness, Nemo-Evaluator
-  - Optimization: Triton, ONNX, TensorRT, vLLM, CUDA Graph, Flash Attention
-  - DevOps: Docker, Kubernates, ECS, EKS, GKE, Github Action
-  - Backend Dev: FastAPI, Flask, Spring Boot
 
 ## Work Experiences
 
 #### Upstage: 2026.02 ~ present
 - Role: AI Research Engineer
-- LLM Post Training (Part member)
-  - Working on Agentic Capability part
+- LLM Post Training (Part Leader)
+  - Mid/SFT/RL: Solar 250B series - [Solar Open2](https://huggingface.co/upstage/Solar-Open2-250B), Solar Pro4
+    - Solar 250B series got similar performance with DeepSeek-V4-Flash
+  - Developed internal training framework (slime)
 
 #### Kakao Corp: 2024.06 ~ 2026.02
 - Role: LLM Researcher
 - Language Model Alignment (Part Leader)
   - SFT: [Kanana-nano-2.1b-instruct](https://huggingface.co/kakaocorp/kanana-nano-2.1b-instruct)
   - SFT: [Kanana-1.5-8b-instruct-2505](https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505)
-  - GKD: [Kanana-1.5-15.7b-a3b-instruct](https://huggingface.co/kakaocorp/kanana-1.5-15.7b-a3b-instruct)
-  - SFT & RL: [Kanana-2-30b-a3b-instruct](https://huggingface.co/kakaocorp/kanana-2-30b-a3b-instruct)
+  - On-policy Distillation: [Kanana-1.5-15.7b-a3b-instruct](https://huggingface.co/kakaocorp/kanana-1.5-15.7b-a3b-instruct)
+  - SFT/RL: [Kanana-2-30b-a3b-instruct](https://huggingface.co/kakaocorp/kanana-2-30b-a3b-instruct)
     - Kanana-2-30b-a3b-instruct got similar performance with Qwen3-30B-A3B
   - Developed internal evaluation framework (OpenEval)
   - Developed internal training framework (OpenRLHF & Verl)
@@ -42,38 +32,53 @@
 #### Kakao Brain: 2023.05 ~ 2024.05
 - Role: LLM Researcher
 - Language Model Pre-training (Team Member)
-  - Pre-training: KoGPT2-66B
+  - Pre-training: KoGPT2-66B (private model)
     - KoGPT2-66B got similar performance with LLaMA2-70B
-  - Long-context Fine-tuning (4k to 32k)
-  - Developed inteneral training framework (Megatron-LM)
+  - Long-context Fine-tuning
+  - Developed internal training framework (Megatron-LM)
 
 #### EleutherAI: 2022.02 ~ 2023.09
 - Role: ML Scientist
-- Language Model Pre-training (Team Leader)
+- Language Model Pre-training (Project Founder)
   - Pre-training: [Polyglot-Ko](https://github.com/EleutherAI/polyglot)
     - Polyglot-Ko is the first commercially usable open source Korean LLM
   - Data processing: [Japanese StableLM](https://stability.ai/blog/stability-ai-new-jplm-japanese-language-model-stablelm)
 - Framework Development (Team Leader)
-  - Developed TP, PP, Kernel Fusion: [OSLO](https://github.com/EleutherAI/oslo)
+  - Developed TP/PP/Kernels: [OSLO](https://github.com/EleutherAI/oslo)
 
 #### TUNiB: 2021.03 ~ 2023.05
 - Role: Co-Founder, ML Engineer
 - Chatbot Research (Team Leader)
   - CPT & SFT: [Coco & Mas](https://www.youtube.com/watch?v=h6oHDZDrdWw)
   - Prompt Engineering & Backend Dev: [BLOONY](https://www.youtube.com/watch?v=5UfC2H19r6c)
-- API Serving (Team Leader)
+- Deployment & Operation (Team Leader)
   - Model Optimization using ONNX & TensorRT
   - Serve API Servers using AWS ECS & Triton Inference Server
 
 #### Kakao Brain: 2020.08 ~ 2021.02
 - Role: ML Engineer
 - Framework Development
-  - Question Generation, Text Summarization, Machine Translation: [Pororo](https://github.com/kakaobrain/pororo)
+  - Generative Model Training: [Pororo](https://github.com/kakaobrain/pororo)
+    - Trained Question Generation, Text Summarization, Machine Translation models
 
 #### Chonbuk National University: 2019.08 ~ 2020.08
 - Role: Undergraduated Researcher
 - Research: [Citrus Pest and Disease Recognition](https://github.com/hyunwoongko/citrus-pest-disease-recognition)
 - Research: [Autonomous Strabismus Recognition](https://github.com/hyunwoongko/strabismus-recognition)
+
+## Open LLMs
+- Polyglot-Ko series:
+  - [Polyglot-Ko-12.8B](https://huggingface.co/EleutherAI/polyglot-ko-12.8b)
+  - [Polyglot-Ko-5.8B](https://huggingface.co/EleutherAI/polyglot-ko-5.8b)
+  - [Polyglot-Ko-3.8B](https://huggingface.co/EleutherAI/polyglot-ko-3.8b)
+  - [Polyglot-Ko-1.3B](https://huggingface.co/EleutherAI/polyglot-ko-1.3b)
+- Kanana series:
+  - [Kanana-nano-2.1b-instruct](https://huggingface.co/kakaocorp/kanana-nano-2.1b-instruct)
+  - [Kanana-1.5-8b-instruct-2505](https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505)
+  - [Kanana-1.5-15.7b-a3b-instruct](https://huggingface.co/kakaocorp/kanana-1.5-15.7b-a3b-instruct)
+  - [Kanana-2-30b-a3b-instruct](https://huggingface.co/kakaocorp/kanana-2-30b-a3b-instruct)
+- Solar series:
+  - [Solar-Open2-250B](https://huggingface.co/upstage/Solar-Open2-250B)
 
 ## Open Sources
 - [Transformer](https://github.com/hyunwoongko/transformer): PyTorch Implementation of Attention Is All You Need (Github 4k+ stars)
@@ -89,9 +94,10 @@
 
 ## Education
 - BS in Software Engineering, Chonbuk National University
-  - GPA: 4.15 (major) / 4.07 (total), 1st ranked
+  - GPA: 4.15(major), 4.07(total), 1st ranked
 
 ## Publications
+- [Solar Open 2 Technical Report](https://arxiv.org/abs/2607.20062) (arXiv preprint)
 - [Kanana: Compute-efficient Bilingual Language Models](https://arxiv.org/abs/2502.18934) (arXiv preprint)
 - [Length-aware Byte Pair Encoding for Mitigating Over-segmentation in Korean Machine Translation](https://aclanthology.org/2024.findings-acl.135/) (ACL 2024 Findings)
 - [A Technical Report for Polyglot-Ko: Open-Source Large-Scale Korean Language Models](https://arxiv.org/abs/2306.02254) (arXiv preprint)
