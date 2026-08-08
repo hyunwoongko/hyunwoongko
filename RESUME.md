@@ -21,7 +21,7 @@
 - Language Model Alignment (Part Leader)
   - SFT: [Kanana-nano-2.1b-instruct](https://huggingface.co/kakaocorp/kanana-nano-2.1b-instruct)
   - SFT: [Kanana-1.5-8b-instruct-2505](https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505)
-  - On-policy Distillation: [Kanana-1.5-15.7b-a3b-instruct](https://huggingface.co/kakaocorp/kanana-1.5-15.7b-a3b-instruct)
+  - OPD: [Kanana-1.5-15.7b-a3b-instruct](https://huggingface.co/kakaocorp/kanana-1.5-15.7b-a3b-instruct)
   - SFT/RL: [Kanana-2-30b-a3b-instruct](https://huggingface.co/kakaocorp/kanana-2-30b-a3b-instruct)
     - Kanana-2-30b-a3b-instruct got similar performance with Qwen3-30B-A3B
   - Developed internal evaluation framework (OpenEval)
