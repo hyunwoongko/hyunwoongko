@@ -46,7 +46,7 @@
   - Model: [Polyglot-Ko-12.8B](https://huggingface.co/EleutherAI/polyglot-ko-12.8b)
     - Polyglot-Ko is the first commercially usable open source Korean LLM
 - Team: LLM Framework Development (Team Leader)
-  - Dev: [OSLO](https://github.com/EleutherAI/oslo)
+  - Framework: [OSLO](https://github.com/EleutherAI/oslo)
 
 #### TUNiB: 2021.03 ~ 2023.05
 - Role: Co-Founder
